@@ -13,7 +13,8 @@ namespace WeatherApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class CurrentWeatherPage : ContentPage
     {
-        public CurrentWeatherPage()
+        public static string OpenWeatherApiKey = "9f61f3b193730e9b42366ace8843efc8";
+    public CurrentWeatherPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
@@ -24,7 +25,7 @@ namespace WeatherApp.Views
         {
             loading(true);
 
-            var url = $"https://api.openweathermap.org/data/2.5/weather?q={location},VN&appid=9f61f3b193730e9b42366ace8843efc8&units=metric";
+            var url = $"https://api.openweathermap.org/data/2.5/weather?q={location},VN&appid={OpenWeatherApiKey}&units=metric";
 
             var result = await ApiCaller.Get(url);
             if (result.Successful)

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N5ezogHjvTuDNREocHrYRrdfo+xmmKzK65++WYyfD/7h+ku7mQEOtVw6mpMF4HpQHmbhVfqp5mkQMahKUrhYzQ==",
+  "dgSpecHash": "UuHaQEC3WB/eJ7TrCRsAYQ+c7BMlkce2EemK9TZeL2ZiDPIEM1C7LFwEuLPz7GsacyDFGvpFBRvhYv/DuO4ltg==",
   "success": true,
-  "projectFilePath": "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
+  "projectFilePath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\acr.userdialogs\\7.1.0.468\\acr.userdialogs.7.1.0.468.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",

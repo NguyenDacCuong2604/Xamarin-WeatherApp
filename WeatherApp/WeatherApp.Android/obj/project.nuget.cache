@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qg5RbVe6v2EU8CJoTfs0g3b/LYbPdM9mJwQeDe9dVZoPgkKFI3Cyjv9SydLDNkJ2ShoSo4EMNgl3W8Uc0i12sQ==",
+  "dgSpecHash": "8p3Y6NVCm1iN97PzgoHNwPRhTGAUzMj20bMQQPJ0HMs+19tiVBgZlW3ZPxfnb0jSYqIBl87zq/4Tn3Hc4OvP3Q==",
   "success": true,
-  "projectFilePath": "D:\\WeatherApp\\WeatherApp\\WeatherApp.Android\\WeatherApp.Android.csproj",
+  "projectFilePath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.Android\\WeatherApp.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\acr.userdialogs\\7.1.0.468\\acr.userdialogs.7.1.0.468.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\andhud\\1.4.2\\andhud.1.4.2.nupkg.sha512",

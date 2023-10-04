@@ -642,11 +642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+      "projectUniqueName": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
       "projectName": "WeatherApp",
-      "projectPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+      "projectPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
+      "outputPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

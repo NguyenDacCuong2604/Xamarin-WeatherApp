@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gbgGpfHyOAITD0cRRP8Gk3PsFfdsv1tax4ru6IjTnBLgMDyNSQmZquRdx3hl+wxHg7wn2zrarE5SUmki6o+GOg==",
+  "dgSpecHash": "2jgUjjBeO0L4CgBtRlxoWYTQSwCAVO0Ep9gK7PoQCMkuBNVbKWkcg8tuF6E9/X1yJ3MqnMFfKFGQITIIUvaKPQ==",
   "success": true,
-  "projectFilePath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+  "projectFilePath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\acr.userdialogs\\7.1.0.468\\acr.userdialogs.7.1.0.468.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",

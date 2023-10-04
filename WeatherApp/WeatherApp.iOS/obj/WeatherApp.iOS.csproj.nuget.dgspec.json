@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj": {}
+    "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj": {}
   },
   "projects": {
-    "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj": {
+    "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
+        "projectUniqueName": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
         "projectName": "WeatherApp.iOS",
-        "projectPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
+        "projectPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\WeatherApp.iOS.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\obj\\",
+        "outputPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
-                "projectPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
+              "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+                "projectPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
+    "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectUniqueName": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "projectName": "WeatherApp",
-        "projectPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
+        "projectPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\WeatherApp.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "D:\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
+        "outputPath": "D:\\Github\\WeatherApp\\WeatherApp\\WeatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -25,11 +25,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=true
 androidpackagenamingpolicy=lowercasecrc64
-_nugetassetstimestamp=638320192410016121
+_nugetassetstimestamp=638320619098879149
 typemapkind=strings-asm
 androidsupportedabis=arm64-v8a
 armeabi-v7a
 x86
 x86_64
 androidmanifestplaceholders=
-projectfullpath=d:\weatherapp\weatherapp\weatherapp.android\weatherapp.android.csproj
+projectfullpath=d:\github\weatherapp\weatherapp\weatherapp.android\weatherapp.android.csproj

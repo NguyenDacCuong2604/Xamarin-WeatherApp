@@ -25,6 +25,2629 @@ namespace WeatherApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_in = global::WeatherApp.Droid.Resource.Animation.abc_fade_in;
+			global::Acr.UserDialogs.Resource.Animation.abc_fade_out = global::WeatherApp.Droid.Resource.Animation.abc_fade_out;
+			global::Acr.UserDialogs.Resource.Animation.abc_grow_fade_in_from_bottom = global::WeatherApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_enter = global::WeatherApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_popup_exit = global::WeatherApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Acr.UserDialogs.Resource.Animation.abc_shrink_fade_out_from_bottom = global::WeatherApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_bottom = global::WeatherApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_in_top = global::WeatherApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_bottom = global::WeatherApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Acr.UserDialogs.Resource.Animation.abc_slide_out_top = global::WeatherApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_enter = global::WeatherApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Acr.UserDialogs.Resource.Animation.abc_tooltip_exit = global::WeatherApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::WeatherApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Acr.UserDialogs.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::WeatherApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_in = global::WeatherApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Acr.UserDialogs.Resource.Animation.design_bottom_sheet_slide_out = global::WeatherApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_in = global::WeatherApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Acr.UserDialogs.Resource.Animation.design_snackbar_out = global::WeatherApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Acr.UserDialogs.Resource.Animator.design_appbar_state_list_animator = global::WeatherApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_hide_motion_spec = global::WeatherApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.design_fab_show_motion_spec = global::WeatherApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_state_list_anim = global::WeatherApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::WeatherApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_chip_state_list_anim = global::WeatherApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_hide_motion_spec = global::WeatherApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_show_motion_spec = global::WeatherApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::WeatherApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Acr.UserDialogs.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::WeatherApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarDivider = global::WeatherApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarItemBackground = global::WeatherApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarPopupTheme = global::WeatherApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSize = global::WeatherApp.Droid.Resource.Attribute.actionBarSize;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarSplitStyle = global::WeatherApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarStyle = global::WeatherApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabBarStyle = global::WeatherApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabStyle = global::WeatherApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTabTextStyle = global::WeatherApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarTheme = global::WeatherApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionBarWidgetTheme = global::WeatherApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Attribute.actionButtonStyle = global::WeatherApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionDropDownStyle = global::WeatherApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionLayout = global::WeatherApp.Droid.Resource.Attribute.actionLayout;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextAppearance = global::WeatherApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.actionMenuTextColor = global::WeatherApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeBackground = global::WeatherApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseButtonStyle = global::WeatherApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCloseDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCopyDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeCutDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeFindDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePasteDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModePopupWindowStyle = global::WeatherApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSelectAllDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeShareDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeSplitBackground = global::WeatherApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeStyle = global::WeatherApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionModeWebSearchDrawable = global::WeatherApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowButtonStyle = global::WeatherApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionOverflowMenuStyle = global::WeatherApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.actionProviderClass = global::WeatherApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Acr.UserDialogs.Resource.Attribute.actionViewClass = global::WeatherApp.Droid.Resource.Attribute.actionViewClass;
+			global::Acr.UserDialogs.Resource.Attribute.activityChooserViewStyle = global::WeatherApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarColor = global::WeatherApp.Droid.Resource.Attribute.ahBarColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarLength = global::WeatherApp.Droid.Resource.Attribute.ahBarLength;
+			global::Acr.UserDialogs.Resource.Attribute.ahBarWidth = global::WeatherApp.Droid.Resource.Attribute.ahBarWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahCircleColor = global::WeatherApp.Droid.Resource.Attribute.ahCircleColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahDelayMillis = global::WeatherApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Attribute.ahRadius = global::WeatherApp.Droid.Resource.Attribute.ahRadius;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimColor = global::WeatherApp.Droid.Resource.Attribute.ahRimColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahRimWidth = global::WeatherApp.Droid.Resource.Attribute.ahRimWidth;
+			global::Acr.UserDialogs.Resource.Attribute.ahSpinSpeed = global::WeatherApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Attribute.ahText = global::WeatherApp.Droid.Resource.Attribute.ahText;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextColor = global::WeatherApp.Droid.Resource.Attribute.ahTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.ahTextSize = global::WeatherApp.Droid.Resource.Attribute.ahTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogButtonGroupStyle = global::WeatherApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogCenterButtons = global::WeatherApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogStyle = global::WeatherApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Attribute.alertDialogTheme = global::WeatherApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.allowStacking = global::WeatherApp.Droid.Resource.Attribute.allowStacking;
+			global::Acr.UserDialogs.Resource.Attribute.alpha = global::WeatherApp.Droid.Resource.Attribute.alpha;
+			global::Acr.UserDialogs.Resource.Attribute.alphabeticModifiers = global::WeatherApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.arrowHeadLength = global::WeatherApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Attribute.arrowShaftLength = global::WeatherApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Attribute.autoCompleteTextViewStyle = global::WeatherApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMaxTextSize = global::WeatherApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeMinTextSize = global::WeatherApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizePresetSizes = global::WeatherApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeStepGranularity = global::WeatherApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Attribute.autoSizeTextType = global::WeatherApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Attribute.background = global::WeatherApp.Droid.Resource.Attribute.background;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundSplit = global::WeatherApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundStacked = global::WeatherApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTint = global::WeatherApp.Droid.Resource.Attribute.backgroundTint;
+			global::Acr.UserDialogs.Resource.Attribute.backgroundTintMode = global::WeatherApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.barLength = global::WeatherApp.Droid.Resource.Attribute.barLength;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_autoHide = global::WeatherApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_fitToContents = global::WeatherApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_hideable = global::WeatherApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_overlapTop = global::WeatherApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_peekHeight = global::WeatherApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Attribute.behavior_skipCollapsed = global::WeatherApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Attribute.borderlessButtonStyle = global::WeatherApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.borderWidth = global::WeatherApp.Droid.Resource.Attribute.borderWidth;
+			global::Acr.UserDialogs.Resource.Attribute.bottomAppBarStyle = global::WeatherApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomNavigationStyle = global::WeatherApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetDialogTheme = global::WeatherApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.bottomSheetStyle = global::WeatherApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundColor = global::WeatherApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxBackgroundMode = global::WeatherApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Attribute.boxCollapsedPaddingTop = global::WeatherApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomEnd = global::WeatherApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusBottomStart = global::WeatherApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopEnd = global::WeatherApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Attribute.boxCornerRadiusTopStart = global::WeatherApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeColor = global::WeatherApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.boxStrokeWidth = global::WeatherApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarButtonStyle = global::WeatherApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNegativeButtonStyle = global::WeatherApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarNeutralButtonStyle = global::WeatherApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarPositiveButtonStyle = global::WeatherApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonBarStyle = global::WeatherApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonCompat = global::WeatherApp.Droid.Resource.Attribute.buttonCompat;
+			global::Acr.UserDialogs.Resource.Attribute.buttonGravity = global::WeatherApp.Droid.Resource.Attribute.buttonGravity;
+			global::Acr.UserDialogs.Resource.Attribute.buttonIconDimen = global::WeatherApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Attribute.buttonPanelSideLayout = global::WeatherApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyle = global::WeatherApp.Droid.Resource.Attribute.buttonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.buttonStyleSmall = global::WeatherApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTint = global::WeatherApp.Droid.Resource.Attribute.buttonTint;
+			global::Acr.UserDialogs.Resource.Attribute.buttonTintMode = global::WeatherApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.cardBackgroundColor = global::WeatherApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.cardCornerRadius = global::WeatherApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.cardElevation = global::WeatherApp.Droid.Resource.Attribute.cardElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardMaxElevation = global::WeatherApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Attribute.cardPreventCornerOverlap = global::WeatherApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Attribute.cardUseCompatPadding = global::WeatherApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.cardViewStyle = global::WeatherApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkboxStyle = global::WeatherApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Acr.UserDialogs.Resource.Attribute.checkedChip = global::WeatherApp.Droid.Resource.Attribute.checkedChip;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIcon = global::WeatherApp.Droid.Resource.Attribute.checkedIcon;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconEnabled = global::WeatherApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.checkedIconVisible = global::WeatherApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.checkedTextViewStyle = global::WeatherApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipBackgroundColor = global::WeatherApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipCornerRadius = global::WeatherApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.chipEndPadding = global::WeatherApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipGroupStyle = global::WeatherApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipIcon = global::WeatherApp.Droid.Resource.Attribute.chipIcon;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconEnabled = global::WeatherApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconSize = global::WeatherApp.Droid.Resource.Attribute.chipIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconTint = global::WeatherApp.Droid.Resource.Attribute.chipIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.chipIconVisible = global::WeatherApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.chipMinHeight = global::WeatherApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacing = global::WeatherApp.Droid.Resource.Attribute.chipSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingHorizontal = global::WeatherApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.chipSpacingVertical = global::WeatherApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Attribute.chipStandaloneStyle = global::WeatherApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Acr.UserDialogs.Resource.Attribute.chipStartPadding = global::WeatherApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeColor = global::WeatherApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.chipStrokeWidth = global::WeatherApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.chipStyle = global::WeatherApp.Droid.Resource.Attribute.chipStyle;
+			global::Acr.UserDialogs.Resource.Attribute.closeIcon = global::WeatherApp.Droid.Resource.Attribute.closeIcon;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEnabled = global::WeatherApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconEndPadding = global::WeatherApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconSize = global::WeatherApp.Droid.Resource.Attribute.closeIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconStartPadding = global::WeatherApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconTint = global::WeatherApp.Droid.Resource.Attribute.closeIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.closeIconVisible = global::WeatherApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Acr.UserDialogs.Resource.Attribute.closeItemLayout = global::WeatherApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.collapseContentDescription = global::WeatherApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleGravity = global::WeatherApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.collapsedTitleTextAppearance = global::WeatherApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.collapseIcon = global::WeatherApp.Droid.Resource.Attribute.collapseIcon;
+			global::Acr.UserDialogs.Resource.Attribute.color = global::WeatherApp.Droid.Resource.Attribute.color;
+			global::Acr.UserDialogs.Resource.Attribute.colorAccent = global::WeatherApp.Droid.Resource.Attribute.colorAccent;
+			global::Acr.UserDialogs.Resource.Attribute.colorBackgroundFloating = global::WeatherApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Attribute.colorButtonNormal = global::WeatherApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlActivated = global::WeatherApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlHighlight = global::WeatherApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Attribute.colorControlNormal = global::WeatherApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Acr.UserDialogs.Resource.Attribute.colorError = global::WeatherApp.Droid.Resource.Attribute.colorError;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimary = global::WeatherApp.Droid.Resource.Attribute.colorPrimary;
+			global::Acr.UserDialogs.Resource.Attribute.colorPrimaryDark = global::WeatherApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Attribute.colorSecondary = global::WeatherApp.Droid.Resource.Attribute.colorSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.colorSwitchThumbNormal = global::WeatherApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Attribute.commitIcon = global::WeatherApp.Droid.Resource.Attribute.commitIcon;
+			global::Acr.UserDialogs.Resource.Attribute.contentDescription = global::WeatherApp.Droid.Resource.Attribute.contentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEnd = global::WeatherApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetEndWithActions = global::WeatherApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetLeft = global::WeatherApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetRight = global::WeatherApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStart = global::WeatherApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Acr.UserDialogs.Resource.Attribute.contentInsetStartWithNavigation = global::WeatherApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Attribute.contentPadding = global::WeatherApp.Droid.Resource.Attribute.contentPadding;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingBottom = global::WeatherApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingLeft = global::WeatherApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingRight = global::WeatherApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.contentPaddingTop = global::WeatherApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.contentScrim = global::WeatherApp.Droid.Resource.Attribute.contentScrim;
+			global::Acr.UserDialogs.Resource.Attribute.controlBackground = global::WeatherApp.Droid.Resource.Attribute.controlBackground;
+			global::Acr.UserDialogs.Resource.Attribute.coordinatorLayoutStyle = global::WeatherApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Acr.UserDialogs.Resource.Attribute.cornerRadius = global::WeatherApp.Droid.Resource.Attribute.cornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.counterEnabled = global::WeatherApp.Droid.Resource.Attribute.counterEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.counterMaxLength = global::WeatherApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Acr.UserDialogs.Resource.Attribute.counterOverflowTextAppearance = global::WeatherApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.counterTextAppearance = global::WeatherApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.customNavigationLayout = global::WeatherApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Attribute.defaultQueryHint = global::WeatherApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Attribute.dialogCornerRadius = global::WeatherApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.dialogPreferredPadding = global::WeatherApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dialogTheme = global::WeatherApp.Droid.Resource.Attribute.dialogTheme;
+			global::Acr.UserDialogs.Resource.Attribute.displayOptions = global::WeatherApp.Droid.Resource.Attribute.displayOptions;
+			global::Acr.UserDialogs.Resource.Attribute.divider = global::WeatherApp.Droid.Resource.Attribute.divider;
+			global::Acr.UserDialogs.Resource.Attribute.dividerHorizontal = global::WeatherApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Attribute.dividerPadding = global::WeatherApp.Droid.Resource.Attribute.dividerPadding;
+			global::Acr.UserDialogs.Resource.Attribute.dividerVertical = global::WeatherApp.Droid.Resource.Attribute.dividerVertical;
+			global::Acr.UserDialogs.Resource.Attribute.drawableBottomCompat = global::WeatherApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableEndCompat = global::WeatherApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableLeftCompat = global::WeatherApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableRightCompat = global::WeatherApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableSize = global::WeatherApp.Droid.Resource.Attribute.drawableSize;
+			global::Acr.UserDialogs.Resource.Attribute.drawableStartCompat = global::WeatherApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTint = global::WeatherApp.Droid.Resource.Attribute.drawableTint;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTintMode = global::WeatherApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.drawableTopCompat = global::WeatherApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::Acr.UserDialogs.Resource.Attribute.drawerArrowStyle = global::WeatherApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.dropdownListPreferredItemHeight = global::WeatherApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.dropDownListViewStyle = global::WeatherApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.editTextBackground = global::WeatherApp.Droid.Resource.Attribute.editTextBackground;
+			global::Acr.UserDialogs.Resource.Attribute.editTextColor = global::WeatherApp.Droid.Resource.Attribute.editTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.editTextStyle = global::WeatherApp.Droid.Resource.Attribute.editTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.elevation = global::WeatherApp.Droid.Resource.Attribute.elevation;
+			global::Acr.UserDialogs.Resource.Attribute.enforceMaterialTheme = global::WeatherApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Attribute.enforceTextAppearance = global::WeatherApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.errorEnabled = global::WeatherApp.Droid.Resource.Attribute.errorEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.errorTextAppearance = global::WeatherApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.expandActivityOverflowButtonDrawable = global::WeatherApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.expanded = global::WeatherApp.Droid.Resource.Attribute.expanded;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleGravity = global::WeatherApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMargin = global::WeatherApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginBottom = global::WeatherApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginEnd = global::WeatherApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginStart = global::WeatherApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleMarginTop = global::WeatherApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.expandedTitleTextAppearance = global::WeatherApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.fabAlignmentMode = global::WeatherApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleMargin = global::WeatherApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleRoundedCornerRadius = global::WeatherApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Attribute.fabCradleVerticalOffset = global::WeatherApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Attribute.fabCustomSize = global::WeatherApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Acr.UserDialogs.Resource.Attribute.fabSize = global::WeatherApp.Droid.Resource.Attribute.fabSize;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollEnabled = global::WeatherApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::WeatherApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::WeatherApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalThumbDrawable = global::WeatherApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.fastScrollVerticalTrackDrawable = global::WeatherApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.firstBaselineToTopHeight = global::WeatherApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Attribute.floatingActionButtonStyle = global::WeatherApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.font = global::WeatherApp.Droid.Resource.Attribute.font;
+			global::Acr.UserDialogs.Resource.Attribute.fontFamily = global::WeatherApp.Droid.Resource.Attribute.fontFamily;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderAuthority = global::WeatherApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderCerts = global::WeatherApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchStrategy = global::WeatherApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderFetchTimeout = global::WeatherApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderPackage = global::WeatherApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Attribute.fontProviderQuery = global::WeatherApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Attribute.fontStyle = global::WeatherApp.Droid.Resource.Attribute.fontStyle;
+			global::Acr.UserDialogs.Resource.Attribute.fontVariationSettings = global::WeatherApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Attribute.fontWeight = global::WeatherApp.Droid.Resource.Attribute.fontWeight;
+			global::Acr.UserDialogs.Resource.Attribute.foregroundInsidePadding = global::WeatherApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Attribute.gapBetweenBars = global::WeatherApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Attribute.goIcon = global::WeatherApp.Droid.Resource.Attribute.goIcon;
+			global::Acr.UserDialogs.Resource.Attribute.headerLayout = global::WeatherApp.Droid.Resource.Attribute.headerLayout;
+			global::Acr.UserDialogs.Resource.Attribute.height = global::WeatherApp.Droid.Resource.Attribute.height;
+			global::Acr.UserDialogs.Resource.Attribute.helperText = global::WeatherApp.Droid.Resource.Attribute.helperText;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextEnabled = global::WeatherApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.helperTextTextAppearance = global::WeatherApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.hideMotionSpec = global::WeatherApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnContentScroll = global::WeatherApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hideOnScroll = global::WeatherApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.hintAnimationEnabled = global::WeatherApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintEnabled = global::WeatherApp.Droid.Resource.Attribute.hintEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.hintTextAppearance = global::WeatherApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.homeAsUpIndicator = global::WeatherApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.homeLayout = global::WeatherApp.Droid.Resource.Attribute.homeLayout;
+			global::Acr.UserDialogs.Resource.Attribute.hoveredFocusedTranslationZ = global::WeatherApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.icon = global::WeatherApp.Droid.Resource.Attribute.icon;
+			global::Acr.UserDialogs.Resource.Attribute.iconEndPadding = global::WeatherApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconGravity = global::WeatherApp.Droid.Resource.Attribute.iconGravity;
+			global::Acr.UserDialogs.Resource.Attribute.iconifiedByDefault = global::WeatherApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Attribute.iconPadding = global::WeatherApp.Droid.Resource.Attribute.iconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconSize = global::WeatherApp.Droid.Resource.Attribute.iconSize;
+			global::Acr.UserDialogs.Resource.Attribute.iconStartPadding = global::WeatherApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.iconTint = global::WeatherApp.Droid.Resource.Attribute.iconTint;
+			global::Acr.UserDialogs.Resource.Attribute.iconTintMode = global::WeatherApp.Droid.Resource.Attribute.iconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.imageButtonStyle = global::WeatherApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.indeterminateProgressStyle = global::WeatherApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Attribute.initialActivityCount = global::WeatherApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Acr.UserDialogs.Resource.Attribute.insetForeground = global::WeatherApp.Droid.Resource.Attribute.insetForeground;
+			global::Acr.UserDialogs.Resource.Attribute.isLightTheme = global::WeatherApp.Droid.Resource.Attribute.isLightTheme;
+			global::Acr.UserDialogs.Resource.Attribute.itemBackground = global::WeatherApp.Droid.Resource.Attribute.itemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalPadding = global::WeatherApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemHorizontalTranslationEnabled = global::WeatherApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconPadding = global::WeatherApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconSize = global::WeatherApp.Droid.Resource.Attribute.itemIconSize;
+			global::Acr.UserDialogs.Resource.Attribute.itemIconTint = global::WeatherApp.Droid.Resource.Attribute.itemIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.itemPadding = global::WeatherApp.Droid.Resource.Attribute.itemPadding;
+			global::Acr.UserDialogs.Resource.Attribute.itemSpacing = global::WeatherApp.Droid.Resource.Attribute.itemSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearance = global::WeatherApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceActive = global::WeatherApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextAppearanceInactive = global::WeatherApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Acr.UserDialogs.Resource.Attribute.itemTextColor = global::WeatherApp.Droid.Resource.Attribute.itemTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.keylines = global::WeatherApp.Droid.Resource.Attribute.keylines;
+			global::Acr.UserDialogs.Resource.Attribute.labelVisibilityMode = global::WeatherApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Acr.UserDialogs.Resource.Attribute.lastBaselineToBottomHeight = global::WeatherApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Attribute.layout = global::WeatherApp.Droid.Resource.Attribute.layout;
+			global::Acr.UserDialogs.Resource.Attribute.layoutManager = global::WeatherApp.Droid.Resource.Attribute.layoutManager;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchor = global::WeatherApp.Droid.Resource.Attribute.layout_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.layout_anchorGravity = global::WeatherApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.layout_behavior = global::WeatherApp.Droid.Resource.Attribute.layout_behavior;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseMode = global::WeatherApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Attribute.layout_collapseParallaxMultiplier = global::WeatherApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Attribute.layout_dodgeInsetEdges = global::WeatherApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Attribute.layout_insetEdge = global::WeatherApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Attribute.layout_keyline = global::WeatherApp.Droid.Resource.Attribute.layout_keyline;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollFlags = global::WeatherApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Attribute.layout_scrollInterpolator = global::WeatherApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Attribute.liftOnScroll = global::WeatherApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Acr.UserDialogs.Resource.Attribute.lineHeight = global::WeatherApp.Droid.Resource.Attribute.lineHeight;
+			global::Acr.UserDialogs.Resource.Attribute.lineSpacing = global::WeatherApp.Droid.Resource.Attribute.lineSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceBackgroundIndicator = global::WeatherApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::WeatherApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Acr.UserDialogs.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::WeatherApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Acr.UserDialogs.Resource.Attribute.listDividerAlertDialog = global::WeatherApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Attribute.listItemLayout = global::WeatherApp.Droid.Resource.Attribute.listItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listLayout = global::WeatherApp.Droid.Resource.Attribute.listLayout;
+			global::Acr.UserDialogs.Resource.Attribute.listMenuViewStyle = global::WeatherApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPopupWindowStyle = global::WeatherApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeight = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightLarge = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemHeightSmall = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingEnd = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingLeft = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingRight = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Attribute.listPreferredItemPaddingStart = global::WeatherApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.logo = global::WeatherApp.Droid.Resource.Attribute.logo;
+			global::Acr.UserDialogs.Resource.Attribute.logoDescription = global::WeatherApp.Droid.Resource.Attribute.logoDescription;
+			global::Acr.UserDialogs.Resource.Attribute.materialButtonStyle = global::WeatherApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.materialCardViewStyle = global::WeatherApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.maxActionInlineWidth = global::WeatherApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Attribute.maxButtonHeight = global::WeatherApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Attribute.maxImageSize = global::WeatherApp.Droid.Resource.Attribute.maxImageSize;
+			global::Acr.UserDialogs.Resource.Attribute.measureWithLargestChild = global::WeatherApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Attribute.menu = global::WeatherApp.Droid.Resource.Attribute.menu;
+			global::Acr.UserDialogs.Resource.Attribute.multiChoiceItemLayout = global::WeatherApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.navigationContentDescription = global::WeatherApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.navigationIcon = global::WeatherApp.Droid.Resource.Attribute.navigationIcon;
+			global::Acr.UserDialogs.Resource.Attribute.navigationMode = global::WeatherApp.Droid.Resource.Attribute.navigationMode;
+			global::Acr.UserDialogs.Resource.Attribute.navigationViewStyle = global::WeatherApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.numericModifiers = global::WeatherApp.Droid.Resource.Attribute.numericModifiers;
+			global::Acr.UserDialogs.Resource.Attribute.overlapAnchor = global::WeatherApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Acr.UserDialogs.Resource.Attribute.paddingBottomNoButtons = global::WeatherApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Attribute.paddingEnd = global::WeatherApp.Droid.Resource.Attribute.paddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.paddingStart = global::WeatherApp.Droid.Resource.Attribute.paddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.paddingTopNoTitle = global::WeatherApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Attribute.panelBackground = global::WeatherApp.Droid.Resource.Attribute.panelBackground;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListTheme = global::WeatherApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Attribute.panelMenuListWidth = global::WeatherApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleContentDescription = global::WeatherApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleDrawable = global::WeatherApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleEnabled = global::WeatherApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTint = global::WeatherApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Attribute.passwordToggleTintMode = global::WeatherApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.popupMenuStyle = global::WeatherApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Attribute.popupTheme = global::WeatherApp.Droid.Resource.Attribute.popupTheme;
+			global::Acr.UserDialogs.Resource.Attribute.popupWindowStyle = global::WeatherApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Attribute.preserveIconSpacing = global::WeatherApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Attribute.pressedTranslationZ = global::WeatherApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarPadding = global::WeatherApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Acr.UserDialogs.Resource.Attribute.progressBarStyle = global::WeatherApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.queryBackground = global::WeatherApp.Droid.Resource.Attribute.queryBackground;
+			global::Acr.UserDialogs.Resource.Attribute.queryHint = global::WeatherApp.Droid.Resource.Attribute.queryHint;
+			global::Acr.UserDialogs.Resource.Attribute.radioButtonStyle = global::WeatherApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyle = global::WeatherApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleIndicator = global::WeatherApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.ratingBarStyleSmall = global::WeatherApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Attribute.recyclerViewStyle = global::WeatherApp.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.reverseLayout = global::WeatherApp.Droid.Resource.Attribute.reverseLayout;
+			global::Acr.UserDialogs.Resource.Attribute.rippleColor = global::WeatherApp.Droid.Resource.Attribute.rippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.scrimAnimationDuration = global::WeatherApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.scrimBackground = global::WeatherApp.Droid.Resource.Attribute.scrimBackground;
+			global::Acr.UserDialogs.Resource.Attribute.scrimVisibleHeightTrigger = global::WeatherApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Attribute.searchHintIcon = global::WeatherApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchIcon = global::WeatherApp.Droid.Resource.Attribute.searchIcon;
+			global::Acr.UserDialogs.Resource.Attribute.searchViewStyle = global::WeatherApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Acr.UserDialogs.Resource.Attribute.seekBarStyle = global::WeatherApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackground = global::WeatherApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Attribute.selectableItemBackgroundBorderless = global::WeatherApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Attribute.showAsAction = global::WeatherApp.Droid.Resource.Attribute.showAsAction;
+			global::Acr.UserDialogs.Resource.Attribute.showDividers = global::WeatherApp.Droid.Resource.Attribute.showDividers;
+			global::Acr.UserDialogs.Resource.Attribute.showMotionSpec = global::WeatherApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Acr.UserDialogs.Resource.Attribute.showText = global::WeatherApp.Droid.Resource.Attribute.showText;
+			global::Acr.UserDialogs.Resource.Attribute.showTitle = global::WeatherApp.Droid.Resource.Attribute.showTitle;
+			global::Acr.UserDialogs.Resource.Attribute.singleChoiceItemLayout = global::WeatherApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Attribute.singleLine = global::WeatherApp.Droid.Resource.Attribute.singleLine;
+			global::Acr.UserDialogs.Resource.Attribute.singleSelection = global::WeatherApp.Droid.Resource.Attribute.singleSelection;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarButtonStyle = global::WeatherApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.snackbarStyle = global::WeatherApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spanCount = global::WeatherApp.Droid.Resource.Attribute.spanCount;
+			global::Acr.UserDialogs.Resource.Attribute.spinBars = global::WeatherApp.Droid.Resource.Attribute.spinBars;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerDropDownItemStyle = global::WeatherApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Attribute.spinnerStyle = global::WeatherApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Acr.UserDialogs.Resource.Attribute.splitTrack = global::WeatherApp.Droid.Resource.Attribute.splitTrack;
+			global::Acr.UserDialogs.Resource.Attribute.srcCompat = global::WeatherApp.Droid.Resource.Attribute.srcCompat;
+			global::Acr.UserDialogs.Resource.Attribute.stackFromEnd = global::WeatherApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Acr.UserDialogs.Resource.Attribute.state_above_anchor = global::WeatherApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsed = global::WeatherApp.Droid.Resource.Attribute.state_collapsed;
+			global::Acr.UserDialogs.Resource.Attribute.state_collapsible = global::WeatherApp.Droid.Resource.Attribute.state_collapsible;
+			global::Acr.UserDialogs.Resource.Attribute.state_liftable = global::WeatherApp.Droid.Resource.Attribute.state_liftable;
+			global::Acr.UserDialogs.Resource.Attribute.state_lifted = global::WeatherApp.Droid.Resource.Attribute.state_lifted;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarBackground = global::WeatherApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Acr.UserDialogs.Resource.Attribute.statusBarScrim = global::WeatherApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Acr.UserDialogs.Resource.Attribute.strokeColor = global::WeatherApp.Droid.Resource.Attribute.strokeColor;
+			global::Acr.UserDialogs.Resource.Attribute.strokeWidth = global::WeatherApp.Droid.Resource.Attribute.strokeWidth;
+			global::Acr.UserDialogs.Resource.Attribute.subMenuArrow = global::WeatherApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Acr.UserDialogs.Resource.Attribute.submitBackground = global::WeatherApp.Droid.Resource.Attribute.submitBackground;
+			global::Acr.UserDialogs.Resource.Attribute.subtitle = global::WeatherApp.Droid.Resource.Attribute.subtitle;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextAppearance = global::WeatherApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextColor = global::WeatherApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.subtitleTextStyle = global::WeatherApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.suggestionRowLayout = global::WeatherApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Attribute.switchMinWidth = global::WeatherApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.switchPadding = global::WeatherApp.Droid.Resource.Attribute.switchPadding;
+			global::Acr.UserDialogs.Resource.Attribute.switchStyle = global::WeatherApp.Droid.Resource.Attribute.switchStyle;
+			global::Acr.UserDialogs.Resource.Attribute.switchTextAppearance = global::WeatherApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabBackground = global::WeatherApp.Droid.Resource.Attribute.tabBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tabContentStart = global::WeatherApp.Droid.Resource.Attribute.tabContentStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabGravity = global::WeatherApp.Droid.Resource.Attribute.tabGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTint = global::WeatherApp.Droid.Resource.Attribute.tabIconTint;
+			global::Acr.UserDialogs.Resource.Attribute.tabIconTintMode = global::WeatherApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicator = global::WeatherApp.Droid.Resource.Attribute.tabIndicator;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorAnimationDuration = global::WeatherApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorColor = global::WeatherApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorFullWidth = global::WeatherApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorGravity = global::WeatherApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Attribute.tabIndicatorHeight = global::WeatherApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Attribute.tabInlineLabel = global::WeatherApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Attribute.tabMaxWidth = global::WeatherApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMinWidth = global::WeatherApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Acr.UserDialogs.Resource.Attribute.tabMode = global::WeatherApp.Droid.Resource.Attribute.tabMode;
+			global::Acr.UserDialogs.Resource.Attribute.tabPadding = global::WeatherApp.Droid.Resource.Attribute.tabPadding;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingBottom = global::WeatherApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingEnd = global::WeatherApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingStart = global::WeatherApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Attribute.tabPaddingTop = global::WeatherApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Attribute.tabRippleColor = global::WeatherApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabSelectedTextColor = global::WeatherApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabStyle = global::WeatherApp.Droid.Resource.Attribute.tabStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextAppearance = global::WeatherApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.tabTextColor = global::WeatherApp.Droid.Resource.Attribute.tabTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.tabUnboundedRipple = global::WeatherApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Attribute.textAllCaps = global::WeatherApp.Droid.Resource.Attribute.textAllCaps;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody1 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceBody2 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceButton = global::WeatherApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceCaption = global::WeatherApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline1 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline2 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline3 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline4 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline5 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceHeadline6 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceLargePopupMenu = global::WeatherApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItem = global::WeatherApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSecondary = global::WeatherApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceListItemSmall = global::WeatherApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceOverline = global::WeatherApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearancePopupMenuHeader = global::WeatherApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultSubtitle = global::WeatherApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSearchResultTitle = global::WeatherApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSmallPopupMenu = global::WeatherApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle1 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Acr.UserDialogs.Resource.Attribute.textAppearanceSubtitle2 = global::WeatherApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Acr.UserDialogs.Resource.Attribute.textColorAlertDialogListItem = global::WeatherApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Attribute.textColorSearchUrl = global::WeatherApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Attribute.textEndPadding = global::WeatherApp.Droid.Resource.Attribute.textEndPadding;
+			global::Acr.UserDialogs.Resource.Attribute.textInputStyle = global::WeatherApp.Droid.Resource.Attribute.textInputStyle;
+			global::Acr.UserDialogs.Resource.Attribute.textLocale = global::WeatherApp.Droid.Resource.Attribute.textLocale;
+			global::Acr.UserDialogs.Resource.Attribute.textStartPadding = global::WeatherApp.Droid.Resource.Attribute.textStartPadding;
+			global::Acr.UserDialogs.Resource.Attribute.theme = global::WeatherApp.Droid.Resource.Attribute.theme;
+			global::Acr.UserDialogs.Resource.Attribute.thickness = global::WeatherApp.Droid.Resource.Attribute.thickness;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTextPadding = global::WeatherApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTint = global::WeatherApp.Droid.Resource.Attribute.thumbTint;
+			global::Acr.UserDialogs.Resource.Attribute.thumbTintMode = global::WeatherApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tickMark = global::WeatherApp.Droid.Resource.Attribute.tickMark;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTint = global::WeatherApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Acr.UserDialogs.Resource.Attribute.tickMarkTintMode = global::WeatherApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.tint = global::WeatherApp.Droid.Resource.Attribute.tint;
+			global::Acr.UserDialogs.Resource.Attribute.tintMode = global::WeatherApp.Droid.Resource.Attribute.tintMode;
+			global::Acr.UserDialogs.Resource.Attribute.title = global::WeatherApp.Droid.Resource.Attribute.title;
+			global::Acr.UserDialogs.Resource.Attribute.titleEnabled = global::WeatherApp.Droid.Resource.Attribute.titleEnabled;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargin = global::WeatherApp.Droid.Resource.Attribute.titleMargin;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginBottom = global::WeatherApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginEnd = global::WeatherApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Attribute.titleMargins = global::WeatherApp.Droid.Resource.Attribute.titleMargins;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginStart = global::WeatherApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Acr.UserDialogs.Resource.Attribute.titleMarginTop = global::WeatherApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextAppearance = global::WeatherApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextColor = global::WeatherApp.Droid.Resource.Attribute.titleTextColor;
+			global::Acr.UserDialogs.Resource.Attribute.titleTextStyle = global::WeatherApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarId = global::WeatherApp.Droid.Resource.Attribute.toolbarId;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarNavigationButtonStyle = global::WeatherApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Attribute.toolbarStyle = global::WeatherApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipForegroundColor = global::WeatherApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipFrameBackground = global::WeatherApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Attribute.tooltipText = global::WeatherApp.Droid.Resource.Attribute.tooltipText;
+			global::Acr.UserDialogs.Resource.Attribute.track = global::WeatherApp.Droid.Resource.Attribute.track;
+			global::Acr.UserDialogs.Resource.Attribute.trackTint = global::WeatherApp.Droid.Resource.Attribute.trackTint;
+			global::Acr.UserDialogs.Resource.Attribute.trackTintMode = global::WeatherApp.Droid.Resource.Attribute.trackTintMode;
+			global::Acr.UserDialogs.Resource.Attribute.ttcIndex = global::WeatherApp.Droid.Resource.Attribute.ttcIndex;
+			global::Acr.UserDialogs.Resource.Attribute.useCompatPadding = global::WeatherApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Acr.UserDialogs.Resource.Attribute.viewInflaterClass = global::WeatherApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Attribute.voiceIcon = global::WeatherApp.Droid.Resource.Attribute.voiceIcon;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBar = global::WeatherApp.Droid.Resource.Attribute.windowActionBar;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionBarOverlay = global::WeatherApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowActionModeOverlay = global::WeatherApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMajor = global::WeatherApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedHeightMinor = global::WeatherApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMajor = global::WeatherApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowFixedWidthMinor = global::WeatherApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMajor = global::WeatherApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Attribute.windowMinWidthMinor = global::WeatherApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Attribute.windowNoTitle = global::WeatherApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Acr.UserDialogs.Resource.Boolean.abc_action_bar_embed_tabs = global::WeatherApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Acr.UserDialogs.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::WeatherApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Acr.UserDialogs.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::WeatherApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_dark = global::WeatherApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_background_cache_hint_selector_material_light = global::WeatherApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_borderless_text_material = global::WeatherApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_btn_colored_text_material = global::WeatherApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Acr.UserDialogs.Resource.Color.abc_color_highlight_material = global::WeatherApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_dark = global::WeatherApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_hint_foreground_material_light = global::WeatherApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_dark = global::WeatherApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_disable_only_material_light = global::WeatherApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_dark = global::WeatherApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_primary_text_material_light = global::WeatherApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text = global::WeatherApp.Droid.Resource.Color.abc_search_url_text;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_normal = global::WeatherApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_pressed = global::WeatherApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Acr.UserDialogs.Resource.Color.abc_search_url_text_selected = global::WeatherApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_dark = global::WeatherApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.abc_secondary_text_material_light = global::WeatherApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_btn_checkable = global::WeatherApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_default = global::WeatherApp.Droid.Resource.Color.abc_tint_default;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_edittext = global::WeatherApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_seek_thumb = global::WeatherApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_spinner = global::WeatherApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Acr.UserDialogs.Resource.Color.abc_tint_switch_track = global::WeatherApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Acr.UserDialogs.Resource.Color.accent_material_dark = global::WeatherApp.Droid.Resource.Color.accent_material_dark;
+			global::Acr.UserDialogs.Resource.Color.accent_material_light = global::WeatherApp.Droid.Resource.Color.accent_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_dark = global::WeatherApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_floating_material_light = global::WeatherApp.Droid.Resource.Color.background_floating_material_light;
+			global::Acr.UserDialogs.Resource.Color.background_material_dark = global::WeatherApp.Droid.Resource.Color.background_material_dark;
+			global::Acr.UserDialogs.Resource.Color.background_material_light = global::WeatherApp.Droid.Resource.Color.background_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_dark = global::WeatherApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_disabled_material_light = global::WeatherApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_dark = global::WeatherApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_inverse_material_light = global::WeatherApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_dark = global::WeatherApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.bright_foreground_material_light = global::WeatherApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.button_material_dark = global::WeatherApp.Droid.Resource.Color.button_material_dark;
+			global::Acr.UserDialogs.Resource.Color.button_material_light = global::WeatherApp.Droid.Resource.Color.button_material_light;
+			global::Acr.UserDialogs.Resource.Color.cardview_dark_background = global::WeatherApp.Droid.Resource.Color.cardview_dark_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_light_background = global::WeatherApp.Droid.Resource.Color.cardview_light_background;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_end_color = global::WeatherApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.cardview_shadow_start_color = global::WeatherApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_bottom_navigation_shadow_color = global::WeatherApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary = global::WeatherApp.Droid.Resource.Color.design_default_color_primary;
+			global::Acr.UserDialogs.Resource.Color.design_default_color_primary_dark = global::WeatherApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Acr.UserDialogs.Resource.Color.design_error = global::WeatherApp.Droid.Resource.Color.design_error;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_end_color = global::WeatherApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_mid_color = global::WeatherApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_shadow_start_color = global::WeatherApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_inner_color = global::WeatherApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_end_outer_color = global::WeatherApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_inner_color = global::WeatherApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Acr.UserDialogs.Resource.Color.design_fab_stroke_top_outer_color = global::WeatherApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Acr.UserDialogs.Resource.Color.design_snackbar_background_color = global::WeatherApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_dark = global::WeatherApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_disabled_material_light = global::WeatherApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_dark = global::WeatherApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.dim_foreground_material_light = global::WeatherApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_dark = global::WeatherApp.Droid.Resource.Color.error_color_material_dark;
+			global::Acr.UserDialogs.Resource.Color.error_color_material_light = global::WeatherApp.Droid.Resource.Color.error_color_material_light;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_dark = global::WeatherApp.Droid.Resource.Color.foreground_material_dark;
+			global::Acr.UserDialogs.Resource.Color.foreground_material_light = global::WeatherApp.Droid.Resource.Color.foreground_material_light;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_dark = global::WeatherApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Acr.UserDialogs.Resource.Color.highlighted_text_material_light = global::WeatherApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_800 = global::WeatherApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_900 = global::WeatherApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Acr.UserDialogs.Resource.Color.material_blue_grey_950 = global::WeatherApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_200 = global::WeatherApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Acr.UserDialogs.Resource.Color.material_deep_teal_500 = global::WeatherApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Acr.UserDialogs.Resource.Color.material_grey_100 = global::WeatherApp.Droid.Resource.Color.material_grey_100;
+			global::Acr.UserDialogs.Resource.Color.material_grey_300 = global::WeatherApp.Droid.Resource.Color.material_grey_300;
+			global::Acr.UserDialogs.Resource.Color.material_grey_50 = global::WeatherApp.Droid.Resource.Color.material_grey_50;
+			global::Acr.UserDialogs.Resource.Color.material_grey_600 = global::WeatherApp.Droid.Resource.Color.material_grey_600;
+			global::Acr.UserDialogs.Resource.Color.material_grey_800 = global::WeatherApp.Droid.Resource.Color.material_grey_800;
+			global::Acr.UserDialogs.Resource.Color.material_grey_850 = global::WeatherApp.Droid.Resource.Color.material_grey_850;
+			global::Acr.UserDialogs.Resource.Color.material_grey_900 = global::WeatherApp.Droid.Resource.Color.material_grey_900;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_bg_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_ripple_color = global::WeatherApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_stroke_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_btn_ripple_color = global::WeatherApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_disabled = global::WeatherApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_text_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_btn_transparent_bg_color = global::WeatherApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_background_color = global::WeatherApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_close_icon_tint = global::WeatherApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Acr.UserDialogs.Resource.Color.mtrl_chip_text_color = global::WeatherApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_fab_ripple_color = global::WeatherApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_scrim_color = global::WeatherApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_colored_ripple_color = global::WeatherApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::WeatherApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.mtrl_tabs_ripple_color = global::WeatherApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_default_box_stroke_color = global::WeatherApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_disabled_color = global::WeatherApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::WeatherApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::WeatherApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Acr.UserDialogs.Resource.Color.mtrl_text_btn_text_color_selector = global::WeatherApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Acr.UserDialogs.Resource.Color.notification_action_color_filter = global::WeatherApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Acr.UserDialogs.Resource.Color.notification_icon_bg_color = global::WeatherApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_dark = global::WeatherApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_dark_material_light = global::WeatherApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_material_dark = global::WeatherApp.Droid.Resource.Color.primary_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_material_light = global::WeatherApp.Droid.Resource.Color.primary_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_dark = global::WeatherApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_default_material_light = global::WeatherApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_dark = global::WeatherApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.primary_text_disabled_material_light = global::WeatherApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_dark = global::WeatherApp.Droid.Resource.Color.ripple_material_dark;
+			global::Acr.UserDialogs.Resource.Color.ripple_material_light = global::WeatherApp.Droid.Resource.Color.ripple_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_dark = global::WeatherApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_default_material_light = global::WeatherApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_dark = global::WeatherApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.secondary_text_disabled_material_light = global::WeatherApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_dark = global::WeatherApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_disabled_material_light = global::WeatherApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_dark = global::WeatherApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_material_light = global::WeatherApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_dark = global::WeatherApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Acr.UserDialogs.Resource.Color.switch_thumb_normal_material_light = global::WeatherApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_dark = global::WeatherApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Acr.UserDialogs.Resource.Color.tooltip_background_light = global::WeatherApp.Droid.Resource.Color.tooltip_background_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_end_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_default_padding_start_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_elevation_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_max_height = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_action_button_min_width_overflow_material = global::WeatherApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_bar_height = global::WeatherApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_alert_dialog_button_dimen = global::WeatherApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_inset_vertical_material = global::WeatherApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_button_padding_vertical_material = global::WeatherApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::WeatherApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_config_prefDialogWidth = global::WeatherApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_corner_material = global::WeatherApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_inset_material = global::WeatherApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_control_padding_material = global::WeatherApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_corner_radius_material = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_major = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_height_minor = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_major = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_fixed_width_minor = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_major = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_min_width_minor = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_material = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_padding_top_material = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dialog_title_divider_material = global::WeatherApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_dark = global::WeatherApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.abc_disabled_alpha_material_light = global::WeatherApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_icon_width = global::WeatherApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_left = global::WeatherApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.abc_dropdownitem_text_padding_right = global::WeatherApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_bottom_material = global::WeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_edit_text_inset_top_material = global::WeatherApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_floating_window_z = global::WeatherApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_large_material = global::WeatherApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_height_small_material = global::WeatherApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_list_item_padding_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_panel_menu_list_width = global::WeatherApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_progress_bar_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_height = global::WeatherApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Acr.UserDialogs.Resource.Dimension.abc_search_view_preferred_width = global::WeatherApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_background_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_seekbar_track_progress_height_material = global::WeatherApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_select_dialog_padding_start_material = global::WeatherApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_switch_padding = global::WeatherApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_1_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_body_2_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_button_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_caption_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_1_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_2_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_3_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_display_4_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_headline_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_large_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_medium_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_header_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_menu_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_small_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subhead_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Acr.UserDialogs.Resource.Dimension.abc_text_size_title_material_toolbar = global::WeatherApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_compat_inset_shadow = global::WeatherApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_elevation = global::WeatherApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.cardview_default_radius = global::WeatherApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_inset_vertical_material = global::WeatherApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_horizontal_material = global::WeatherApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_button_padding_vertical_material = global::WeatherApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_control_corner_material = global::WeatherApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_height = global::WeatherApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Acr.UserDialogs.Resource.Dimension.compat_notification_large_icon_max_width = global::WeatherApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_appbar_elevation = global::WeatherApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_active_text_size = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_elevation = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_height = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_icon_size = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_max_width = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_item_min_width = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_margin = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_shadow_height = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_navigation_text_size = global::WeatherApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_modal_elevation = global::WeatherApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_bottom_sheet_peek_height_min = global::WeatherApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_border_width = global::WeatherApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_elevation = global::WeatherApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_image_size = global::WeatherApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_mini = global::WeatherApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_size_normal = global::WeatherApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_hovered_focused = global::WeatherApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.design_fab_translation_z_pressed = global::WeatherApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_elevation = global::WeatherApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_padding = global::WeatherApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_icon_size = global::WeatherApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_horizontal_padding = global::WeatherApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_item_icon_padding = global::WeatherApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_max_width = global::WeatherApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_padding_bottom = global::WeatherApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.design_navigation_separator_vertical_padding = global::WeatherApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_action_inline_max_width = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_background_corner_radius = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_elevation = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_max_width = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_min_width = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_horizontal = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Acr.UserDialogs.Resource.Dimension.design_snackbar_text_size = global::WeatherApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_max_width = global::WeatherApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_scrollable_min_width = global::WeatherApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size = global::WeatherApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.design_tab_text_size_2line = global::WeatherApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Acr.UserDialogs.Resource.Dimension.design_textinput_caption_translate_y = global::WeatherApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_dark = global::WeatherApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.disabled_alpha_material_light = global::WeatherApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_default_thickness = global::WeatherApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_margin = global::WeatherApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Acr.UserDialogs.Resource.Dimension.fastscroll_minimum_range = global::WeatherApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_colored = global::WeatherApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_dark = global::WeatherApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.highlight_alpha_material_light = global::WeatherApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_dark = global::WeatherApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_alpha_material_light = global::WeatherApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_dark = global::WeatherApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Acr.UserDialogs.Resource.Dimension.hint_pressed_alpha_material_light = global::WeatherApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::WeatherApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::WeatherApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::WeatherApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::WeatherApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::WeatherApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::WeatherApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::WeatherApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_bottomappbar_height = global::WeatherApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_corner_radius = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_elevation = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_disabled_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_elevation = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_focused_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_hovered_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_icon_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_inset = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_letter_spacing = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_bottom = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_left = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_right = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_padding_top = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_pressed_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_stroke_size = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_text_size = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_btn_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_elevation = global::WeatherApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_card_spacing = global::WeatherApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_pressed_translation_z = global::WeatherApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_chip_text_size = global::WeatherApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_elevation = global::WeatherApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::WeatherApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_fab_translation_z_pressed = global::WeatherApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_elevation = global::WeatherApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_navigation_item_icon_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::WeatherApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_snackbar_margin = global::WeatherApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::WeatherApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Acr.UserDialogs.Resource.Dimension.mtrl_toolbar_default_height = global::WeatherApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_icon_size = global::WeatherApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_action_text_size = global::WeatherApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_big_circle_margin = global::WeatherApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_content_margin_start = global::WeatherApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_height = global::WeatherApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Acr.UserDialogs.Resource.Dimension.notification_large_icon_width = global::WeatherApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Acr.UserDialogs.Resource.Dimension.notification_main_column_padding_top = global::WeatherApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_media_narrow_margin = global::WeatherApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_icon_size = global::WeatherApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_right_side_padding_top = global::WeatherApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_background_padding = global::WeatherApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Acr.UserDialogs.Resource.Dimension.notification_small_icon_size_as_large = global::WeatherApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Acr.UserDialogs.Resource.Dimension.notification_subtext_size = global::WeatherApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad = global::WeatherApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Acr.UserDialogs.Resource.Dimension.notification_top_pad_large_text = global::WeatherApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_corner_radius = global::WeatherApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_horizontal_padding = global::WeatherApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_margin = global::WeatherApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::WeatherApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_precise_anchor_threshold = global::WeatherApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_vertical_padding = global::WeatherApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_non_touch = global::WeatherApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Acr.UserDialogs.Resource.Dimension.tooltip_y_offset_touch = global::WeatherApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_action_bar_item_background_material = global::WeatherApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_borderless_material = global::WeatherApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material = global::WeatherApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_material_anim = global::WeatherApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_colored_material = global::WeatherApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_default_mtrl_shape = global::WeatherApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material = global::WeatherApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_material_anim = global::WeatherApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Acr.UserDialogs.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::WeatherApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_internal_bg = global::WeatherApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_material = global::WeatherApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_control_background_material = global::WeatherApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_dialog_material_background = global::WeatherApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Acr.UserDialogs.Resource.Drawable.abc_edit_text_material = global::WeatherApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_ab_back_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::WeatherApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_clear_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_go_search_api_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_overflow_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_search_api_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ic_voice_search_api_material = global::WeatherApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_dark = global::WeatherApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_item_background_holo_light = global::WeatherApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_material = global::WeatherApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_divider_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_focused_holo = global::WeatherApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_longpressed_holo = global::WeatherApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_dark = global::WeatherApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_pressed_holo_light = global::WeatherApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_disabled_holo_light = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_dark = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Acr.UserDialogs.Resource.Drawable.abc_list_selector_holo_light = global::WeatherApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Acr.UserDialogs.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::WeatherApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_popup_background_mtrl_mult = global::WeatherApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_indicator_material = global::WeatherApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_material = global::WeatherApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_ratingbar_small_material = global::WeatherApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::WeatherApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::WeatherApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_thumb_material = global::WeatherApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_tick_mark_material = global::WeatherApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_seekbar_track_material = global::WeatherApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_spinner_textfield_background_material = global::WeatherApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_thumb_material = global::WeatherApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_switch_track_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_material = global::WeatherApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::WeatherApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Acr.UserDialogs.Resource.Drawable.abc_textfield_search_material = global::WeatherApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_text_cursor_material = global::WeatherApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Acr.UserDialogs.Resource.Drawable.abc_vector_test = global::WeatherApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Acr.UserDialogs.Resource.Drawable.avd_hide_password = global::WeatherApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Acr.UserDialogs.Resource.Drawable.avd_show_password = global::WeatherApp.Droid.Resource.Drawable.avd_show_password;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_checked_mtrl = global::WeatherApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::WeatherApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::WeatherApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::WeatherApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_off_mtrl = global::WeatherApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::WeatherApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_on_mtrl = global::WeatherApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Acr.UserDialogs.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::WeatherApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Acr.UserDialogs.Resource.Drawable.design_fab_background = global::WeatherApp.Droid.Resource.Drawable.design_fab_background;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility = global::WeatherApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Acr.UserDialogs.Resource.Drawable.design_ic_visibility_off = global::WeatherApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Acr.UserDialogs.Resource.Drawable.design_password_eye = global::WeatherApp.Droid.Resource.Drawable.design_password_eye;
+			global::Acr.UserDialogs.Resource.Drawable.design_snackbar_background = global::WeatherApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Acr.UserDialogs.Resource.Drawable.ic_errorstatus = global::WeatherApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_black = global::WeatherApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_checked_circle = global::WeatherApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_mtrl_chip_close_circle = global::WeatherApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Acr.UserDialogs.Resource.Drawable.ic_successstatus = global::WeatherApp.Droid.Resource.Drawable.ic_successstatus;
+			global::Acr.UserDialogs.Resource.Drawable.mtrl_tabs_default_indicator = global::WeatherApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Acr.UserDialogs.Resource.Drawable.navigation_empty_icon = global::WeatherApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Acr.UserDialogs.Resource.Drawable.notification_action_background = global::WeatherApp.Droid.Resource.Drawable.notification_action_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg = global::WeatherApp.Droid.Resource.Drawable.notification_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low = global::WeatherApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_normal = global::WeatherApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_low_pressed = global::WeatherApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal = global::WeatherApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Acr.UserDialogs.Resource.Drawable.notification_bg_normal_pressed = global::WeatherApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Acr.UserDialogs.Resource.Drawable.notification_icon_background = global::WeatherApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_bg = global::WeatherApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_template_icon_low_bg = global::WeatherApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notification_tile_bg = global::WeatherApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Acr.UserDialogs.Resource.Drawable.notify_panel_notification_icon_bg = global::WeatherApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbg = global::WeatherApp.Droid.Resource.Drawable.roundedbg;
+			global::Acr.UserDialogs.Resource.Drawable.roundedbgdark = global::WeatherApp.Droid.Resource.Drawable.roundedbgdark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_dark = global::WeatherApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Acr.UserDialogs.Resource.Drawable.tooltip_frame_light = global::WeatherApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Acr.UserDialogs.Resource.Id.accessibility_action_clickable_span = global::WeatherApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_0 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_1 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_10 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_11 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_12 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_13 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_14 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_15 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_16 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_17 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_18 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_19 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_2 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_20 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_21 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_22 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_23 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_24 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_25 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_26 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_27 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_28 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_29 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_3 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_30 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_31 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_4 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_5 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_6 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_7 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_8 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Acr.UserDialogs.Resource.Id.accessibility_custom_action_9 = global::WeatherApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Acr.UserDialogs.Resource.Id.actions = global::WeatherApp.Droid.Resource.Id.actions;
+			global::Acr.UserDialogs.Resource.Id.action_bar = global::WeatherApp.Droid.Resource.Id.action_bar;
+			global::Acr.UserDialogs.Resource.Id.action_bar_activity_content = global::WeatherApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Acr.UserDialogs.Resource.Id.action_bar_container = global::WeatherApp.Droid.Resource.Id.action_bar_container;
+			global::Acr.UserDialogs.Resource.Id.action_bar_root = global::WeatherApp.Droid.Resource.Id.action_bar_root;
+			global::Acr.UserDialogs.Resource.Id.action_bar_spinner = global::WeatherApp.Droid.Resource.Id.action_bar_spinner;
+			global::Acr.UserDialogs.Resource.Id.action_bar_subtitle = global::WeatherApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Acr.UserDialogs.Resource.Id.action_bar_title = global::WeatherApp.Droid.Resource.Id.action_bar_title;
+			global::Acr.UserDialogs.Resource.Id.action_container = global::WeatherApp.Droid.Resource.Id.action_container;
+			global::Acr.UserDialogs.Resource.Id.action_context_bar = global::WeatherApp.Droid.Resource.Id.action_context_bar;
+			global::Acr.UserDialogs.Resource.Id.action_divider = global::WeatherApp.Droid.Resource.Id.action_divider;
+			global::Acr.UserDialogs.Resource.Id.action_image = global::WeatherApp.Droid.Resource.Id.action_image;
+			global::Acr.UserDialogs.Resource.Id.action_menu_divider = global::WeatherApp.Droid.Resource.Id.action_menu_divider;
+			global::Acr.UserDialogs.Resource.Id.action_menu_presenter = global::WeatherApp.Droid.Resource.Id.action_menu_presenter;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar = global::WeatherApp.Droid.Resource.Id.action_mode_bar;
+			global::Acr.UserDialogs.Resource.Id.action_mode_bar_stub = global::WeatherApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Acr.UserDialogs.Resource.Id.action_mode_close_button = global::WeatherApp.Droid.Resource.Id.action_mode_close_button;
+			global::Acr.UserDialogs.Resource.Id.action_text = global::WeatherApp.Droid.Resource.Id.action_text;
+			global::Acr.UserDialogs.Resource.Id.activity_chooser_view_content = global::WeatherApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Acr.UserDialogs.Resource.Id.add = global::WeatherApp.Droid.Resource.Id.add;
+			global::Acr.UserDialogs.Resource.Id.alertTitle = global::WeatherApp.Droid.Resource.Id.alertTitle;
+			global::Acr.UserDialogs.Resource.Id.all = global::WeatherApp.Droid.Resource.Id.all;
+			global::Acr.UserDialogs.Resource.Id.ALT = global::WeatherApp.Droid.Resource.Id.ALT;
+			global::Acr.UserDialogs.Resource.Id.always = global::WeatherApp.Droid.Resource.Id.always;
+			global::Acr.UserDialogs.Resource.Id.async = global::WeatherApp.Droid.Resource.Id.async;
+			global::Acr.UserDialogs.Resource.Id.auto = global::WeatherApp.Droid.Resource.Id.auto;
+			global::Acr.UserDialogs.Resource.Id.beginning = global::WeatherApp.Droid.Resource.Id.beginning;
+			global::Acr.UserDialogs.Resource.Id.blocking = global::WeatherApp.Droid.Resource.Id.blocking;
+			global::Acr.UserDialogs.Resource.Id.bottom = global::WeatherApp.Droid.Resource.Id.bottom;
+			global::Acr.UserDialogs.Resource.Id.buttonPanel = global::WeatherApp.Droid.Resource.Id.buttonPanel;
+			global::Acr.UserDialogs.Resource.Id.center = global::WeatherApp.Droid.Resource.Id.center;
+			global::Acr.UserDialogs.Resource.Id.center_horizontal = global::WeatherApp.Droid.Resource.Id.center_horizontal;
+			global::Acr.UserDialogs.Resource.Id.center_vertical = global::WeatherApp.Droid.Resource.Id.center_vertical;
+			global::Acr.UserDialogs.Resource.Id.checkbox = global::WeatherApp.Droid.Resource.Id.checkbox;
+			global::Acr.UserDialogs.Resource.Id.@checked = global::WeatherApp.Droid.Resource.Id.@checked;
+			global::Acr.UserDialogs.Resource.Id.chronometer = global::WeatherApp.Droid.Resource.Id.chronometer;
+			global::Acr.UserDialogs.Resource.Id.clip_horizontal = global::WeatherApp.Droid.Resource.Id.clip_horizontal;
+			global::Acr.UserDialogs.Resource.Id.clip_vertical = global::WeatherApp.Droid.Resource.Id.clip_vertical;
+			global::Acr.UserDialogs.Resource.Id.collapseActionView = global::WeatherApp.Droid.Resource.Id.collapseActionView;
+			global::Acr.UserDialogs.Resource.Id.container = global::WeatherApp.Droid.Resource.Id.container;
+			global::Acr.UserDialogs.Resource.Id.content = global::WeatherApp.Droid.Resource.Id.content;
+			global::Acr.UserDialogs.Resource.Id.contentPanel = global::WeatherApp.Droid.Resource.Id.contentPanel;
+			global::Acr.UserDialogs.Resource.Id.coordinator = global::WeatherApp.Droid.Resource.Id.coordinator;
+			global::Acr.UserDialogs.Resource.Id.CTRL = global::WeatherApp.Droid.Resource.Id.CTRL;
+			global::Acr.UserDialogs.Resource.Id.custom = global::WeatherApp.Droid.Resource.Id.custom;
+			global::Acr.UserDialogs.Resource.Id.customPanel = global::WeatherApp.Droid.Resource.Id.customPanel;
+			global::Acr.UserDialogs.Resource.Id.decor_content_parent = global::WeatherApp.Droid.Resource.Id.decor_content_parent;
+			global::Acr.UserDialogs.Resource.Id.default_activity_button = global::WeatherApp.Droid.Resource.Id.default_activity_button;
+			global::Acr.UserDialogs.Resource.Id.design_bottom_sheet = global::WeatherApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area = global::WeatherApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_action_area_stub = global::WeatherApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Acr.UserDialogs.Resource.Id.design_menu_item_text = global::WeatherApp.Droid.Resource.Id.design_menu_item_text;
+			global::Acr.UserDialogs.Resource.Id.design_navigation_view = global::WeatherApp.Droid.Resource.Id.design_navigation_view;
+			global::Acr.UserDialogs.Resource.Id.dialog_button = global::WeatherApp.Droid.Resource.Id.dialog_button;
+			global::Acr.UserDialogs.Resource.Id.disableHome = global::WeatherApp.Droid.Resource.Id.disableHome;
+			global::Acr.UserDialogs.Resource.Id.edit_query = global::WeatherApp.Droid.Resource.Id.edit_query;
+			global::Acr.UserDialogs.Resource.Id.end = global::WeatherApp.Droid.Resource.Id.end;
+			global::Acr.UserDialogs.Resource.Id.enterAlways = global::WeatherApp.Droid.Resource.Id.enterAlways;
+			global::Acr.UserDialogs.Resource.Id.enterAlwaysCollapsed = global::WeatherApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Acr.UserDialogs.Resource.Id.exitUntilCollapsed = global::WeatherApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Acr.UserDialogs.Resource.Id.expanded_menu = global::WeatherApp.Droid.Resource.Id.expanded_menu;
+			global::Acr.UserDialogs.Resource.Id.expand_activities_button = global::WeatherApp.Droid.Resource.Id.expand_activities_button;
+			global::Acr.UserDialogs.Resource.Id.fill = global::WeatherApp.Droid.Resource.Id.fill;
+			global::Acr.UserDialogs.Resource.Id.filled = global::WeatherApp.Droid.Resource.Id.filled;
+			global::Acr.UserDialogs.Resource.Id.fill_horizontal = global::WeatherApp.Droid.Resource.Id.fill_horizontal;
+			global::Acr.UserDialogs.Resource.Id.fill_vertical = global::WeatherApp.Droid.Resource.Id.fill_vertical;
+			global::Acr.UserDialogs.Resource.Id.@fixed = global::WeatherApp.Droid.Resource.Id.@fixed;
+			global::Acr.UserDialogs.Resource.Id.forever = global::WeatherApp.Droid.Resource.Id.forever;
+			global::Acr.UserDialogs.Resource.Id.FUNCTION = global::WeatherApp.Droid.Resource.Id.FUNCTION;
+			global::Acr.UserDialogs.Resource.Id.ghost_view = global::WeatherApp.Droid.Resource.Id.ghost_view;
+			global::Acr.UserDialogs.Resource.Id.ghost_view_holder = global::WeatherApp.Droid.Resource.Id.ghost_view_holder;
+			global::Acr.UserDialogs.Resource.Id.group_divider = global::WeatherApp.Droid.Resource.Id.group_divider;
+			global::Acr.UserDialogs.Resource.Id.home = global::WeatherApp.Droid.Resource.Id.home;
+			global::Acr.UserDialogs.Resource.Id.homeAsUp = global::WeatherApp.Droid.Resource.Id.homeAsUp;
+			global::Acr.UserDialogs.Resource.Id.icon = global::WeatherApp.Droid.Resource.Id.icon;
+			global::Acr.UserDialogs.Resource.Id.icon_group = global::WeatherApp.Droid.Resource.Id.icon_group;
+			global::Acr.UserDialogs.Resource.Id.ifRoom = global::WeatherApp.Droid.Resource.Id.ifRoom;
+			global::Acr.UserDialogs.Resource.Id.image = global::WeatherApp.Droid.Resource.Id.image;
+			global::Acr.UserDialogs.Resource.Id.info = global::WeatherApp.Droid.Resource.Id.info;
+			global::Acr.UserDialogs.Resource.Id.italic = global::WeatherApp.Droid.Resource.Id.italic;
+			global::Acr.UserDialogs.Resource.Id.item_touch_helper_previous_elevation = global::WeatherApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Acr.UserDialogs.Resource.Id.labeled = global::WeatherApp.Droid.Resource.Id.labeled;
+			global::Acr.UserDialogs.Resource.Id.left = global::WeatherApp.Droid.Resource.Id.left;
+			global::Acr.UserDialogs.Resource.Id.line1 = global::WeatherApp.Droid.Resource.Id.line1;
+			global::Acr.UserDialogs.Resource.Id.line3 = global::WeatherApp.Droid.Resource.Id.line3;
+			global::Acr.UserDialogs.Resource.Id.listMode = global::WeatherApp.Droid.Resource.Id.listMode;
+			global::Acr.UserDialogs.Resource.Id.list_item = global::WeatherApp.Droid.Resource.Id.list_item;
+			global::Acr.UserDialogs.Resource.Id.loadingImage = global::WeatherApp.Droid.Resource.Id.loadingImage;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressBar = global::WeatherApp.Droid.Resource.Id.loadingProgressBar;
+			global::Acr.UserDialogs.Resource.Id.loadingProgressWheel = global::WeatherApp.Droid.Resource.Id.loadingProgressWheel;
+			global::Acr.UserDialogs.Resource.Id.masked = global::WeatherApp.Droid.Resource.Id.masked;
+			global::Acr.UserDialogs.Resource.Id.message = global::WeatherApp.Droid.Resource.Id.message;
+			global::Acr.UserDialogs.Resource.Id.META = global::WeatherApp.Droid.Resource.Id.META;
+			global::Acr.UserDialogs.Resource.Id.middle = global::WeatherApp.Droid.Resource.Id.middle;
+			global::Acr.UserDialogs.Resource.Id.mini = global::WeatherApp.Droid.Resource.Id.mini;
+			global::Acr.UserDialogs.Resource.Id.mtrl_child_content_container = global::WeatherApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Acr.UserDialogs.Resource.Id.mtrl_internal_children_alpha_tag = global::WeatherApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Acr.UserDialogs.Resource.Id.multiply = global::WeatherApp.Droid.Resource.Id.multiply;
+			global::Acr.UserDialogs.Resource.Id.navigation_header_container = global::WeatherApp.Droid.Resource.Id.navigation_header_container;
+			global::Acr.UserDialogs.Resource.Id.never = global::WeatherApp.Droid.Resource.Id.never;
+			global::Acr.UserDialogs.Resource.Id.none = global::WeatherApp.Droid.Resource.Id.none;
+			global::Acr.UserDialogs.Resource.Id.normal = global::WeatherApp.Droid.Resource.Id.normal;
+			global::Acr.UserDialogs.Resource.Id.notification_background = global::WeatherApp.Droid.Resource.Id.notification_background;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column = global::WeatherApp.Droid.Resource.Id.notification_main_column;
+			global::Acr.UserDialogs.Resource.Id.notification_main_column_container = global::WeatherApp.Droid.Resource.Id.notification_main_column_container;
+			global::Acr.UserDialogs.Resource.Id.off = global::WeatherApp.Droid.Resource.Id.off;
+			global::Acr.UserDialogs.Resource.Id.on = global::WeatherApp.Droid.Resource.Id.on;
+			global::Acr.UserDialogs.Resource.Id.outline = global::WeatherApp.Droid.Resource.Id.outline;
+			global::Acr.UserDialogs.Resource.Id.parallax = global::WeatherApp.Droid.Resource.Id.parallax;
+			global::Acr.UserDialogs.Resource.Id.parentPanel = global::WeatherApp.Droid.Resource.Id.parentPanel;
+			global::Acr.UserDialogs.Resource.Id.parent_matrix = global::WeatherApp.Droid.Resource.Id.parent_matrix;
+			global::Acr.UserDialogs.Resource.Id.pin = global::WeatherApp.Droid.Resource.Id.pin;
+			global::Acr.UserDialogs.Resource.Id.progress_circular = global::WeatherApp.Droid.Resource.Id.progress_circular;
+			global::Acr.UserDialogs.Resource.Id.progress_horizontal = global::WeatherApp.Droid.Resource.Id.progress_horizontal;
+			global::Acr.UserDialogs.Resource.Id.radio = global::WeatherApp.Droid.Resource.Id.radio;
+			global::Acr.UserDialogs.Resource.Id.right = global::WeatherApp.Droid.Resource.Id.right;
+			global::Acr.UserDialogs.Resource.Id.right_icon = global::WeatherApp.Droid.Resource.Id.right_icon;
+			global::Acr.UserDialogs.Resource.Id.right_side = global::WeatherApp.Droid.Resource.Id.right_side;
+			global::Acr.UserDialogs.Resource.Id.save_non_transition_alpha = global::WeatherApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Acr.UserDialogs.Resource.Id.save_overlay_view = global::WeatherApp.Droid.Resource.Id.save_overlay_view;
+			global::Acr.UserDialogs.Resource.Id.screen = global::WeatherApp.Droid.Resource.Id.screen;
+			global::Acr.UserDialogs.Resource.Id.scroll = global::WeatherApp.Droid.Resource.Id.scroll;
+			global::Acr.UserDialogs.Resource.Id.scrollable = global::WeatherApp.Droid.Resource.Id.scrollable;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorDown = global::WeatherApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Acr.UserDialogs.Resource.Id.scrollIndicatorUp = global::WeatherApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Acr.UserDialogs.Resource.Id.scrollView = global::WeatherApp.Droid.Resource.Id.scrollView;
+			global::Acr.UserDialogs.Resource.Id.search_badge = global::WeatherApp.Droid.Resource.Id.search_badge;
+			global::Acr.UserDialogs.Resource.Id.search_bar = global::WeatherApp.Droid.Resource.Id.search_bar;
+			global::Acr.UserDialogs.Resource.Id.search_button = global::WeatherApp.Droid.Resource.Id.search_button;
+			global::Acr.UserDialogs.Resource.Id.search_close_btn = global::WeatherApp.Droid.Resource.Id.search_close_btn;
+			global::Acr.UserDialogs.Resource.Id.search_edit_frame = global::WeatherApp.Droid.Resource.Id.search_edit_frame;
+			global::Acr.UserDialogs.Resource.Id.search_go_btn = global::WeatherApp.Droid.Resource.Id.search_go_btn;
+			global::Acr.UserDialogs.Resource.Id.search_mag_icon = global::WeatherApp.Droid.Resource.Id.search_mag_icon;
+			global::Acr.UserDialogs.Resource.Id.search_plate = global::WeatherApp.Droid.Resource.Id.search_plate;
+			global::Acr.UserDialogs.Resource.Id.search_src_text = global::WeatherApp.Droid.Resource.Id.search_src_text;
+			global::Acr.UserDialogs.Resource.Id.search_voice_btn = global::WeatherApp.Droid.Resource.Id.search_voice_btn;
+			global::Acr.UserDialogs.Resource.Id.selected = global::WeatherApp.Droid.Resource.Id.selected;
+			global::Acr.UserDialogs.Resource.Id.select_dialog_listview = global::WeatherApp.Droid.Resource.Id.select_dialog_listview;
+			global::Acr.UserDialogs.Resource.Id.SHIFT = global::WeatherApp.Droid.Resource.Id.SHIFT;
+			global::Acr.UserDialogs.Resource.Id.shortcut = global::WeatherApp.Droid.Resource.Id.shortcut;
+			global::Acr.UserDialogs.Resource.Id.showCustom = global::WeatherApp.Droid.Resource.Id.showCustom;
+			global::Acr.UserDialogs.Resource.Id.showHome = global::WeatherApp.Droid.Resource.Id.showHome;
+			global::Acr.UserDialogs.Resource.Id.showTitle = global::WeatherApp.Droid.Resource.Id.showTitle;
+			global::Acr.UserDialogs.Resource.Id.snackbar_action = global::WeatherApp.Droid.Resource.Id.snackbar_action;
+			global::Acr.UserDialogs.Resource.Id.snackbar_text = global::WeatherApp.Droid.Resource.Id.snackbar_text;
+			global::Acr.UserDialogs.Resource.Id.snap = global::WeatherApp.Droid.Resource.Id.snap;
+			global::Acr.UserDialogs.Resource.Id.snapMargins = global::WeatherApp.Droid.Resource.Id.snapMargins;
+			global::Acr.UserDialogs.Resource.Id.spacer = global::WeatherApp.Droid.Resource.Id.spacer;
+			global::Acr.UserDialogs.Resource.Id.split_action_bar = global::WeatherApp.Droid.Resource.Id.split_action_bar;
+			global::Acr.UserDialogs.Resource.Id.src_atop = global::WeatherApp.Droid.Resource.Id.src_atop;
+			global::Acr.UserDialogs.Resource.Id.src_in = global::WeatherApp.Droid.Resource.Id.src_in;
+			global::Acr.UserDialogs.Resource.Id.src_over = global::WeatherApp.Droid.Resource.Id.src_over;
+			global::Acr.UserDialogs.Resource.Id.start = global::WeatherApp.Droid.Resource.Id.start;
+			global::Acr.UserDialogs.Resource.Id.stretch = global::WeatherApp.Droid.Resource.Id.stretch;
+			global::Acr.UserDialogs.Resource.Id.submenuarrow = global::WeatherApp.Droid.Resource.Id.submenuarrow;
+			global::Acr.UserDialogs.Resource.Id.submit_area = global::WeatherApp.Droid.Resource.Id.submit_area;
+			global::Acr.UserDialogs.Resource.Id.SYM = global::WeatherApp.Droid.Resource.Id.SYM;
+			global::Acr.UserDialogs.Resource.Id.tabMode = global::WeatherApp.Droid.Resource.Id.tabMode;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_actions = global::WeatherApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_clickable_spans = global::WeatherApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_heading = global::WeatherApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Acr.UserDialogs.Resource.Id.tag_accessibility_pane_title = global::WeatherApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Acr.UserDialogs.Resource.Id.tag_screen_reader_focusable = global::WeatherApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Acr.UserDialogs.Resource.Id.tag_transition_group = global::WeatherApp.Droid.Resource.Id.tag_transition_group;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_event_manager = global::WeatherApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Acr.UserDialogs.Resource.Id.tag_unhandled_key_listeners = global::WeatherApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Acr.UserDialogs.Resource.Id.text = global::WeatherApp.Droid.Resource.Id.text;
+			global::Acr.UserDialogs.Resource.Id.text2 = global::WeatherApp.Droid.Resource.Id.text2;
+			global::Acr.UserDialogs.Resource.Id.textinput_counter = global::WeatherApp.Droid.Resource.Id.textinput_counter;
+			global::Acr.UserDialogs.Resource.Id.textinput_error = global::WeatherApp.Droid.Resource.Id.textinput_error;
+			global::Acr.UserDialogs.Resource.Id.textinput_helper_text = global::WeatherApp.Droid.Resource.Id.textinput_helper_text;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoButtons = global::WeatherApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Acr.UserDialogs.Resource.Id.textSpacerNoTitle = global::WeatherApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Acr.UserDialogs.Resource.Id.textStart = global::WeatherApp.Droid.Resource.Id.textStart;
+			global::Acr.UserDialogs.Resource.Id.textViewStatus = global::WeatherApp.Droid.Resource.Id.textViewStatus;
+			global::Acr.UserDialogs.Resource.Id.time = global::WeatherApp.Droid.Resource.Id.time;
+			global::Acr.UserDialogs.Resource.Id.title = global::WeatherApp.Droid.Resource.Id.title;
+			global::Acr.UserDialogs.Resource.Id.titleDividerNoCustom = global::WeatherApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Acr.UserDialogs.Resource.Id.title_template = global::WeatherApp.Droid.Resource.Id.title_template;
+			global::Acr.UserDialogs.Resource.Id.top = global::WeatherApp.Droid.Resource.Id.top;
+			global::Acr.UserDialogs.Resource.Id.topPanel = global::WeatherApp.Droid.Resource.Id.topPanel;
+			global::Acr.UserDialogs.Resource.Id.touch_outside = global::WeatherApp.Droid.Resource.Id.touch_outside;
+			global::Acr.UserDialogs.Resource.Id.transition_current_scene = global::WeatherApp.Droid.Resource.Id.transition_current_scene;
+			global::Acr.UserDialogs.Resource.Id.transition_layout_save = global::WeatherApp.Droid.Resource.Id.transition_layout_save;
+			global::Acr.UserDialogs.Resource.Id.transition_position = global::WeatherApp.Droid.Resource.Id.transition_position;
+			global::Acr.UserDialogs.Resource.Id.transition_scene_layoutid_cache = global::WeatherApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Acr.UserDialogs.Resource.Id.transition_transform = global::WeatherApp.Droid.Resource.Id.transition_transform;
+			global::Acr.UserDialogs.Resource.Id.@unchecked = global::WeatherApp.Droid.Resource.Id.@unchecked;
+			global::Acr.UserDialogs.Resource.Id.uniform = global::WeatherApp.Droid.Resource.Id.uniform;
+			global::Acr.UserDialogs.Resource.Id.unlabeled = global::WeatherApp.Droid.Resource.Id.unlabeled;
+			global::Acr.UserDialogs.Resource.Id.up = global::WeatherApp.Droid.Resource.Id.up;
+			global::Acr.UserDialogs.Resource.Id.useLogo = global::WeatherApp.Droid.Resource.Id.useLogo;
+			global::Acr.UserDialogs.Resource.Id.view_offset_helper = global::WeatherApp.Droid.Resource.Id.view_offset_helper;
+			global::Acr.UserDialogs.Resource.Id.visible = global::WeatherApp.Droid.Resource.Id.visible;
+			global::Acr.UserDialogs.Resource.Id.withText = global::WeatherApp.Droid.Resource.Id.withText;
+			global::Acr.UserDialogs.Resource.Id.wrap_content = global::WeatherApp.Droid.Resource.Id.wrap_content;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityDefaultDur = global::WeatherApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Acr.UserDialogs.Resource.Integer.abc_config_activityShortDur = global::WeatherApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Acr.UserDialogs.Resource.Integer.app_bar_elevation_anim_duration = global::WeatherApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.bottom_sheet_slide_duration = global::WeatherApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Acr.UserDialogs.Resource.Integer.cancel_button_image_alpha = global::WeatherApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Acr.UserDialogs.Resource.Integer.config_tooltipAnimTime = global::WeatherApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Acr.UserDialogs.Resource.Integer.design_snackbar_text_max_lines = global::WeatherApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Acr.UserDialogs.Resource.Integer.design_tab_indicator_anim_duration_ms = global::WeatherApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.hide_password_duration = global::WeatherApp.Droid.Resource.Integer.hide_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_delay_ms = global::WeatherApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_btn_anim_duration_ms = global::WeatherApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_chip_anim_duration = global::WeatherApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Acr.UserDialogs.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::WeatherApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Acr.UserDialogs.Resource.Integer.show_password_duration = global::WeatherApp.Droid.Resource.Integer.show_password_duration;
+			global::Acr.UserDialogs.Resource.Integer.status_bar_notification_info_maxnum = global::WeatherApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::WeatherApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::WeatherApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::WeatherApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::WeatherApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::WeatherApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::WeatherApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Acr.UserDialogs.Resource.Interpolator.fast_out_slow_in = global::WeatherApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_linear_in = global::WeatherApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_fast_out_slow_in = global::WeatherApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear = global::WeatherApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Acr.UserDialogs.Resource.Interpolator.mtrl_linear_out_slow_in = global::WeatherApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_title_item = global::WeatherApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_bar_up_container = global::WeatherApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_item_layout = global::WeatherApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_menu_layout = global::WeatherApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_bar = global::WeatherApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Acr.UserDialogs.Resource.Layout.abc_action_mode_close_item_material = global::WeatherApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view = global::WeatherApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_activity_chooser_view_list_item = global::WeatherApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_button_bar_material = global::WeatherApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_material = global::WeatherApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_alert_dialog_title_material = global::WeatherApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_cascading_menu_item_layout = global::WeatherApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_dialog_title_material = global::WeatherApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_expanded_menu_layout = global::WeatherApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_checkbox = global::WeatherApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_icon = global::WeatherApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_layout = global::WeatherApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_list_menu_item_radio = global::WeatherApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_header_item_layout = global::WeatherApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_popup_menu_item_layout = global::WeatherApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_content_include = global::WeatherApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple = global::WeatherApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_simple_overlay_action_mode = global::WeatherApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Acr.UserDialogs.Resource.Layout.abc_screen_toolbar = global::WeatherApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_dropdown_item_icons_2line = global::WeatherApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Acr.UserDialogs.Resource.Layout.abc_search_view = global::WeatherApp.Droid.Resource.Layout.abc_search_view;
+			global::Acr.UserDialogs.Resource.Layout.abc_select_dialog_material = global::WeatherApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Acr.UserDialogs.Resource.Layout.abc_tooltip = global::WeatherApp.Droid.Resource.Layout.abc_tooltip;
+			global::Acr.UserDialogs.Resource.Layout.custom_dialog = global::WeatherApp.Droid.Resource.Layout.custom_dialog;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_navigation_item = global::WeatherApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_bottom_sheet_dialog = global::WeatherApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar = global::WeatherApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_snackbar_include = global::WeatherApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_icon = global::WeatherApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Acr.UserDialogs.Resource.Layout.design_layout_tab_text = global::WeatherApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Acr.UserDialogs.Resource.Layout.design_menu_item_action_area = global::WeatherApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item = global::WeatherApp.Droid.Resource.Layout.design_navigation_item;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_header = global::WeatherApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_separator = global::WeatherApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_item_subheader = global::WeatherApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu = global::WeatherApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Acr.UserDialogs.Resource.Layout.design_navigation_menu_item = global::WeatherApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Acr.UserDialogs.Resource.Layout.loading = global::WeatherApp.Droid.Resource.Layout.loading;
+			global::Acr.UserDialogs.Resource.Layout.loadingimage = global::WeatherApp.Droid.Resource.Layout.loadingimage;
+			global::Acr.UserDialogs.Resource.Layout.loadingprogress = global::WeatherApp.Droid.Resource.Layout.loadingprogress;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar = global::WeatherApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Acr.UserDialogs.Resource.Layout.mtrl_layout_snackbar_include = global::WeatherApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Acr.UserDialogs.Resource.Layout.notification_action = global::WeatherApp.Droid.Resource.Layout.notification_action;
+			global::Acr.UserDialogs.Resource.Layout.notification_action_tombstone = global::WeatherApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_custom_big = global::WeatherApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_icon_group = global::WeatherApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_chronometer = global::WeatherApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Acr.UserDialogs.Resource.Layout.notification_template_part_time = global::WeatherApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_item_material = global::WeatherApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_multichoice_material = global::WeatherApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Acr.UserDialogs.Resource.Layout.select_dialog_singlechoice_material = global::WeatherApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Acr.UserDialogs.Resource.Layout.support_simple_spinner_dropdown_item = global::WeatherApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_home_description = global::WeatherApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_bar_up_description = global::WeatherApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_menu_overflow_description = global::WeatherApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Acr.UserDialogs.Resource.String.abc_action_mode_done = global::WeatherApp.Droid.Resource.String.abc_action_mode_done;
+			global::Acr.UserDialogs.Resource.String.abc_activitychooserview_choose_application = global::WeatherApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Acr.UserDialogs.Resource.String.abc_activity_chooser_view_see_all = global::WeatherApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Acr.UserDialogs.Resource.String.abc_capital_off = global::WeatherApp.Droid.Resource.String.abc_capital_off;
+			global::Acr.UserDialogs.Resource.String.abc_capital_on = global::WeatherApp.Droid.Resource.String.abc_capital_on;
+			global::Acr.UserDialogs.Resource.String.abc_menu_alt_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_ctrl_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_delete_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_enter_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_function_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_meta_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_shift_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_space_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_menu_sym_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_prepend_shortcut_label = global::WeatherApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_clear = global::WeatherApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_query = global::WeatherApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_search = global::WeatherApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_submit = global::WeatherApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Acr.UserDialogs.Resource.String.abc_searchview_description_voice = global::WeatherApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Acr.UserDialogs.Resource.String.abc_search_hint = global::WeatherApp.Droid.Resource.String.abc_search_hint;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with = global::WeatherApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Acr.UserDialogs.Resource.String.abc_shareactionprovider_share_with_application = global::WeatherApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Acr.UserDialogs.Resource.String.abc_toolbar_collapse_description = global::WeatherApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Acr.UserDialogs.Resource.String.appbar_scrolling_view_behavior = global::WeatherApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Acr.UserDialogs.Resource.String.bottom_sheet_behavior = global::WeatherApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.character_counter_content_description = global::WeatherApp.Droid.Resource.String.character_counter_content_description;
+			global::Acr.UserDialogs.Resource.String.character_counter_pattern = global::WeatherApp.Droid.Resource.String.character_counter_pattern;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_scrim_behavior = global::WeatherApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Acr.UserDialogs.Resource.String.fab_transformation_sheet_behavior = global::WeatherApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Acr.UserDialogs.Resource.String.hide_bottom_view_on_scroll_behavior = global::WeatherApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Acr.UserDialogs.Resource.String.library_name = global::WeatherApp.Droid.Resource.String.library_name;
+			global::Acr.UserDialogs.Resource.String.mtrl_chip_close_icon_content_description = global::WeatherApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Acr.UserDialogs.Resource.String.password_toggle_content_description = global::WeatherApp.Droid.Resource.String.password_toggle_content_description;
+			global::Acr.UserDialogs.Resource.String.path_password_eye = global::WeatherApp.Droid.Resource.String.path_password_eye;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_strike_through = global::WeatherApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Acr.UserDialogs.Resource.String.path_password_eye_mask_visible = global::WeatherApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Acr.UserDialogs.Resource.String.path_password_strike_through = global::WeatherApp.Droid.Resource.String.path_password_strike_through;
+			global::Acr.UserDialogs.Resource.String.search_menu_title = global::WeatherApp.Droid.Resource.String.search_menu_title;
+			global::Acr.UserDialogs.Resource.String.status_bar_notification_info_overflow = global::WeatherApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat = global::WeatherApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.AlertDialog_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_DropDownUp = global::WeatherApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Animation_AppCompat_Tooltip = global::WeatherApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Animation_Design_BottomSheetDialog = global::WeatherApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_AlertDialog_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::WeatherApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Acr.UserDialogs.Resource.Style.Base_Animation_AppCompat_Tooltip = global::WeatherApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_CardView = global::WeatherApp.Droid.Resource.Style.Base_CardView;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_DialogWindowTitle_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Button = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::WeatherApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Acr.UserDialogs.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V22_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V23_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::WeatherApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V28_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::WeatherApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::WeatherApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::WeatherApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActionMode = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Button_Small = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_EditText = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ImageButton = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::WeatherApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_Design_TabLayout = global::WeatherApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_Chip = global::WeatherApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::WeatherApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::WeatherApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.CardView = global::WeatherApp.Droid.Resource.Style.CardView;
+			global::Acr.UserDialogs.Resource.Style.CardView_Dark = global::WeatherApp.Droid.Resource.Style.CardView_Dark;
+			global::Acr.UserDialogs.Resource.Style.CardView_Light = global::WeatherApp.Droid.Resource.Style.CardView_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat = global::WeatherApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents = global::WeatherApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light = global::WeatherApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat = global::WeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::WeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat = global::WeatherApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V21_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat = global::WeatherApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Platform_V25_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Platform_Widget_AppCompat_Spinner = global::WeatherApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::WeatherApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Acr.UserDialogs.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::WeatherApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::WeatherApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::WeatherApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body1 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Body2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Button = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Caption = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display1 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display3 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Display4 = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Headline = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Menu = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Tooltip = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::WeatherApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification = global::WeatherApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Info = global::WeatherApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Time = global::WeatherApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Compat_Notification_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Counter_Overflow = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Error = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_HelperText = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Hint = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Snackbar_Message = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Design_Tab = global::WeatherApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Button = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Caption = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Chip = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Overline = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::WeatherApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::WeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::WeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Acr.UserDialogs.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::WeatherApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::WeatherApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_CompactMenu = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_AppCompat_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design = global::WeatherApp.Droid.Resource.Style.Theme_Design;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_BottomSheetDialog = global::WeatherApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light = global::WeatherApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::WeatherApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_Light_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_Design_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Bridge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_CompactMenu = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Acr.UserDialogs.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::WeatherApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActionMode = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ActivityChooserView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Colored = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Button_Small = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_EditText = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ImageButton = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_SearchView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListMenuView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListPopupWindow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_DropDown = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ListView_Menu = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_PopupWindow = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_RatingBar_Small = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::WeatherApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionContainer = global::WeatherApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Acr.UserDialogs.Resource.Style.Widget_Compat_NotificationActionText = global::WeatherApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_AppBarLayout = global::WeatherApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomNavigationView = global::WeatherApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_BottomSheet_Modal = global::WeatherApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_CollapsingToolbar = global::WeatherApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_FloatingActionButton = global::WeatherApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_NavigationView = global::WeatherApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::WeatherApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_Snackbar = global::WeatherApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TabLayout = global::WeatherApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_Design_TextInputLayout = global::WeatherApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_Icon = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_CardView = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_ChipGroup = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Action = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_NavigationView = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Acr.UserDialogs.Resource.Style.Widget_MaterialComponents_Toolbar = global::WeatherApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Acr.UserDialogs.Resource.Style.Widget_Support_CoordinatorLayout = global::WeatherApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar = global::WeatherApp.Droid.Resource.Styleable.ActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout = global::WeatherApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::WeatherApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_background = global::WeatherApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundSplit = global::WeatherApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_backgroundStacked = global::WeatherApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEnd = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetLeft = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetRight = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStart = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::WeatherApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_customNavigationLayout = global::WeatherApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_displayOptions = global::WeatherApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_divider = global::WeatherApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_elevation = global::WeatherApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_height = global::WeatherApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_hideOnContentScroll = global::WeatherApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeAsUpIndicator = global::WeatherApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_homeLayout = global::WeatherApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_icon = global::WeatherApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::WeatherApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_itemPadding = global::WeatherApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_logo = global::WeatherApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_navigationMode = global::WeatherApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_popupTheme = global::WeatherApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarPadding = global::WeatherApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_progressBarStyle = global::WeatherApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitle = global::WeatherApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_subtitleTextStyle = global::WeatherApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_title = global::WeatherApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Acr.UserDialogs.Resource.Styleable.ActionBar_titleTextStyle = global::WeatherApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView = global::WeatherApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuItemView_android_minWidth = global::WeatherApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMenuView = global::WeatherApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode = global::WeatherApp.Droid.Resource.Styleable.ActionMode;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_background = global::WeatherApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_backgroundSplit = global::WeatherApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_closeItemLayout = global::WeatherApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_height = global::WeatherApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_subtitleTextStyle = global::WeatherApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActionMode_titleTextStyle = global::WeatherApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView = global::WeatherApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::WeatherApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.ActivityChooserView_initialActivityCount = global::WeatherApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog = global::WeatherApp.Droid.Resource.Styleable.AlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_android_layout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonIconDimen = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listItemLayout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_listLayout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_showTitle = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::WeatherApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Acr.UserDialogs.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::WeatherApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates = global::WeatherApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::WeatherApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::WeatherApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_liftable = global::WeatherApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayoutStates_state_lifted = global::WeatherApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_background = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_elevation = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_expanded = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Acr.UserDialogs.Resource.Styleable.AppBarLayout_liftOnScroll = global::WeatherApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView = global::WeatherApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_android_src = global::WeatherApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_srcCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tint = global::WeatherApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatImageView_tintMode = global::WeatherApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar = global::WeatherApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_android_thumb = global::WeatherApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMark = global::WeatherApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::WeatherApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::WeatherApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_android_textAppearance = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTint = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTintMode = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontFamily = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_lineHeight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textAllCaps = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTextView_textLocale = global::WeatherApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarDivider = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSize = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkboxStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorAccent = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlActivated = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorControlNormal = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorError = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimary = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_controlBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dialogTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dividerVertical = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextColor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_editTextStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_searchViewStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_seekBarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_spinnerStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_switchStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_toolbarStyle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBar = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Acr.UserDialogs.Resource.Styleable.AppCompatTheme_windowNoTitle = global::WeatherApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_backgroundTint = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleMargin = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.BottomAppBar_hideOnScroll = global::WeatherApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView = global::WeatherApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::WeatherApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout = global::WeatherApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::WeatherApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::WeatherApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::WeatherApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Acr.UserDialogs.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::WeatherApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout = global::WeatherApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ButtonBarLayout_allowStacking = global::WeatherApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Acr.UserDialogs.Resource.Styleable.CardView = global::WeatherApp.Droid.Resource.Styleable.CardView;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minHeight = global::WeatherApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_android_minWidth = global::WeatherApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardBackgroundColor = global::WeatherApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardCornerRadius = global::WeatherApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardElevation = global::WeatherApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardMaxElevation = global::WeatherApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardPreventCornerOverlap = global::WeatherApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_cardUseCompatPadding = global::WeatherApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPadding = global::WeatherApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingBottom = global::WeatherApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingLeft = global::WeatherApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingRight = global::WeatherApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Acr.UserDialogs.Resource.Styleable.CardView_contentPaddingTop = global::WeatherApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.Chip = global::WeatherApp.Droid.Resource.Styleable.Chip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup = global::WeatherApp.Droid.Resource.Styleable.ChipGroup;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_checkedChip = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacing = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_chipSpacingVertical = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleLine = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Acr.UserDialogs.Resource.Styleable.ChipGroup_singleSelection = global::WeatherApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_checkable = global::WeatherApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_ellipsize = global::WeatherApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_maxWidth = global::WeatherApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_text = global::WeatherApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_android_textAppearance = global::WeatherApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIcon = global::WeatherApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconEnabled = global::WeatherApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_checkedIconVisible = global::WeatherApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipBackgroundColor = global::WeatherApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipCornerRadius = global::WeatherApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipEndPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIcon = global::WeatherApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconEnabled = global::WeatherApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconSize = global::WeatherApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconTint = global::WeatherApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipIconVisible = global::WeatherApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipMinHeight = global::WeatherApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStartPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeColor = global::WeatherApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_chipStrokeWidth = global::WeatherApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIcon = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEnabled = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconEndPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconSize = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconStartPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconTint = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_closeIconVisible = global::WeatherApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_hideMotionSpec = global::WeatherApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconEndPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_iconStartPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_rippleColor = global::WeatherApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_showMotionSpec = global::WeatherApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textEndPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Acr.UserDialogs.Resource.Styleable.Chip_textStartPadding = global::WeatherApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_title = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::WeatherApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem = global::WeatherApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_alpha = global::WeatherApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_alpha = global::WeatherApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Acr.UserDialogs.Resource.Styleable.ColorStateListItem_android_color = global::WeatherApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton = global::WeatherApp.Droid.Resource.Styleable.CompoundButton;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_android_button = global::WeatherApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonCompat = global::WeatherApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTint = global::WeatherApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Acr.UserDialogs.Resource.Styleable.CompoundButton_buttonTintMode = global::WeatherApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_keylines = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Acr.UserDialogs.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::WeatherApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_barLength = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_color = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_drawableSize = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_spinBars = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Acr.UserDialogs.Resource.Styleable.DrawerArrowToggle_thickness = global::WeatherApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTint = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_borderWidth = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_elevation = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabCustomSize = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_fabSize = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_maxImageSize = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_rippleColor = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_showMotionSpec = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Acr.UserDialogs.Resource.Styleable.FloatingActionButton_useCompatPadding = global::WeatherApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout = global::WeatherApp.Droid.Resource.Styleable.FlowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_itemSpacing = global::WeatherApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FlowLayout_lineSpacing = global::WeatherApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily = global::WeatherApp.Droid.Resource.Styleable.FontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_font = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontStyle = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_fontWeight = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_font = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontStyle = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_fontWeight = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamilyFont_ttcIndex = global::WeatherApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderAuthority = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderCerts = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderPackage = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Acr.UserDialogs.Resource.Styleable.FontFamily_fontProviderQuery = global::WeatherApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout = global::WeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::WeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::WeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Acr.UserDialogs.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::WeatherApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor = global::WeatherApp.Droid.Resource.Styleable.GradientColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem = global::WeatherApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_color = global::WeatherApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColorItem_android_offset = global::WeatherApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerColor = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerX = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_centerY = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endColor = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endX = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_endY = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_gradientRadius = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startColor = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startX = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_startY = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_tileMode = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Acr.UserDialogs.Resource.Styleable.GradientColor_android_type = global::WeatherApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_gravity = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_orientation = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_divider = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Acr.UserDialogs.Resource.Styleable.LinearLayoutCompat_showDividers = global::WeatherApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow = global::WeatherApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::WeatherApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::WeatherApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton = global::WeatherApp.Droid.Resource.Styleable.MaterialButton;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetBottom = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetLeft = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetRight = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_android_insetTop = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTint = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_backgroundTintMode = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_cornerRadius = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_icon = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconGravity = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconPadding = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconSize = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTint = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_iconTintMode = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_rippleColor = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeColor = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialButton_strokeWidth = global::WeatherApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView = global::WeatherApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeColor = global::WeatherApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.MaterialCardView_strokeWidth = global::WeatherApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup = global::WeatherApp.Droid.Resource.Styleable.MenuGroup;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_checkableBehavior = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_enabled = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_id = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_menuCategory = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_orderInCategory = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuGroup_android_visible = global::WeatherApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem = global::WeatherApp.Droid.Resource.Styleable.MenuItem;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionLayout = global::WeatherApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionProviderClass = global::WeatherApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_actionViewClass = global::WeatherApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_alphabeticModifiers = global::WeatherApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checkable = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_checked = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_enabled = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_icon = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_id = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_menuCategory = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_numericShortcut = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_onClick = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_orderInCategory = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_title = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_titleCondensed = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_android_visible = global::WeatherApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_contentDescription = global::WeatherApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTint = global::WeatherApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_iconTintMode = global::WeatherApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_numericModifiers = global::WeatherApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_showAsAction = global::WeatherApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Acr.UserDialogs.Resource.Styleable.MenuItem_tooltipText = global::WeatherApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView = global::WeatherApp.Droid.Resource.Styleable.MenuView;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_headerBackground = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_horizontalDivider = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemBackground = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_itemTextAppearance = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_verticalDivider = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_android_windowAnimationStyle = global::WeatherApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_preserveIconSpacing = global::WeatherApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Acr.UserDialogs.Resource.Styleable.MenuView_subMenuArrow = global::WeatherApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView = global::WeatherApp.Droid.Resource.Styleable.NavigationView;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_background = global::WeatherApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::WeatherApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_android_maxWidth = global::WeatherApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_elevation = global::WeatherApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_headerLayout = global::WeatherApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemBackground = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemHorizontalPadding = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconPadding = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemIconTint = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextAppearance = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_itemTextColor = global::WeatherApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.NavigationView_menu = global::WeatherApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow = global::WeatherApp.Droid.Resource.Styleable.PopupWindow;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState = global::WeatherApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::WeatherApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::WeatherApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_android_popupBackground = global::WeatherApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.PopupWindow_overlapAnchor = global::WeatherApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarLength = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahBarWidth = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahCircleColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahDelayMillis = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRadius = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahRimWidth = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahText = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.ProgressWheel_ahTextSize = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView = global::WeatherApp.Droid.Resource.Styleable.RecycleListView;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::WeatherApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Acr.UserDialogs.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::WeatherApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView = global::WeatherApp.Droid.Resource.Styleable.RecyclerView;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_clipToPadding = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_descendantFocusability = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_android_orientation = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollEnabled = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_layoutManager = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_reverseLayout = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_spanCount = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Acr.UserDialogs.Resource.Styleable.RecyclerView_stackFromEnd = global::WeatherApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout = global::WeatherApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::WeatherApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout = global::WeatherApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Acr.UserDialogs.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::WeatherApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView = global::WeatherApp.Droid.Resource.Styleable.SearchView;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_focusable = global::WeatherApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_imeOptions = global::WeatherApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_inputType = global::WeatherApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_android_maxWidth = global::WeatherApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_closeIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_commitIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_defaultQueryHint = global::WeatherApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_goIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_iconifiedByDefault = global::WeatherApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_layout = global::WeatherApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryBackground = global::WeatherApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_queryHint = global::WeatherApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchHintIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_searchIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_submitBackground = global::WeatherApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_suggestionRowLayout = global::WeatherApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SearchView_voiceIcon = global::WeatherApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar = global::WeatherApp.Droid.Resource.Styleable.Snackbar;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout = global::WeatherApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_android_maxWidth = global::WeatherApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_elevation = global::WeatherApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Acr.UserDialogs.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::WeatherApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarButtonStyle = global::WeatherApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Snackbar_snackbarStyle = global::WeatherApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner = global::WeatherApp.Droid.Resource.Styleable.Spinner;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_dropDownWidth = global::WeatherApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_entries = global::WeatherApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_popupBackground = global::WeatherApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_android_prompt = global::WeatherApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Acr.UserDialogs.Resource.Styleable.Spinner_popupTheme = global::WeatherApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem = global::WeatherApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawableItem_android_drawable = global::WeatherApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_constantSize = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_dither = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_variablePadding = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Acr.UserDialogs.Resource.Styleable.StateListDrawable_android_visible = global::WeatherApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOff = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_textOn = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_android_thumb = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_showText = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_splitTrack = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchMinWidth = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchPadding = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_switchTextAppearance = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTextPadding = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTint = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_thumbTintMode = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_track = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTint = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Acr.UserDialogs.Resource.Styleable.SwitchCompat_trackTintMode = global::WeatherApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem = global::WeatherApp.Droid.Resource.Styleable.TabItem;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_icon = global::WeatherApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_layout = global::WeatherApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.TabItem_android_text = global::WeatherApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout = global::WeatherApp.Droid.Resource.Styleable.TabLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabBackground = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabContentStart = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabGravity = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTint = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIconTintMode = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicator = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorColor = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorGravity = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabIndicatorHeight = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabInlineLabel = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMaxWidth = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMinWidth = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabMode = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPadding = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingBottom = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingEnd = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingStart = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabPaddingTop = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabRippleColor = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabSelectedTextColor = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabTextColor = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.TabLayout_tabUnboundedRipple = global::WeatherApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_fontFamily = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowColor = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDx = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowDy = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_shadowRadius = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColor = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorHint = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textColorLink = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textFontWeight = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textSize = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_textStyle = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_android_typeface = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontFamily = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_fontVariationSettings = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textAllCaps = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Acr.UserDialogs.Resource.Styleable.TextAppearance_textLocale = global::WeatherApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_hint = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_android_textColorHint = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeColor = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterMaxLength = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_counterTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_errorTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperText = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_hintTextAppearance = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTint = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Acr.UserDialogs.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::WeatherApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement = global::WeatherApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::WeatherApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::WeatherApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Acr.UserDialogs.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::WeatherApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar = global::WeatherApp.Droid.Resource.Styleable.Toolbar;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_gravity = global::WeatherApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_android_minHeight = global::WeatherApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_buttonGravity = global::WeatherApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseContentDescription = global::WeatherApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_collapseIcon = global::WeatherApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEnd = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetLeft = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetRight = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStart = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::WeatherApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logo = global::WeatherApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_logoDescription = global::WeatherApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_maxButtonHeight = global::WeatherApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_menu = global::WeatherApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationContentDescription = global::WeatherApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_navigationIcon = global::WeatherApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_popupTheme = global::WeatherApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitle = global::WeatherApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextAppearance = global::WeatherApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_subtitleTextColor = global::WeatherApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_title = global::WeatherApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargin = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginBottom = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginEnd = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMargins = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginStart = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleMarginTop = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextAppearance = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Acr.UserDialogs.Resource.Styleable.Toolbar_titleTextColor = global::WeatherApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Acr.UserDialogs.Resource.Styleable.View = global::WeatherApp.Droid.Resource.Styleable.View;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper = global::WeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_android_background = global::WeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::WeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Acr.UserDialogs.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::WeatherApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat = global::WeatherApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_id = global::WeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_inflatedId = global::WeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Acr.UserDialogs.Resource.Styleable.ViewStubCompat_android_layout = global::WeatherApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_focusable = global::WeatherApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Acr.UserDialogs.Resource.Styleable.View_android_theme = global::WeatherApp.Droid.Resource.Styleable.View_android_theme;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingEnd = global::WeatherApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Acr.UserDialogs.Resource.Styleable.View_paddingStart = global::WeatherApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Acr.UserDialogs.Resource.Styleable.View_theme = global::WeatherApp.Droid.Resource.Styleable.View_theme;
+			global::AndroidHUD.Resource.Attribute.ahBarColor = global::WeatherApp.Droid.Resource.Attribute.ahBarColor;
+			global::AndroidHUD.Resource.Attribute.ahBarLength = global::WeatherApp.Droid.Resource.Attribute.ahBarLength;
+			global::AndroidHUD.Resource.Attribute.ahBarWidth = global::WeatherApp.Droid.Resource.Attribute.ahBarWidth;
+			global::AndroidHUD.Resource.Attribute.ahCircleColor = global::WeatherApp.Droid.Resource.Attribute.ahCircleColor;
+			global::AndroidHUD.Resource.Attribute.ahDelayMillis = global::WeatherApp.Droid.Resource.Attribute.ahDelayMillis;
+			global::AndroidHUD.Resource.Attribute.ahRadius = global::WeatherApp.Droid.Resource.Attribute.ahRadius;
+			global::AndroidHUD.Resource.Attribute.ahRimColor = global::WeatherApp.Droid.Resource.Attribute.ahRimColor;
+			global::AndroidHUD.Resource.Attribute.ahRimWidth = global::WeatherApp.Droid.Resource.Attribute.ahRimWidth;
+			global::AndroidHUD.Resource.Attribute.ahSpinSpeed = global::WeatherApp.Droid.Resource.Attribute.ahSpinSpeed;
+			global::AndroidHUD.Resource.Attribute.ahText = global::WeatherApp.Droid.Resource.Attribute.ahText;
+			global::AndroidHUD.Resource.Attribute.ahTextColor = global::WeatherApp.Droid.Resource.Attribute.ahTextColor;
+			global::AndroidHUD.Resource.Attribute.ahTextSize = global::WeatherApp.Droid.Resource.Attribute.ahTextSize;
+			global::AndroidHUD.Resource.Drawable.ic_errorstatus = global::WeatherApp.Droid.Resource.Drawable.ic_errorstatus;
+			global::AndroidHUD.Resource.Drawable.ic_successstatus = global::WeatherApp.Droid.Resource.Drawable.ic_successstatus;
+			global::AndroidHUD.Resource.Drawable.roundedbg = global::WeatherApp.Droid.Resource.Drawable.roundedbg;
+			global::AndroidHUD.Resource.Drawable.roundedbgdark = global::WeatherApp.Droid.Resource.Drawable.roundedbgdark;
+			global::AndroidHUD.Resource.Id.loadingImage = global::WeatherApp.Droid.Resource.Id.loadingImage;
+			global::AndroidHUD.Resource.Id.loadingProgressBar = global::WeatherApp.Droid.Resource.Id.loadingProgressBar;
+			global::AndroidHUD.Resource.Id.loadingProgressWheel = global::WeatherApp.Droid.Resource.Id.loadingProgressWheel;
+			global::AndroidHUD.Resource.Id.textViewStatus = global::WeatherApp.Droid.Resource.Id.textViewStatus;
+			global::AndroidHUD.Resource.Layout.loading = global::WeatherApp.Droid.Resource.Layout.loading;
+			global::AndroidHUD.Resource.Layout.loadingimage = global::WeatherApp.Droid.Resource.Layout.loadingimage;
+			global::AndroidHUD.Resource.Layout.loadingprogress = global::WeatherApp.Droid.Resource.Layout.loadingprogress;
+			global::AndroidHUD.Resource.String.library_name = global::WeatherApp.Droid.Resource.String.library_name;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarLength;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahBarWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahCircleColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahDelayMillis;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRadius;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRimColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahRimWidth;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahSpinSpeed;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahText = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahText;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahTextColor;
+			global::AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize = global::WeatherApp.Droid.Resource.Styleable.ProgressWheel_ahTextSize;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::WeatherApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::WeatherApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::WeatherApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -10997,2368 +13620,2404 @@ namespace WeatherApp.Droid
 			public const int adjustable = 2130903081;
 			
 			// aapt resource value: 0x7F03002A
-			public const int alertDialogButtonGroupStyle = 2130903082;
+			public const int ahBarColor = 2130903082;
 			
 			// aapt resource value: 0x7F03002B
-			public const int alertDialogCenterButtons = 2130903083;
+			public const int ahBarLength = 2130903083;
 			
 			// aapt resource value: 0x7F03002C
-			public const int alertDialogStyle = 2130903084;
+			public const int ahBarWidth = 2130903084;
 			
 			// aapt resource value: 0x7F03002D
-			public const int alertDialogTheme = 2130903085;
+			public const int ahCircleColor = 2130903085;
 			
 			// aapt resource value: 0x7F03002E
-			public const int allowDividerAbove = 2130903086;
+			public const int ahDelayMillis = 2130903086;
 			
 			// aapt resource value: 0x7F03002F
-			public const int allowDividerAfterLastItem = 2130903087;
+			public const int ahRadius = 2130903087;
 			
 			// aapt resource value: 0x7F030030
-			public const int allowDividerBelow = 2130903088;
+			public const int ahRimColor = 2130903088;
 			
 			// aapt resource value: 0x7F030031
-			public const int allowStacking = 2130903089;
+			public const int ahRimWidth = 2130903089;
 			
 			// aapt resource value: 0x7F030032
-			public const int alpha = 2130903090;
+			public const int ahSpinSpeed = 2130903090;
 			
 			// aapt resource value: 0x7F030033
-			public const int alphabeticModifiers = 2130903091;
+			public const int ahText = 2130903091;
 			
 			// aapt resource value: 0x7F030034
-			public const int altSrc = 2130903092;
+			public const int ahTextColor = 2130903092;
 			
 			// aapt resource value: 0x7F030035
-			public const int animateCircleAngleTo = 2130903093;
+			public const int ahTextSize = 2130903093;
 			
 			// aapt resource value: 0x7F030036
-			public const int animateRelativeTo = 2130903094;
+			public const int alertDialogButtonGroupStyle = 2130903094;
 			
 			// aapt resource value: 0x7F030037
-			public const int animationMode = 2130903095;
+			public const int alertDialogCenterButtons = 2130903095;
 			
 			// aapt resource value: 0x7F030038
-			public const int appBarLayoutStyle = 2130903096;
+			public const int alertDialogStyle = 2130903096;
 			
 			// aapt resource value: 0x7F030039
-			public const int applyMotionScene = 2130903097;
+			public const int alertDialogTheme = 2130903097;
 			
 			// aapt resource value: 0x7F03003A
-			public const int arcMode = 2130903098;
+			public const int allowDividerAbove = 2130903098;
 			
 			// aapt resource value: 0x7F03003B
-			public const int argType = 2130903099;
+			public const int allowDividerAfterLastItem = 2130903099;
 			
 			// aapt resource value: 0x7F03003C
-			public const int arrowHeadLength = 2130903100;
+			public const int allowDividerBelow = 2130903100;
 			
 			// aapt resource value: 0x7F03003D
-			public const int arrowShaftLength = 2130903101;
+			public const int allowStacking = 2130903101;
 			
 			// aapt resource value: 0x7F03003E
-			public const int attributeName = 2130903102;
+			public const int alpha = 2130903102;
 			
 			// aapt resource value: 0x7F03003F
-			public const int autoCompleteMode = 2130903103;
+			public const int alphabeticModifiers = 2130903103;
 			
 			// aapt resource value: 0x7F030040
-			public const int autoCompleteTextViewStyle = 2130903104;
+			public const int altSrc = 2130903104;
 			
 			// aapt resource value: 0x7F030041
-			public const int autoSizeMaxTextSize = 2130903105;
+			public const int animateCircleAngleTo = 2130903105;
 			
 			// aapt resource value: 0x7F030042
-			public const int autoSizeMinTextSize = 2130903106;
+			public const int animateRelativeTo = 2130903106;
 			
 			// aapt resource value: 0x7F030043
-			public const int autoSizePresetSizes = 2130903107;
+			public const int animationMode = 2130903107;
 			
 			// aapt resource value: 0x7F030044
-			public const int autoSizeStepGranularity = 2130903108;
+			public const int appBarLayoutStyle = 2130903108;
 			
 			// aapt resource value: 0x7F030045
-			public const int autoSizeTextType = 2130903109;
+			public const int applyMotionScene = 2130903109;
 			
 			// aapt resource value: 0x7F030046
-			public const int autoTransition = 2130903110;
+			public const int arcMode = 2130903110;
 			
 			// aapt resource value: 0x7F030047
-			public const int background = 2130903111;
+			public const int argType = 2130903111;
 			
 			// aapt resource value: 0x7F030048
-			public const int backgroundColor = 2130903112;
+			public const int arrowHeadLength = 2130903112;
 			
 			// aapt resource value: 0x7F030049
-			public const int backgroundInsetBottom = 2130903113;
+			public const int arrowShaftLength = 2130903113;
 			
 			// aapt resource value: 0x7F03004A
-			public const int backgroundInsetEnd = 2130903114;
+			public const int attributeName = 2130903114;
 			
 			// aapt resource value: 0x7F03004B
-			public const int backgroundInsetStart = 2130903115;
+			public const int autoCompleteMode = 2130903115;
 			
 			// aapt resource value: 0x7F03004C
-			public const int backgroundInsetTop = 2130903116;
+			public const int autoCompleteTextViewStyle = 2130903116;
 			
 			// aapt resource value: 0x7F03004D
-			public const int backgroundOverlayColorAlpha = 2130903117;
+			public const int autoSizeMaxTextSize = 2130903117;
 			
 			// aapt resource value: 0x7F03004E
-			public const int backgroundSplit = 2130903118;
+			public const int autoSizeMinTextSize = 2130903118;
 			
 			// aapt resource value: 0x7F03004F
-			public const int backgroundStacked = 2130903119;
+			public const int autoSizePresetSizes = 2130903119;
 			
 			// aapt resource value: 0x7F030050
-			public const int backgroundTint = 2130903120;
+			public const int autoSizeStepGranularity = 2130903120;
 			
 			// aapt resource value: 0x7F030051
-			public const int backgroundTintMode = 2130903121;
+			public const int autoSizeTextType = 2130903121;
 			
 			// aapt resource value: 0x7F030052
-			public const int badgeGravity = 2130903122;
+			public const int autoTransition = 2130903122;
 			
 			// aapt resource value: 0x7F030053
-			public const int badgeStyle = 2130903123;
+			public const int background = 2130903123;
 			
 			// aapt resource value: 0x7F030054
-			public const int badgeTextColor = 2130903124;
+			public const int backgroundColor = 2130903124;
 			
 			// aapt resource value: 0x7F030055
-			public const int barLength = 2130903125;
+			public const int backgroundInsetBottom = 2130903125;
 			
 			// aapt resource value: 0x7F030056
-			public const int barrierAllowsGoneWidgets = 2130903126;
+			public const int backgroundInsetEnd = 2130903126;
 			
 			// aapt resource value: 0x7F030057
-			public const int barrierDirection = 2130903127;
+			public const int backgroundInsetStart = 2130903127;
 			
 			// aapt resource value: 0x7F030058
-			public const int barrierMargin = 2130903128;
+			public const int backgroundInsetTop = 2130903128;
 			
 			// aapt resource value: 0x7F030059
-			public const int behavior_autoHide = 2130903129;
+			public const int backgroundOverlayColorAlpha = 2130903129;
 			
 			// aapt resource value: 0x7F03005A
-			public const int behavior_autoShrink = 2130903130;
+			public const int backgroundSplit = 2130903130;
 			
 			// aapt resource value: 0x7F03005B
-			public const int behavior_draggable = 2130903131;
+			public const int backgroundStacked = 2130903131;
 			
 			// aapt resource value: 0x7F03005C
-			public const int behavior_expandedOffset = 2130903132;
+			public const int backgroundTint = 2130903132;
 			
 			// aapt resource value: 0x7F03005D
-			public const int behavior_fitToContents = 2130903133;
+			public const int backgroundTintMode = 2130903133;
 			
 			// aapt resource value: 0x7F03005E
-			public const int behavior_halfExpandedRatio = 2130903134;
+			public const int badgeGravity = 2130903134;
 			
 			// aapt resource value: 0x7F03005F
-			public const int behavior_hideable = 2130903135;
+			public const int badgeStyle = 2130903135;
 			
 			// aapt resource value: 0x7F030060
-			public const int behavior_overlapTop = 2130903136;
+			public const int badgeTextColor = 2130903136;
 			
 			// aapt resource value: 0x7F030061
-			public const int behavior_peekHeight = 2130903137;
+			public const int barLength = 2130903137;
 			
 			// aapt resource value: 0x7F030062
-			public const int behavior_saveFlags = 2130903138;
+			public const int barrierAllowsGoneWidgets = 2130903138;
 			
 			// aapt resource value: 0x7F030063
-			public const int behavior_skipCollapsed = 2130903139;
+			public const int barrierDirection = 2130903139;
 			
 			// aapt resource value: 0x7F030064
-			public const int blendSrc = 2130903140;
-			
-			// aapt resource value: 0x7F030068
-			public const int borderlessButtonStyle = 2130903144;
+			public const int barrierMargin = 2130903140;
 			
 			// aapt resource value: 0x7F030065
-			public const int borderRound = 2130903141;
+			public const int behavior_autoHide = 2130903141;
 			
 			// aapt resource value: 0x7F030066
-			public const int borderRoundPercent = 2130903142;
+			public const int behavior_autoShrink = 2130903142;
 			
 			// aapt resource value: 0x7F030067
-			public const int borderWidth = 2130903143;
+			public const int behavior_draggable = 2130903143;
+			
+			// aapt resource value: 0x7F030068
+			public const int behavior_expandedOffset = 2130903144;
 			
 			// aapt resource value: 0x7F030069
-			public const int bottomAppBarStyle = 2130903145;
+			public const int behavior_fitToContents = 2130903145;
 			
 			// aapt resource value: 0x7F03006A
-			public const int bottomNavigationStyle = 2130903146;
+			public const int behavior_halfExpandedRatio = 2130903146;
 			
 			// aapt resource value: 0x7F03006B
-			public const int bottomSheetDialogTheme = 2130903147;
+			public const int behavior_hideable = 2130903147;
 			
 			// aapt resource value: 0x7F03006C
-			public const int bottomSheetStyle = 2130903148;
+			public const int behavior_overlapTop = 2130903148;
 			
 			// aapt resource value: 0x7F03006D
-			public const int boxBackgroundColor = 2130903149;
+			public const int behavior_peekHeight = 2130903149;
 			
 			// aapt resource value: 0x7F03006E
-			public const int boxBackgroundMode = 2130903150;
+			public const int behavior_saveFlags = 2130903150;
 			
 			// aapt resource value: 0x7F03006F
-			public const int boxCollapsedPaddingTop = 2130903151;
+			public const int behavior_skipCollapsed = 2130903151;
 			
 			// aapt resource value: 0x7F030070
-			public const int boxCornerRadiusBottomEnd = 2130903152;
-			
-			// aapt resource value: 0x7F030071
-			public const int boxCornerRadiusBottomStart = 2130903153;
-			
-			// aapt resource value: 0x7F030072
-			public const int boxCornerRadiusTopEnd = 2130903154;
-			
-			// aapt resource value: 0x7F030073
-			public const int boxCornerRadiusTopStart = 2130903155;
+			public const int blendSrc = 2130903152;
 			
 			// aapt resource value: 0x7F030074
-			public const int boxStrokeColor = 2130903156;
+			public const int borderlessButtonStyle = 2130903156;
+			
+			// aapt resource value: 0x7F030071
+			public const int borderRound = 2130903153;
+			
+			// aapt resource value: 0x7F030072
+			public const int borderRoundPercent = 2130903154;
+			
+			// aapt resource value: 0x7F030073
+			public const int borderWidth = 2130903155;
 			
 			// aapt resource value: 0x7F030075
-			public const int boxStrokeErrorColor = 2130903157;
+			public const int bottomAppBarStyle = 2130903157;
 			
 			// aapt resource value: 0x7F030076
-			public const int boxStrokeWidth = 2130903158;
+			public const int bottomNavigationStyle = 2130903158;
 			
 			// aapt resource value: 0x7F030077
-			public const int boxStrokeWidthFocused = 2130903159;
+			public const int bottomSheetDialogTheme = 2130903159;
 			
 			// aapt resource value: 0x7F030078
-			public const int brightness = 2130903160;
+			public const int bottomSheetStyle = 2130903160;
 			
 			// aapt resource value: 0x7F030079
-			public const int buttonBarButtonStyle = 2130903161;
+			public const int boxBackgroundColor = 2130903161;
 			
 			// aapt resource value: 0x7F03007A
-			public const int buttonBarNegativeButtonStyle = 2130903162;
+			public const int boxBackgroundMode = 2130903162;
 			
 			// aapt resource value: 0x7F03007B
-			public const int buttonBarNeutralButtonStyle = 2130903163;
+			public const int boxCollapsedPaddingTop = 2130903163;
 			
 			// aapt resource value: 0x7F03007C
-			public const int buttonBarPositiveButtonStyle = 2130903164;
+			public const int boxCornerRadiusBottomEnd = 2130903164;
 			
 			// aapt resource value: 0x7F03007D
-			public const int buttonBarStyle = 2130903165;
+			public const int boxCornerRadiusBottomStart = 2130903165;
 			
 			// aapt resource value: 0x7F03007E
-			public const int buttonCompat = 2130903166;
+			public const int boxCornerRadiusTopEnd = 2130903166;
 			
 			// aapt resource value: 0x7F03007F
-			public const int buttonGravity = 2130903167;
+			public const int boxCornerRadiusTopStart = 2130903167;
 			
 			// aapt resource value: 0x7F030080
-			public const int buttonIconDimen = 2130903168;
+			public const int boxStrokeColor = 2130903168;
 			
 			// aapt resource value: 0x7F030081
-			public const int buttonPanelSideLayout = 2130903169;
+			public const int boxStrokeErrorColor = 2130903169;
 			
 			// aapt resource value: 0x7F030082
-			public const int buttonStyle = 2130903170;
+			public const int boxStrokeWidth = 2130903170;
 			
 			// aapt resource value: 0x7F030083
-			public const int buttonStyleSmall = 2130903171;
+			public const int boxStrokeWidthFocused = 2130903171;
 			
 			// aapt resource value: 0x7F030084
-			public const int buttonTint = 2130903172;
+			public const int brightness = 2130903172;
 			
 			// aapt resource value: 0x7F030085
-			public const int buttonTintMode = 2130903173;
+			public const int buttonBarButtonStyle = 2130903173;
 			
 			// aapt resource value: 0x7F030086
-			public const int cardBackgroundColor = 2130903174;
+			public const int buttonBarNegativeButtonStyle = 2130903174;
 			
 			// aapt resource value: 0x7F030087
-			public const int cardCornerRadius = 2130903175;
+			public const int buttonBarNeutralButtonStyle = 2130903175;
 			
 			// aapt resource value: 0x7F030088
-			public const int cardElevation = 2130903176;
+			public const int buttonBarPositiveButtonStyle = 2130903176;
 			
 			// aapt resource value: 0x7F030089
-			public const int cardForegroundColor = 2130903177;
+			public const int buttonBarStyle = 2130903177;
 			
 			// aapt resource value: 0x7F03008A
-			public const int cardMaxElevation = 2130903178;
+			public const int buttonCompat = 2130903178;
 			
 			// aapt resource value: 0x7F03008B
-			public const int cardPreventCornerOverlap = 2130903179;
+			public const int buttonGravity = 2130903179;
 			
 			// aapt resource value: 0x7F03008C
-			public const int cardUseCompatPadding = 2130903180;
+			public const int buttonIconDimen = 2130903180;
 			
 			// aapt resource value: 0x7F03008D
-			public const int cardViewStyle = 2130903181;
+			public const int buttonPanelSideLayout = 2130903181;
 			
 			// aapt resource value: 0x7F03008E
-			public const int carousel_backwardTransition = 2130903182;
+			public const int buttonStyle = 2130903182;
 			
 			// aapt resource value: 0x7F03008F
-			public const int carousel_emptyViewsBehavior = 2130903183;
+			public const int buttonStyleSmall = 2130903183;
 			
 			// aapt resource value: 0x7F030090
-			public const int carousel_firstView = 2130903184;
+			public const int buttonTint = 2130903184;
 			
 			// aapt resource value: 0x7F030091
-			public const int carousel_forwardTransition = 2130903185;
+			public const int buttonTintMode = 2130903185;
 			
 			// aapt resource value: 0x7F030092
-			public const int carousel_infinite = 2130903186;
+			public const int cardBackgroundColor = 2130903186;
 			
 			// aapt resource value: 0x7F030093
-			public const int carousel_nextState = 2130903187;
+			public const int cardCornerRadius = 2130903187;
 			
 			// aapt resource value: 0x7F030094
-			public const int carousel_previousState = 2130903188;
+			public const int cardElevation = 2130903188;
 			
 			// aapt resource value: 0x7F030095
-			public const int carousel_touchUpMode = 2130903189;
+			public const int cardForegroundColor = 2130903189;
 			
 			// aapt resource value: 0x7F030096
-			public const int carousel_touchUp_dampeningFactor = 2130903190;
+			public const int cardMaxElevation = 2130903190;
 			
 			// aapt resource value: 0x7F030097
-			public const int carousel_touchUp_velocityThreshold = 2130903191;
+			public const int cardPreventCornerOverlap = 2130903191;
 			
 			// aapt resource value: 0x7F030098
-			public const int chainUseRtl = 2130903192;
+			public const int cardUseCompatPadding = 2130903192;
 			
 			// aapt resource value: 0x7F030099
-			public const int checkBoxPreferenceStyle = 2130903193;
-			
-			// aapt resource value: 0x7F03009D
-			public const int checkboxStyle = 2130903197;
-			
-			// aapt resource value: 0x7F03009E
-			public const int checkedButton = 2130903198;
-			
-			// aapt resource value: 0x7F03009F
-			public const int checkedChip = 2130903199;
-			
-			// aapt resource value: 0x7F0300A0
-			public const int checkedIcon = 2130903200;
-			
-			// aapt resource value: 0x7F0300A1
-			public const int checkedIconEnabled = 2130903201;
-			
-			// aapt resource value: 0x7F0300A2
-			public const int checkedIconMargin = 2130903202;
-			
-			// aapt resource value: 0x7F0300A3
-			public const int checkedIconSize = 2130903203;
-			
-			// aapt resource value: 0x7F0300A4
-			public const int checkedIconTint = 2130903204;
-			
-			// aapt resource value: 0x7F0300A5
-			public const int checkedIconVisible = 2130903205;
-			
-			// aapt resource value: 0x7F0300A6
-			public const int checkedTextViewStyle = 2130903206;
+			public const int cardViewStyle = 2130903193;
 			
 			// aapt resource value: 0x7F03009A
-			public const int checkMarkCompat = 2130903194;
+			public const int carousel_backwardTransition = 2130903194;
 			
 			// aapt resource value: 0x7F03009B
-			public const int checkMarkTint = 2130903195;
+			public const int carousel_emptyViewsBehavior = 2130903195;
 			
 			// aapt resource value: 0x7F03009C
-			public const int checkMarkTintMode = 2130903196;
+			public const int carousel_firstView = 2130903196;
 			
-			// aapt resource value: 0x7F0300A7
-			public const int chipBackgroundColor = 2130903207;
+			// aapt resource value: 0x7F03009D
+			public const int carousel_forwardTransition = 2130903197;
 			
-			// aapt resource value: 0x7F0300A8
-			public const int chipCornerRadius = 2130903208;
+			// aapt resource value: 0x7F03009E
+			public const int carousel_infinite = 2130903198;
+			
+			// aapt resource value: 0x7F03009F
+			public const int carousel_nextState = 2130903199;
+			
+			// aapt resource value: 0x7F0300A0
+			public const int carousel_previousState = 2130903200;
+			
+			// aapt resource value: 0x7F0300A1
+			public const int carousel_touchUpMode = 2130903201;
+			
+			// aapt resource value: 0x7F0300A2
+			public const int carousel_touchUp_dampeningFactor = 2130903202;
+			
+			// aapt resource value: 0x7F0300A3
+			public const int carousel_touchUp_velocityThreshold = 2130903203;
+			
+			// aapt resource value: 0x7F0300A4
+			public const int chainUseRtl = 2130903204;
+			
+			// aapt resource value: 0x7F0300A5
+			public const int checkBoxPreferenceStyle = 2130903205;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int chipEndPadding = 2130903209;
+			public const int checkboxStyle = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int chipGroupStyle = 2130903210;
+			public const int checkedButton = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int chipIcon = 2130903211;
+			public const int checkedChip = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int chipIconEnabled = 2130903212;
+			public const int checkedIcon = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int chipIconSize = 2130903213;
+			public const int checkedIconEnabled = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int chipIconTint = 2130903214;
+			public const int checkedIconMargin = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int chipIconVisible = 2130903215;
+			public const int checkedIconSize = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int chipMinHeight = 2130903216;
+			public const int checkedIconTint = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int chipMinTouchTargetSize = 2130903217;
+			public const int checkedIconVisible = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int chipSpacing = 2130903218;
+			public const int checkedTextViewStyle = 2130903218;
+			
+			// aapt resource value: 0x7F0300A6
+			public const int checkMarkCompat = 2130903206;
+			
+			// aapt resource value: 0x7F0300A7
+			public const int checkMarkTint = 2130903207;
+			
+			// aapt resource value: 0x7F0300A8
+			public const int checkMarkTintMode = 2130903208;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int chipSpacingHorizontal = 2130903219;
+			public const int chipBackgroundColor = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int chipSpacingVertical = 2130903220;
+			public const int chipCornerRadius = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int chipStandaloneStyle = 2130903221;
+			public const int chipEndPadding = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int chipStartPadding = 2130903222;
+			public const int chipGroupStyle = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int chipStrokeColor = 2130903223;
+			public const int chipIcon = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int chipStrokeWidth = 2130903224;
+			public const int chipIconEnabled = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int chipStyle = 2130903225;
+			public const int chipIconSize = 2130903225;
 			
 			// aapt resource value: 0x7F0300BA
-			public const int chipSurfaceColor = 2130903226;
+			public const int chipIconTint = 2130903226;
 			
 			// aapt resource value: 0x7F0300BB
-			public const int circleRadius = 2130903227;
-			
-			// aapt resource value: 0x7F0300BD
-			public const int circularflow_angles = 2130903229;
-			
-			// aapt resource value: 0x7F0300BE
-			public const int circularflow_defaultAngle = 2130903230;
-			
-			// aapt resource value: 0x7F0300BF
-			public const int circularflow_defaultRadius = 2130903231;
-			
-			// aapt resource value: 0x7F0300C0
-			public const int circularflow_radiusInDP = 2130903232;
-			
-			// aapt resource value: 0x7F0300C1
-			public const int circularflow_viewCenter = 2130903233;
+			public const int chipIconVisible = 2130903227;
 			
 			// aapt resource value: 0x7F0300BC
-			public const int circularProgressIndicatorStyle = 2130903228;
+			public const int chipMinHeight = 2130903228;
+			
+			// aapt resource value: 0x7F0300BD
+			public const int chipMinTouchTargetSize = 2130903229;
+			
+			// aapt resource value: 0x7F0300BE
+			public const int chipSpacing = 2130903230;
+			
+			// aapt resource value: 0x7F0300BF
+			public const int chipSpacingHorizontal = 2130903231;
+			
+			// aapt resource value: 0x7F0300C0
+			public const int chipSpacingVertical = 2130903232;
+			
+			// aapt resource value: 0x7F0300C1
+			public const int chipStandaloneStyle = 2130903233;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int clearsTag = 2130903234;
+			public const int chipStartPadding = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int clickAction = 2130903235;
+			public const int chipStrokeColor = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int clockFaceBackgroundColor = 2130903236;
+			public const int chipStrokeWidth = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int clockHandColor = 2130903237;
+			public const int chipStyle = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int clockIcon = 2130903238;
+			public const int chipSurfaceColor = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int clockNumberTextColor = 2130903239;
-			
-			// aapt resource value: 0x7F0300C8
-			public const int closeIcon = 2130903240;
+			public const int circleRadius = 2130903239;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int closeIconEnabled = 2130903241;
+			public const int circularflow_angles = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int closeIconEndPadding = 2130903242;
+			public const int circularflow_defaultAngle = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int closeIconSize = 2130903243;
+			public const int circularflow_defaultRadius = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int closeIconStartPadding = 2130903244;
+			public const int circularflow_radiusInDP = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int closeIconTint = 2130903245;
+			public const int circularflow_viewCenter = 2130903245;
+			
+			// aapt resource value: 0x7F0300C8
+			public const int circularProgressIndicatorStyle = 2130903240;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int closeIconVisible = 2130903246;
+			public const int clearsTag = 2130903246;
 			
 			// aapt resource value: 0x7F0300CF
-			public const int closeItemLayout = 2130903247;
+			public const int clickAction = 2130903247;
 			
 			// aapt resource value: 0x7F0300D0
-			public const int collapseContentDescription = 2130903248;
-			
-			// aapt resource value: 0x7F0300D2
-			public const int collapsedSize = 2130903250;
-			
-			// aapt resource value: 0x7F0300D3
-			public const int collapsedTitleGravity = 2130903251;
-			
-			// aapt resource value: 0x7F0300D4
-			public const int collapsedTitleTextAppearance = 2130903252;
+			public const int clockFaceBackgroundColor = 2130903248;
 			
 			// aapt resource value: 0x7F0300D1
-			public const int collapseIcon = 2130903249;
+			public const int clockHandColor = 2130903249;
+			
+			// aapt resource value: 0x7F0300D2
+			public const int clockIcon = 2130903250;
+			
+			// aapt resource value: 0x7F0300D3
+			public const int clockNumberTextColor = 2130903251;
+			
+			// aapt resource value: 0x7F0300D4
+			public const int closeIcon = 2130903252;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int collapsingToolbarLayoutStyle = 2130903253;
+			public const int closeIconEnabled = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int collectionViewStyle = 2130903254;
+			public const int closeIconEndPadding = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int color = 2130903255;
+			public const int closeIconSize = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int colorAccent = 2130903256;
+			public const int closeIconStartPadding = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int colorBackgroundFloating = 2130903257;
+			public const int closeIconTint = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int colorButtonNormal = 2130903258;
+			public const int closeIconVisible = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int colorControlActivated = 2130903259;
+			public const int closeItemLayout = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int colorControlHighlight = 2130903260;
-			
-			// aapt resource value: 0x7F0300DD
-			public const int colorControlNormal = 2130903261;
+			public const int collapseContentDescription = 2130903260;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int colorError = 2130903262;
+			public const int collapsedSize = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int colorOnBackground = 2130903263;
+			public const int collapsedTitleGravity = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int colorOnError = 2130903264;
+			public const int collapsedTitleTextAppearance = 2130903264;
+			
+			// aapt resource value: 0x7F0300DD
+			public const int collapseIcon = 2130903261;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int colorOnPrimary = 2130903265;
+			public const int collapsingToolbarLayoutStyle = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int colorOnPrimarySurface = 2130903266;
+			public const int collectionViewStyle = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int colorOnSecondary = 2130903267;
+			public const int color = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int colorOnSurface = 2130903268;
+			public const int colorAccent = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int colorPrimary = 2130903269;
+			public const int colorBackgroundFloating = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int colorPrimaryDark = 2130903270;
+			public const int colorButtonNormal = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int colorPrimarySurface = 2130903271;
+			public const int colorControlActivated = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int colorPrimaryVariant = 2130903272;
+			public const int colorControlHighlight = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int colorSecondary = 2130903273;
+			public const int colorControlNormal = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int colorSecondaryVariant = 2130903274;
+			public const int colorError = 2130903274;
 			
 			// aapt resource value: 0x7F0300EB
-			public const int colorSurface = 2130903275;
+			public const int colorOnBackground = 2130903275;
 			
 			// aapt resource value: 0x7F0300EC
-			public const int colorSwitchThumbNormal = 2130903276;
+			public const int colorOnError = 2130903276;
 			
 			// aapt resource value: 0x7F0300ED
-			public const int commitIcon = 2130903277;
+			public const int colorOnPrimary = 2130903277;
+			
+			// aapt resource value: 0x7F0300EE
+			public const int colorOnPrimarySurface = 2130903278;
+			
+			// aapt resource value: 0x7F0300EF
+			public const int colorOnSecondary = 2130903279;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int colorOnSurface = 2130903280;
+			
+			// aapt resource value: 0x7F0300F1
+			public const int colorPrimary = 2130903281;
+			
+			// aapt resource value: 0x7F0300F2
+			public const int colorPrimaryDark = 2130903282;
+			
+			// aapt resource value: 0x7F0300F3
+			public const int colorPrimarySurface = 2130903283;
+			
+			// aapt resource value: 0x7F0300F4
+			public const int colorPrimaryVariant = 2130903284;
+			
+			// aapt resource value: 0x7F0300F5
+			public const int colorSecondary = 2130903285;
+			
+			// aapt resource value: 0x7F0300F6
+			public const int colorSecondaryVariant = 2130903286;
+			
+			// aapt resource value: 0x7F0300F7
+			public const int colorSurface = 2130903287;
+			
+			// aapt resource value: 0x7F0300F8
+			public const int colorSwitchThumbNormal = 2130903288;
+			
+			// aapt resource value: 0x7F0300F9
+			public const int commitIcon = 2130903289;
 			
 			// aapt resource value: 0x7F030000
 			public const int ConstraintRotate = 2130903040;
 			
-			// aapt resource value: 0x7F0300F3
-			public const int constraints = 2130903283;
-			
-			// aapt resource value: 0x7F0300EE
-			public const int constraintSet = 2130903278;
-			
-			// aapt resource value: 0x7F0300EF
-			public const int constraintSetEnd = 2130903279;
-			
-			// aapt resource value: 0x7F0300F0
-			public const int constraintSetStart = 2130903280;
-			
-			// aapt resource value: 0x7F0300F1
-			public const int constraint_referenced_ids = 2130903281;
-			
-			// aapt resource value: 0x7F0300F2
-			public const int constraint_referenced_tags = 2130903282;
-			
-			// aapt resource value: 0x7F0300F4
-			public const int content = 2130903284;
-			
-			// aapt resource value: 0x7F0300F5
-			public const int contentDescription = 2130903285;
-			
-			// aapt resource value: 0x7F0300F6
-			public const int contentInsetEnd = 2130903286;
-			
-			// aapt resource value: 0x7F0300F7
-			public const int contentInsetEndWithActions = 2130903287;
-			
-			// aapt resource value: 0x7F0300F8
-			public const int contentInsetLeft = 2130903288;
-			
-			// aapt resource value: 0x7F0300F9
-			public const int contentInsetRight = 2130903289;
+			// aapt resource value: 0x7F0300FF
+			public const int constraints = 2130903295;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int contentInsetStart = 2130903290;
+			public const int constraintSet = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int contentInsetStartWithNavigation = 2130903291;
+			public const int constraintSetEnd = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int contentPadding = 2130903292;
+			public const int constraintSetStart = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int contentPaddingBottom = 2130903293;
+			public const int constraint_referenced_ids = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int contentPaddingEnd = 2130903294;
-			
-			// aapt resource value: 0x7F0300FF
-			public const int contentPaddingLeft = 2130903295;
+			public const int constraint_referenced_tags = 2130903294;
 			
 			// aapt resource value: 0x7F030100
-			public const int contentPaddingRight = 2130903296;
+			public const int content = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int contentPaddingStart = 2130903297;
+			public const int contentDescription = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int contentPaddingTop = 2130903298;
+			public const int contentInsetEnd = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int contentScrim = 2130903299;
+			public const int contentInsetEndWithActions = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int contrast = 2130903300;
+			public const int contentInsetLeft = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int controlBackground = 2130903301;
+			public const int contentInsetRight = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int coordinatorLayoutStyle = 2130903302;
+			public const int contentInsetStart = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int cornerFamily = 2130903303;
+			public const int contentInsetStartWithNavigation = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int cornerFamilyBottomLeft = 2130903304;
+			public const int contentPadding = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int cornerFamilyBottomRight = 2130903305;
+			public const int contentPaddingBottom = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int cornerFamilyTopLeft = 2130903306;
+			public const int contentPaddingEnd = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int cornerFamilyTopRight = 2130903307;
+			public const int contentPaddingLeft = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int cornerRadius = 2130903308;
+			public const int contentPaddingRight = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int cornerSize = 2130903309;
+			public const int contentPaddingStart = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int cornerSizeBottomLeft = 2130903310;
+			public const int contentPaddingTop = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int cornerSizeBottomRight = 2130903311;
+			public const int contentScrim = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int cornerSizeTopLeft = 2130903312;
+			public const int contrast = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int cornerSizeTopRight = 2130903313;
+			public const int controlBackground = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int counterEnabled = 2130903314;
+			public const int coordinatorLayoutStyle = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int counterMaxLength = 2130903315;
+			public const int cornerFamily = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int counterOverflowTextAppearance = 2130903316;
+			public const int cornerFamilyBottomLeft = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int counterOverflowTextColor = 2130903317;
+			public const int cornerFamilyBottomRight = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int counterTextAppearance = 2130903318;
+			public const int cornerFamilyTopLeft = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int counterTextColor = 2130903319;
+			public const int cornerFamilyTopRight = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int crossfade = 2130903320;
+			public const int cornerRadius = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int currentState = 2130903321;
+			public const int cornerSize = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int curveFit = 2130903322;
+			public const int cornerSizeBottomLeft = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int customBoolean = 2130903323;
+			public const int cornerSizeBottomRight = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int customColorDrawableValue = 2130903324;
+			public const int cornerSizeTopLeft = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int customColorValue = 2130903325;
+			public const int cornerSizeTopRight = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int customDimension = 2130903326;
+			public const int counterEnabled = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int customFloatValue = 2130903327;
+			public const int counterMaxLength = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int customIntegerValue = 2130903328;
+			public const int counterOverflowTextAppearance = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int customNavigationLayout = 2130903329;
+			public const int counterOverflowTextColor = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int customPixelDimension = 2130903330;
+			public const int counterTextAppearance = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int customReference = 2130903331;
+			public const int counterTextColor = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int customStringValue = 2130903332;
+			public const int crossfade = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int data = 2130903333;
+			public const int currentState = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int dataPattern = 2130903334;
+			public const int curveFit = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int dayInvalidStyle = 2130903335;
+			public const int customBoolean = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int daySelectedStyle = 2130903336;
+			public const int customColorDrawableValue = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int dayStyle = 2130903337;
+			public const int customColorValue = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int dayTodayStyle = 2130903338;
+			public const int customDimension = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int defaultDuration = 2130903339;
+			public const int customFloatValue = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int defaultQueryHint = 2130903340;
+			public const int customIntegerValue = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int defaultState = 2130903341;
+			public const int customNavigationLayout = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int defaultValue = 2130903342;
+			public const int customPixelDimension = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int deltaPolarAngle = 2130903343;
+			public const int customReference = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int deltaPolarRadius = 2130903344;
+			public const int customStringValue = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int dependency = 2130903345;
+			public const int data = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int deriveConstraintsFrom = 2130903346;
+			public const int dataPattern = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int destination = 2130903347;
+			public const int dayInvalidStyle = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int dialogCornerRadius = 2130903348;
+			public const int daySelectedStyle = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int dialogIcon = 2130903349;
+			public const int dayStyle = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int dialogLayout = 2130903350;
+			public const int dayTodayStyle = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int dialogMessage = 2130903351;
+			public const int defaultDuration = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int dialogPreferenceStyle = 2130903352;
+			public const int defaultQueryHint = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int dialogPreferredPadding = 2130903353;
+			public const int defaultState = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int dialogTheme = 2130903354;
+			public const int defaultValue = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int dialogTitle = 2130903355;
+			public const int deltaPolarAngle = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int disableDependentsState = 2130903356;
+			public const int deltaPolarRadius = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int displayOptions = 2130903357;
+			public const int dependency = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int divider = 2130903358;
+			public const int deriveConstraintsFrom = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int dividerHorizontal = 2130903359;
+			public const int destination = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int dividerPadding = 2130903360;
+			public const int dialogCornerRadius = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int dividerVertical = 2130903361;
+			public const int dialogIcon = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int dragDirection = 2130903362;
+			public const int dialogLayout = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int dragScale = 2130903363;
+			public const int dialogMessage = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int dragThreshold = 2130903364;
-			
-			// aapt resource value: 0x7F030146
-			public const int drawableBottomCompat = 2130903366;
-			
-			// aapt resource value: 0x7F030147
-			public const int drawableEndCompat = 2130903367;
-			
-			// aapt resource value: 0x7F030148
-			public const int drawableLeftCompat = 2130903368;
-			
-			// aapt resource value: 0x7F030149
-			public const int drawableRightCompat = 2130903369;
-			
-			// aapt resource value: 0x7F03014A
-			public const int drawableSize = 2130903370;
-			
-			// aapt resource value: 0x7F03014B
-			public const int drawableStartCompat = 2130903371;
-			
-			// aapt resource value: 0x7F03014C
-			public const int drawableTint = 2130903372;
-			
-			// aapt resource value: 0x7F03014D
-			public const int drawableTintMode = 2130903373;
-			
-			// aapt resource value: 0x7F03014E
-			public const int drawableTopCompat = 2130903374;
-			
-			// aapt resource value: 0x7F03014F
-			public const int drawerArrowStyle = 2130903375;
-			
-			// aapt resource value: 0x7F030150
-			public const int drawerLayoutStyle = 2130903376;
+			public const int dialogPreferenceStyle = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int drawPath = 2130903365;
+			public const int dialogPreferredPadding = 2130903365;
+			
+			// aapt resource value: 0x7F030146
+			public const int dialogTheme = 2130903366;
+			
+			// aapt resource value: 0x7F030147
+			public const int dialogTitle = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int disableDependentsState = 2130903368;
+			
+			// aapt resource value: 0x7F030149
+			public const int displayOptions = 2130903369;
+			
+			// aapt resource value: 0x7F03014A
+			public const int divider = 2130903370;
+			
+			// aapt resource value: 0x7F03014B
+			public const int dividerHorizontal = 2130903371;
+			
+			// aapt resource value: 0x7F03014C
+			public const int dividerPadding = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int dividerVertical = 2130903373;
+			
+			// aapt resource value: 0x7F03014E
+			public const int dragDirection = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int dragScale = 2130903375;
+			
+			// aapt resource value: 0x7F030150
+			public const int dragThreshold = 2130903376;
 			
 			// aapt resource value: 0x7F030152
-			public const int dropdownListPreferredItemHeight = 2130903378;
-			
-			// aapt resource value: 0x7F030151
-			public const int dropDownListViewStyle = 2130903377;
+			public const int drawableBottomCompat = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int dropdownPreferenceStyle = 2130903379;
+			public const int drawableEndCompat = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int duration = 2130903380;
+			public const int drawableLeftCompat = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int editTextBackground = 2130903381;
+			public const int drawableRightCompat = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int editTextColor = 2130903382;
+			public const int drawableSize = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int editTextPreferenceStyle = 2130903383;
+			public const int drawableStartCompat = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int editTextStyle = 2130903384;
+			public const int drawableTint = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int elevation = 2130903385;
+			public const int drawableTintMode = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int elevationOverlayColor = 2130903386;
+			public const int drawableTopCompat = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int elevationOverlayEnabled = 2130903387;
+			public const int drawerArrowStyle = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int emojiCompatEnabled = 2130903388;
+			public const int drawerLayoutStyle = 2130903388;
 			
-			// aapt resource value: 0x7F03015D
-			public const int enableCopying = 2130903389;
-			
-			// aapt resource value: 0x7F03015F
-			public const int enabled = 2130903391;
+			// aapt resource value: 0x7F030151
+			public const int drawPath = 2130903377;
 			
 			// aapt resource value: 0x7F03015E
-			public const int enableEdgeToEdge = 2130903390;
+			public const int dropdownListPreferredItemHeight = 2130903390;
+			
+			// aapt resource value: 0x7F03015D
+			public const int dropDownListViewStyle = 2130903389;
+			
+			// aapt resource value: 0x7F03015F
+			public const int dropdownPreferenceStyle = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int endIconCheckable = 2130903392;
+			public const int duration = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int endIconContentDescription = 2130903393;
+			public const int editTextBackground = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int endIconDrawable = 2130903394;
+			public const int editTextColor = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int endIconMode = 2130903395;
+			public const int editTextPreferenceStyle = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int endIconTint = 2130903396;
+			public const int editTextStyle = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int endIconTintMode = 2130903397;
+			public const int elevation = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int enforceMaterialTheme = 2130903398;
+			public const int elevationOverlayColor = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int enforceTextAppearance = 2130903399;
+			public const int elevationOverlayEnabled = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int ensureMinTouchTargetSize = 2130903400;
+			public const int emojiCompatEnabled = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int enterAnim = 2130903401;
-			
-			// aapt resource value: 0x7F03016A
-			public const int entries = 2130903402;
+			public const int enableCopying = 2130903401;
 			
 			// aapt resource value: 0x7F03016B
-			public const int entryValues = 2130903403;
+			public const int enabled = 2130903403;
+			
+			// aapt resource value: 0x7F03016A
+			public const int enableEdgeToEdge = 2130903402;
 			
 			// aapt resource value: 0x7F03016C
-			public const int errorContentDescription = 2130903404;
+			public const int endIconCheckable = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int errorEnabled = 2130903405;
+			public const int endIconContentDescription = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int errorIconDrawable = 2130903406;
+			public const int endIconDrawable = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int errorIconTint = 2130903407;
+			public const int endIconMode = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int errorIconTintMode = 2130903408;
+			public const int endIconTint = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int errorTextAppearance = 2130903409;
+			public const int endIconTintMode = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int errorTextColor = 2130903410;
+			public const int enforceMaterialTheme = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int exitAnim = 2130903411;
+			public const int enforceTextAppearance = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int expandActivityOverflowButtonDrawable = 2130903412;
+			public const int ensureMinTouchTargetSize = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int expanded = 2130903413;
+			public const int enterAnim = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int expandedHintEnabled = 2130903414;
+			public const int entries = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int expandedTitleGravity = 2130903415;
+			public const int entryValues = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int expandedTitleMargin = 2130903416;
+			public const int errorContentDescription = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int expandedTitleMarginBottom = 2130903417;
+			public const int errorEnabled = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int expandedTitleMarginEnd = 2130903418;
+			public const int errorIconDrawable = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int expandedTitleMarginStart = 2130903419;
+			public const int errorIconTint = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int expandedTitleMarginTop = 2130903420;
+			public const int errorIconTintMode = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int expandedTitleTextAppearance = 2130903421;
-			
-			// aapt resource value: 0x7F03017F
-			public const int extendedFloatingActionButtonStyle = 2130903423;
+			public const int errorTextAppearance = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int extendMotionSpec = 2130903422;
+			public const int errorTextColor = 2130903422;
+			
+			// aapt resource value: 0x7F03017F
+			public const int exitAnim = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int extraMultilineHeightEnabled = 2130903424;
+			public const int expandActivityOverflowButtonDrawable = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int fabAlignmentMode = 2130903425;
+			public const int expanded = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int fabAnimationMode = 2130903426;
+			public const int expandedHintEnabled = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int fabCradleMargin = 2130903427;
+			public const int expandedTitleGravity = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int fabCradleRoundedCornerRadius = 2130903428;
+			public const int expandedTitleMargin = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int fabCradleVerticalOffset = 2130903429;
+			public const int expandedTitleMarginBottom = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int fabCustomSize = 2130903430;
+			public const int expandedTitleMarginEnd = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int fabSize = 2130903431;
+			public const int expandedTitleMarginStart = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int fastScrollEnabled = 2130903432;
+			public const int expandedTitleMarginTop = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int fastScrollHorizontalThumbDrawable = 2130903433;
-			
-			// aapt resource value: 0x7F03018A
-			public const int fastScrollHorizontalTrackDrawable = 2130903434;
+			public const int expandedTitleTextAppearance = 2130903433;
 			
 			// aapt resource value: 0x7F03018B
-			public const int fastScrollVerticalThumbDrawable = 2130903435;
+			public const int extendedFloatingActionButtonStyle = 2130903435;
+			
+			// aapt resource value: 0x7F03018A
+			public const int extendMotionSpec = 2130903434;
 			
 			// aapt resource value: 0x7F03018C
-			public const int fastScrollVerticalTrackDrawable = 2130903436;
+			public const int extraMultilineHeightEnabled = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int firstBaselineToTopHeight = 2130903437;
+			public const int fabAlignmentMode = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int floatingActionButtonStyle = 2130903438;
+			public const int fabAnimationMode = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int flow_firstHorizontalBias = 2130903439;
+			public const int fabCradleMargin = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int flow_firstHorizontalStyle = 2130903440;
+			public const int fabCradleRoundedCornerRadius = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int flow_firstVerticalBias = 2130903441;
+			public const int fabCradleVerticalOffset = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int flow_firstVerticalStyle = 2130903442;
+			public const int fabCustomSize = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int flow_horizontalAlign = 2130903443;
+			public const int fabSize = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int flow_horizontalBias = 2130903444;
+			public const int fastScrollEnabled = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int flow_horizontalGap = 2130903445;
+			public const int fastScrollHorizontalThumbDrawable = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int flow_horizontalStyle = 2130903446;
+			public const int fastScrollHorizontalTrackDrawable = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int flow_lastHorizontalBias = 2130903447;
+			public const int fastScrollVerticalThumbDrawable = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int flow_lastHorizontalStyle = 2130903448;
+			public const int fastScrollVerticalTrackDrawable = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int flow_lastVerticalBias = 2130903449;
+			public const int firstBaselineToTopHeight = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int flow_lastVerticalStyle = 2130903450;
+			public const int floatingActionButtonStyle = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int flow_maxElementsWrap = 2130903451;
+			public const int flow_firstHorizontalBias = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int flow_padding = 2130903452;
+			public const int flow_firstHorizontalStyle = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int flow_verticalAlign = 2130903453;
+			public const int flow_firstVerticalBias = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int flow_verticalBias = 2130903454;
+			public const int flow_firstVerticalStyle = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int flow_verticalGap = 2130903455;
+			public const int flow_horizontalAlign = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int flow_verticalStyle = 2130903456;
+			public const int flow_horizontalBias = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int flow_wrapMode = 2130903457;
+			public const int flow_horizontalGap = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int font = 2130903458;
+			public const int flow_horizontalStyle = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int fontFamily = 2130903459;
+			public const int flow_lastHorizontalBias = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int fontProviderAuthority = 2130903460;
+			public const int flow_lastHorizontalStyle = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int fontProviderCerts = 2130903461;
+			public const int flow_lastVerticalBias = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int fontProviderFetchStrategy = 2130903462;
+			public const int flow_lastVerticalStyle = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int fontProviderFetchTimeout = 2130903463;
+			public const int flow_maxElementsWrap = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int fontProviderPackage = 2130903464;
+			public const int flow_padding = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int fontProviderQuery = 2130903465;
+			public const int flow_verticalAlign = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int fontProviderSystemFontFamily = 2130903466;
+			public const int flow_verticalBias = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int fontStyle = 2130903467;
+			public const int flow_verticalGap = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int fontVariationSettings = 2130903468;
+			public const int flow_verticalStyle = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int fontWeight = 2130903469;
+			public const int flow_wrapMode = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int forceApplySystemWindowInsetTop = 2130903470;
+			public const int font = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int foregroundInsidePadding = 2130903471;
+			public const int fontFamily = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int fragment = 2130903472;
+			public const int fontProviderAuthority = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int framePosition = 2130903473;
+			public const int fontProviderCerts = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int gapBetweenBars = 2130903474;
+			public const int fontProviderFetchStrategy = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int gestureInsetBottomIgnored = 2130903475;
+			public const int fontProviderFetchTimeout = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int goIcon = 2130903476;
+			public const int fontProviderPackage = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int graph = 2130903477;
+			public const int fontProviderQuery = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int haloColor = 2130903478;
+			public const int fontProviderSystemFontFamily = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int haloRadius = 2130903479;
+			public const int fontStyle = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int headerLayout = 2130903480;
+			public const int fontVariationSettings = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int height = 2130903481;
+			public const int fontWeight = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int helperText = 2130903482;
+			public const int forceApplySystemWindowInsetTop = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int helperTextEnabled = 2130903483;
+			public const int foregroundInsidePadding = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int helperTextTextAppearance = 2130903484;
+			public const int fragment = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int helperTextTextColor = 2130903485;
+			public const int framePosition = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int hideAnimationBehavior = 2130903486;
+			public const int gapBetweenBars = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int hideMotionSpec = 2130903487;
+			public const int gestureInsetBottomIgnored = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int hideOnContentScroll = 2130903488;
+			public const int goIcon = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int hideOnScroll = 2130903489;
+			public const int graph = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int hintAnimationEnabled = 2130903490;
+			public const int haloColor = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int hintEnabled = 2130903491;
+			public const int haloRadius = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int hintTextAppearance = 2130903492;
+			public const int headerLayout = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int hintTextColor = 2130903493;
+			public const int height = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int homeAsUpIndicator = 2130903494;
+			public const int helperText = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int homeLayout = 2130903495;
+			public const int helperTextEnabled = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int horizontalOffset = 2130903496;
+			public const int helperTextTextAppearance = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int hoveredFocusedTranslationZ = 2130903497;
+			public const int helperTextTextColor = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int icon = 2130903498;
+			public const int hideAnimationBehavior = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int iconEndPadding = 2130903499;
+			public const int hideMotionSpec = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int iconGravity = 2130903500;
-			
-			// aapt resource value: 0x7F0301D3
-			public const int iconifiedByDefault = 2130903507;
+			public const int hideOnContentScroll = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int iconPadding = 2130903501;
+			public const int hideOnScroll = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int iconSize = 2130903502;
+			public const int hintAnimationEnabled = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int iconSpaceReserved = 2130903503;
+			public const int hintEnabled = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int iconStartPadding = 2130903504;
+			public const int hintTextAppearance = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int iconTint = 2130903505;
+			public const int hintTextColor = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int iconTintMode = 2130903506;
+			public const int homeAsUpIndicator = 2130903506;
+			
+			// aapt resource value: 0x7F0301D3
+			public const int homeLayout = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int ifTagNotSet = 2130903508;
+			public const int horizontalOffset = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int ifTagSet = 2130903509;
+			public const int hoveredFocusedTranslationZ = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int imageButtonStyle = 2130903510;
+			public const int icon = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int imagePanX = 2130903511;
+			public const int iconEndPadding = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int imagePanY = 2130903512;
-			
-			// aapt resource value: 0x7F0301D9
-			public const int imageRotate = 2130903513;
-			
-			// aapt resource value: 0x7F0301DA
-			public const int imageZoom = 2130903514;
-			
-			// aapt resource value: 0x7F0301DB
-			public const int indeterminateAnimationType = 2130903515;
-			
-			// aapt resource value: 0x7F0301DC
-			public const int indeterminateProgressStyle = 2130903516;
-			
-			// aapt resource value: 0x7F0301DD
-			public const int indicatorColor = 2130903517;
-			
-			// aapt resource value: 0x7F0301DE
-			public const int indicatorDirectionCircular = 2130903518;
+			public const int iconGravity = 2130903512;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int indicatorDirectionLinear = 2130903519;
+			public const int iconifiedByDefault = 2130903519;
+			
+			// aapt resource value: 0x7F0301D9
+			public const int iconPadding = 2130903513;
+			
+			// aapt resource value: 0x7F0301DA
+			public const int iconSize = 2130903514;
+			
+			// aapt resource value: 0x7F0301DB
+			public const int iconSpaceReserved = 2130903515;
+			
+			// aapt resource value: 0x7F0301DC
+			public const int iconStartPadding = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int iconTint = 2130903517;
+			
+			// aapt resource value: 0x7F0301DE
+			public const int iconTintMode = 2130903518;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int indicatorInset = 2130903520;
+			public const int ifTagNotSet = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int indicatorSize = 2130903521;
+			public const int ifTagSet = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int initialActivityCount = 2130903522;
+			public const int imageButtonStyle = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int initialExpandedChildrenCount = 2130903523;
+			public const int imagePanX = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int insetForeground = 2130903524;
+			public const int imagePanY = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int isLightTheme = 2130903525;
+			public const int imageRotate = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int isMaterialTheme = 2130903526;
+			public const int imageZoom = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int isPreferenceVisible = 2130903527;
+			public const int indeterminateAnimationType = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int itemBackground = 2130903528;
+			public const int indeterminateProgressStyle = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int itemFillColor = 2130903529;
+			public const int indicatorColor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int itemHorizontalPadding = 2130903530;
+			public const int indicatorDirectionCircular = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int itemHorizontalTranslationEnabled = 2130903531;
+			public const int indicatorDirectionLinear = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int itemIconPadding = 2130903532;
+			public const int indicatorInset = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int itemIconSize = 2130903533;
+			public const int indicatorSize = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int itemIconTint = 2130903534;
+			public const int initialActivityCount = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int itemMaxLines = 2130903535;
+			public const int initialExpandedChildrenCount = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int itemPadding = 2130903536;
+			public const int insetForeground = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int itemRippleColor = 2130903537;
+			public const int isLightTheme = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int itemShapeAppearance = 2130903538;
+			public const int isMaterialTheme = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int itemShapeAppearanceOverlay = 2130903539;
+			public const int isPreferenceVisible = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int itemShapeFillColor = 2130903540;
+			public const int itemBackground = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int itemShapeInsetBottom = 2130903541;
+			public const int itemFillColor = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int itemShapeInsetEnd = 2130903542;
+			public const int itemHorizontalPadding = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int itemShapeInsetStart = 2130903543;
+			public const int itemHorizontalTranslationEnabled = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int itemShapeInsetTop = 2130903544;
+			public const int itemIconPadding = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int itemSpacing = 2130903545;
+			public const int itemIconSize = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int itemStrokeColor = 2130903546;
+			public const int itemIconTint = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int itemStrokeWidth = 2130903547;
+			public const int itemMaxLines = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int itemTextAppearance = 2130903548;
+			public const int itemPadding = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int itemTextAppearanceActive = 2130903549;
+			public const int itemRippleColor = 2130903549;
 			
 			// aapt resource value: 0x7F0301FE
-			public const int itemTextAppearanceInactive = 2130903550;
+			public const int itemShapeAppearance = 2130903550;
 			
 			// aapt resource value: 0x7F0301FF
-			public const int itemTextColor = 2130903551;
+			public const int itemShapeAppearanceOverlay = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int key = 2130903552;
-			
-			// aapt resource value: 0x7F030202
-			public const int keyboardIcon = 2130903554;
-			
-			// aapt resource value: 0x7F030203
-			public const int keylines = 2130903555;
+			public const int itemShapeFillColor = 2130903552;
 			
 			// aapt resource value: 0x7F030201
-			public const int keyPositionType = 2130903553;
+			public const int itemShapeInsetBottom = 2130903553;
 			
-			// aapt resource value: 0x7F030205
-			public const int labelBehavior = 2130903557;
+			// aapt resource value: 0x7F030202
+			public const int itemShapeInsetEnd = 2130903554;
 			
-			// aapt resource value: 0x7F030206
-			public const int labelStyle = 2130903558;
-			
-			// aapt resource value: 0x7F030207
-			public const int labelVisibilityMode = 2130903559;
-			
-			// aapt resource value: 0x7F030208
-			public const int lastBaselineToBottomHeight = 2130903560;
-			
-			// aapt resource value: 0x7F030209
-			public const int launchSingleTop = 2130903561;
-			
-			// aapt resource value: 0x7F03020A
-			public const int layout = 2130903562;
-			
-			// aapt resource value: 0x7F03020B
-			public const int layoutDescription = 2130903563;
-			
-			// aapt resource value: 0x7F03020C
-			public const int layoutDuringTransition = 2130903564;
-			
-			// aapt resource value: 0x7F03020D
-			public const int layoutManager = 2130903565;
-			
-			// aapt resource value: 0x7F03020E
-			public const int layout_anchor = 2130903566;
-			
-			// aapt resource value: 0x7F03020F
-			public const int layout_anchorGravity = 2130903567;
-			
-			// aapt resource value: 0x7F030210
-			public const int layout_behavior = 2130903568;
-			
-			// aapt resource value: 0x7F030211
-			public const int layout_collapseMode = 2130903569;
-			
-			// aapt resource value: 0x7F030212
-			public const int layout_collapseParallaxMultiplier = 2130903570;
-			
-			// aapt resource value: 0x7F030213
-			public const int layout_constrainedHeight = 2130903571;
-			
-			// aapt resource value: 0x7F030214
-			public const int layout_constrainedWidth = 2130903572;
-			
-			// aapt resource value: 0x7F030215
-			public const int layout_constraintBaseline_creator = 2130903573;
-			
-			// aapt resource value: 0x7F030216
-			public const int layout_constraintBaseline_toBaselineOf = 2130903574;
-			
-			// aapt resource value: 0x7F030217
-			public const int layout_constraintBaseline_toBottomOf = 2130903575;
-			
-			// aapt resource value: 0x7F030218
-			public const int layout_constraintBaseline_toTopOf = 2130903576;
-			
-			// aapt resource value: 0x7F030219
-			public const int layout_constraintBottom_creator = 2130903577;
-			
-			// aapt resource value: 0x7F03021A
-			public const int layout_constraintBottom_toBottomOf = 2130903578;
-			
-			// aapt resource value: 0x7F03021B
-			public const int layout_constraintBottom_toTopOf = 2130903579;
-			
-			// aapt resource value: 0x7F03021C
-			public const int layout_constraintCircle = 2130903580;
-			
-			// aapt resource value: 0x7F03021D
-			public const int layout_constraintCircleAngle = 2130903581;
-			
-			// aapt resource value: 0x7F03021E
-			public const int layout_constraintCircleRadius = 2130903582;
-			
-			// aapt resource value: 0x7F03021F
-			public const int layout_constraintDimensionRatio = 2130903583;
-			
-			// aapt resource value: 0x7F030220
-			public const int layout_constraintEnd_toEndOf = 2130903584;
-			
-			// aapt resource value: 0x7F030221
-			public const int layout_constraintEnd_toStartOf = 2130903585;
-			
-			// aapt resource value: 0x7F030222
-			public const int layout_constraintGuide_begin = 2130903586;
-			
-			// aapt resource value: 0x7F030223
-			public const int layout_constraintGuide_end = 2130903587;
-			
-			// aapt resource value: 0x7F030224
-			public const int layout_constraintGuide_percent = 2130903588;
-			
-			// aapt resource value: 0x7F030225
-			public const int layout_constraintHeight = 2130903589;
-			
-			// aapt resource value: 0x7F030226
-			public const int layout_constraintHeight_default = 2130903590;
-			
-			// aapt resource value: 0x7F030227
-			public const int layout_constraintHeight_max = 2130903591;
-			
-			// aapt resource value: 0x7F030228
-			public const int layout_constraintHeight_min = 2130903592;
-			
-			// aapt resource value: 0x7F030229
-			public const int layout_constraintHeight_percent = 2130903593;
-			
-			// aapt resource value: 0x7F03022A
-			public const int layout_constraintHorizontal_bias = 2130903594;
-			
-			// aapt resource value: 0x7F03022B
-			public const int layout_constraintHorizontal_chainStyle = 2130903595;
-			
-			// aapt resource value: 0x7F03022C
-			public const int layout_constraintHorizontal_weight = 2130903596;
-			
-			// aapt resource value: 0x7F03022D
-			public const int layout_constraintLeft_creator = 2130903597;
-			
-			// aapt resource value: 0x7F03022E
-			public const int layout_constraintLeft_toLeftOf = 2130903598;
-			
-			// aapt resource value: 0x7F03022F
-			public const int layout_constraintLeft_toRightOf = 2130903599;
-			
-			// aapt resource value: 0x7F030230
-			public const int layout_constraintRight_creator = 2130903600;
-			
-			// aapt resource value: 0x7F030231
-			public const int layout_constraintRight_toLeftOf = 2130903601;
-			
-			// aapt resource value: 0x7F030232
-			public const int layout_constraintRight_toRightOf = 2130903602;
-			
-			// aapt resource value: 0x7F030233
-			public const int layout_constraintStart_toEndOf = 2130903603;
-			
-			// aapt resource value: 0x7F030234
-			public const int layout_constraintStart_toStartOf = 2130903604;
-			
-			// aapt resource value: 0x7F030235
-			public const int layout_constraintTag = 2130903605;
-			
-			// aapt resource value: 0x7F030236
-			public const int layout_constraintTop_creator = 2130903606;
-			
-			// aapt resource value: 0x7F030237
-			public const int layout_constraintTop_toBottomOf = 2130903607;
-			
-			// aapt resource value: 0x7F030238
-			public const int layout_constraintTop_toTopOf = 2130903608;
-			
-			// aapt resource value: 0x7F030239
-			public const int layout_constraintVertical_bias = 2130903609;
-			
-			// aapt resource value: 0x7F03023A
-			public const int layout_constraintVertical_chainStyle = 2130903610;
-			
-			// aapt resource value: 0x7F03023B
-			public const int layout_constraintVertical_weight = 2130903611;
-			
-			// aapt resource value: 0x7F03023C
-			public const int layout_constraintWidth = 2130903612;
-			
-			// aapt resource value: 0x7F03023D
-			public const int layout_constraintWidth_default = 2130903613;
-			
-			// aapt resource value: 0x7F03023E
-			public const int layout_constraintWidth_max = 2130903614;
-			
-			// aapt resource value: 0x7F03023F
-			public const int layout_constraintWidth_min = 2130903615;
-			
-			// aapt resource value: 0x7F030240
-			public const int layout_constraintWidth_percent = 2130903616;
-			
-			// aapt resource value: 0x7F030241
-			public const int layout_dodgeInsetEdges = 2130903617;
-			
-			// aapt resource value: 0x7F030242
-			public const int layout_editor_absoluteX = 2130903618;
-			
-			// aapt resource value: 0x7F030243
-			public const int layout_editor_absoluteY = 2130903619;
-			
-			// aapt resource value: 0x7F030244
-			public const int layout_goneMarginBaseline = 2130903620;
-			
-			// aapt resource value: 0x7F030245
-			public const int layout_goneMarginBottom = 2130903621;
-			
-			// aapt resource value: 0x7F030246
-			public const int layout_goneMarginEnd = 2130903622;
-			
-			// aapt resource value: 0x7F030247
-			public const int layout_goneMarginLeft = 2130903623;
-			
-			// aapt resource value: 0x7F030248
-			public const int layout_goneMarginRight = 2130903624;
-			
-			// aapt resource value: 0x7F030249
-			public const int layout_goneMarginStart = 2130903625;
-			
-			// aapt resource value: 0x7F03024A
-			public const int layout_goneMarginTop = 2130903626;
-			
-			// aapt resource value: 0x7F03024B
-			public const int layout_insetEdge = 2130903627;
-			
-			// aapt resource value: 0x7F03024C
-			public const int layout_keyline = 2130903628;
-			
-			// aapt resource value: 0x7F03024D
-			public const int layout_marginBaseline = 2130903629;
-			
-			// aapt resource value: 0x7F03024E
-			public const int layout_optimizationLevel = 2130903630;
-			
-			// aapt resource value: 0x7F03024F
-			public const int layout_scrollFlags = 2130903631;
-			
-			// aapt resource value: 0x7F030250
-			public const int layout_scrollInterpolator = 2130903632;
-			
-			// aapt resource value: 0x7F030251
-			public const int layout_wrapBehaviorInParent = 2130903633;
-			
-			// aapt resource value: 0x7F030252
-			public const int liftOnScroll = 2130903634;
-			
-			// aapt resource value: 0x7F030253
-			public const int liftOnScrollTargetViewId = 2130903635;
-			
-			// aapt resource value: 0x7F030254
-			public const int limitBoundsTo = 2130903636;
-			
-			// aapt resource value: 0x7F030257
-			public const int linearProgressIndicatorStyle = 2130903639;
-			
-			// aapt resource value: 0x7F030255
-			public const int lineHeight = 2130903637;
-			
-			// aapt resource value: 0x7F030256
-			public const int lineSpacing = 2130903638;
-			
-			// aapt resource value: 0x7F030258
-			public const int listChoiceBackgroundIndicator = 2130903640;
-			
-			// aapt resource value: 0x7F030259
-			public const int listChoiceIndicatorMultipleAnimated = 2130903641;
-			
-			// aapt resource value: 0x7F03025A
-			public const int listChoiceIndicatorSingleAnimated = 2130903642;
-			
-			// aapt resource value: 0x7F03025B
-			public const int listDividerAlertDialog = 2130903643;
-			
-			// aapt resource value: 0x7F03025C
-			public const int listItemLayout = 2130903644;
-			
-			// aapt resource value: 0x7F03025D
-			public const int listLayout = 2130903645;
-			
-			// aapt resource value: 0x7F03025E
-			public const int listMenuViewStyle = 2130903646;
-			
-			// aapt resource value: 0x7F03025F
-			public const int listPopupWindowStyle = 2130903647;
-			
-			// aapt resource value: 0x7F030260
-			public const int listPreferredItemHeight = 2130903648;
-			
-			// aapt resource value: 0x7F030261
-			public const int listPreferredItemHeightLarge = 2130903649;
-			
-			// aapt resource value: 0x7F030262
-			public const int listPreferredItemHeightSmall = 2130903650;
-			
-			// aapt resource value: 0x7F030263
-			public const int listPreferredItemPaddingEnd = 2130903651;
-			
-			// aapt resource value: 0x7F030264
-			public const int listPreferredItemPaddingLeft = 2130903652;
-			
-			// aapt resource value: 0x7F030265
-			public const int listPreferredItemPaddingRight = 2130903653;
-			
-			// aapt resource value: 0x7F030266
-			public const int listPreferredItemPaddingStart = 2130903654;
-			
-			// aapt resource value: 0x7F030267
-			public const int logo = 2130903655;
-			
-			// aapt resource value: 0x7F030268
-			public const int logoDescription = 2130903656;
+			// aapt resource value: 0x7F030203
+			public const int itemShapeInsetStart = 2130903555;
 			
 			// aapt resource value: 0x7F030204
-			public const int lStar = 2130903556;
+			public const int itemShapeInsetTop = 2130903556;
+			
+			// aapt resource value: 0x7F030205
+			public const int itemSpacing = 2130903557;
+			
+			// aapt resource value: 0x7F030206
+			public const int itemStrokeColor = 2130903558;
+			
+			// aapt resource value: 0x7F030207
+			public const int itemStrokeWidth = 2130903559;
+			
+			// aapt resource value: 0x7F030208
+			public const int itemTextAppearance = 2130903560;
+			
+			// aapt resource value: 0x7F030209
+			public const int itemTextAppearanceActive = 2130903561;
+			
+			// aapt resource value: 0x7F03020A
+			public const int itemTextAppearanceInactive = 2130903562;
+			
+			// aapt resource value: 0x7F03020B
+			public const int itemTextColor = 2130903563;
+			
+			// aapt resource value: 0x7F03020C
+			public const int key = 2130903564;
+			
+			// aapt resource value: 0x7F03020E
+			public const int keyboardIcon = 2130903566;
+			
+			// aapt resource value: 0x7F03020F
+			public const int keylines = 2130903567;
+			
+			// aapt resource value: 0x7F03020D
+			public const int keyPositionType = 2130903565;
+			
+			// aapt resource value: 0x7F030211
+			public const int labelBehavior = 2130903569;
+			
+			// aapt resource value: 0x7F030212
+			public const int labelStyle = 2130903570;
+			
+			// aapt resource value: 0x7F030213
+			public const int labelVisibilityMode = 2130903571;
+			
+			// aapt resource value: 0x7F030214
+			public const int lastBaselineToBottomHeight = 2130903572;
+			
+			// aapt resource value: 0x7F030215
+			public const int launchSingleTop = 2130903573;
+			
+			// aapt resource value: 0x7F030216
+			public const int layout = 2130903574;
+			
+			// aapt resource value: 0x7F030217
+			public const int layoutDescription = 2130903575;
+			
+			// aapt resource value: 0x7F030218
+			public const int layoutDuringTransition = 2130903576;
+			
+			// aapt resource value: 0x7F030219
+			public const int layoutManager = 2130903577;
+			
+			// aapt resource value: 0x7F03021A
+			public const int layout_anchor = 2130903578;
+			
+			// aapt resource value: 0x7F03021B
+			public const int layout_anchorGravity = 2130903579;
+			
+			// aapt resource value: 0x7F03021C
+			public const int layout_behavior = 2130903580;
+			
+			// aapt resource value: 0x7F03021D
+			public const int layout_collapseMode = 2130903581;
+			
+			// aapt resource value: 0x7F03021E
+			public const int layout_collapseParallaxMultiplier = 2130903582;
+			
+			// aapt resource value: 0x7F03021F
+			public const int layout_constrainedHeight = 2130903583;
+			
+			// aapt resource value: 0x7F030220
+			public const int layout_constrainedWidth = 2130903584;
+			
+			// aapt resource value: 0x7F030221
+			public const int layout_constraintBaseline_creator = 2130903585;
+			
+			// aapt resource value: 0x7F030222
+			public const int layout_constraintBaseline_toBaselineOf = 2130903586;
+			
+			// aapt resource value: 0x7F030223
+			public const int layout_constraintBaseline_toBottomOf = 2130903587;
+			
+			// aapt resource value: 0x7F030224
+			public const int layout_constraintBaseline_toTopOf = 2130903588;
+			
+			// aapt resource value: 0x7F030225
+			public const int layout_constraintBottom_creator = 2130903589;
+			
+			// aapt resource value: 0x7F030226
+			public const int layout_constraintBottom_toBottomOf = 2130903590;
+			
+			// aapt resource value: 0x7F030227
+			public const int layout_constraintBottom_toTopOf = 2130903591;
+			
+			// aapt resource value: 0x7F030228
+			public const int layout_constraintCircle = 2130903592;
+			
+			// aapt resource value: 0x7F030229
+			public const int layout_constraintCircleAngle = 2130903593;
+			
+			// aapt resource value: 0x7F03022A
+			public const int layout_constraintCircleRadius = 2130903594;
+			
+			// aapt resource value: 0x7F03022B
+			public const int layout_constraintDimensionRatio = 2130903595;
+			
+			// aapt resource value: 0x7F03022C
+			public const int layout_constraintEnd_toEndOf = 2130903596;
+			
+			// aapt resource value: 0x7F03022D
+			public const int layout_constraintEnd_toStartOf = 2130903597;
+			
+			// aapt resource value: 0x7F03022E
+			public const int layout_constraintGuide_begin = 2130903598;
+			
+			// aapt resource value: 0x7F03022F
+			public const int layout_constraintGuide_end = 2130903599;
+			
+			// aapt resource value: 0x7F030230
+			public const int layout_constraintGuide_percent = 2130903600;
+			
+			// aapt resource value: 0x7F030231
+			public const int layout_constraintHeight = 2130903601;
+			
+			// aapt resource value: 0x7F030232
+			public const int layout_constraintHeight_default = 2130903602;
+			
+			// aapt resource value: 0x7F030233
+			public const int layout_constraintHeight_max = 2130903603;
+			
+			// aapt resource value: 0x7F030234
+			public const int layout_constraintHeight_min = 2130903604;
+			
+			// aapt resource value: 0x7F030235
+			public const int layout_constraintHeight_percent = 2130903605;
+			
+			// aapt resource value: 0x7F030236
+			public const int layout_constraintHorizontal_bias = 2130903606;
+			
+			// aapt resource value: 0x7F030237
+			public const int layout_constraintHorizontal_chainStyle = 2130903607;
+			
+			// aapt resource value: 0x7F030238
+			public const int layout_constraintHorizontal_weight = 2130903608;
+			
+			// aapt resource value: 0x7F030239
+			public const int layout_constraintLeft_creator = 2130903609;
+			
+			// aapt resource value: 0x7F03023A
+			public const int layout_constraintLeft_toLeftOf = 2130903610;
+			
+			// aapt resource value: 0x7F03023B
+			public const int layout_constraintLeft_toRightOf = 2130903611;
+			
+			// aapt resource value: 0x7F03023C
+			public const int layout_constraintRight_creator = 2130903612;
+			
+			// aapt resource value: 0x7F03023D
+			public const int layout_constraintRight_toLeftOf = 2130903613;
+			
+			// aapt resource value: 0x7F03023E
+			public const int layout_constraintRight_toRightOf = 2130903614;
+			
+			// aapt resource value: 0x7F03023F
+			public const int layout_constraintStart_toEndOf = 2130903615;
+			
+			// aapt resource value: 0x7F030240
+			public const int layout_constraintStart_toStartOf = 2130903616;
+			
+			// aapt resource value: 0x7F030241
+			public const int layout_constraintTag = 2130903617;
+			
+			// aapt resource value: 0x7F030242
+			public const int layout_constraintTop_creator = 2130903618;
+			
+			// aapt resource value: 0x7F030243
+			public const int layout_constraintTop_toBottomOf = 2130903619;
+			
+			// aapt resource value: 0x7F030244
+			public const int layout_constraintTop_toTopOf = 2130903620;
+			
+			// aapt resource value: 0x7F030245
+			public const int layout_constraintVertical_bias = 2130903621;
+			
+			// aapt resource value: 0x7F030246
+			public const int layout_constraintVertical_chainStyle = 2130903622;
+			
+			// aapt resource value: 0x7F030247
+			public const int layout_constraintVertical_weight = 2130903623;
+			
+			// aapt resource value: 0x7F030248
+			public const int layout_constraintWidth = 2130903624;
+			
+			// aapt resource value: 0x7F030249
+			public const int layout_constraintWidth_default = 2130903625;
+			
+			// aapt resource value: 0x7F03024A
+			public const int layout_constraintWidth_max = 2130903626;
+			
+			// aapt resource value: 0x7F03024B
+			public const int layout_constraintWidth_min = 2130903627;
+			
+			// aapt resource value: 0x7F03024C
+			public const int layout_constraintWidth_percent = 2130903628;
+			
+			// aapt resource value: 0x7F03024D
+			public const int layout_dodgeInsetEdges = 2130903629;
+			
+			// aapt resource value: 0x7F03024E
+			public const int layout_editor_absoluteX = 2130903630;
+			
+			// aapt resource value: 0x7F03024F
+			public const int layout_editor_absoluteY = 2130903631;
+			
+			// aapt resource value: 0x7F030250
+			public const int layout_goneMarginBaseline = 2130903632;
+			
+			// aapt resource value: 0x7F030251
+			public const int layout_goneMarginBottom = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int layout_goneMarginEnd = 2130903634;
+			
+			// aapt resource value: 0x7F030253
+			public const int layout_goneMarginLeft = 2130903635;
+			
+			// aapt resource value: 0x7F030254
+			public const int layout_goneMarginRight = 2130903636;
+			
+			// aapt resource value: 0x7F030255
+			public const int layout_goneMarginStart = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int layout_goneMarginTop = 2130903638;
+			
+			// aapt resource value: 0x7F030257
+			public const int layout_insetEdge = 2130903639;
+			
+			// aapt resource value: 0x7F030258
+			public const int layout_keyline = 2130903640;
+			
+			// aapt resource value: 0x7F030259
+			public const int layout_marginBaseline = 2130903641;
+			
+			// aapt resource value: 0x7F03025A
+			public const int layout_optimizationLevel = 2130903642;
+			
+			// aapt resource value: 0x7F03025B
+			public const int layout_scrollFlags = 2130903643;
+			
+			// aapt resource value: 0x7F03025C
+			public const int layout_scrollInterpolator = 2130903644;
+			
+			// aapt resource value: 0x7F03025D
+			public const int layout_wrapBehaviorInParent = 2130903645;
+			
+			// aapt resource value: 0x7F03025E
+			public const int liftOnScroll = 2130903646;
+			
+			// aapt resource value: 0x7F03025F
+			public const int liftOnScrollTargetViewId = 2130903647;
+			
+			// aapt resource value: 0x7F030260
+			public const int limitBoundsTo = 2130903648;
+			
+			// aapt resource value: 0x7F030263
+			public const int linearProgressIndicatorStyle = 2130903651;
+			
+			// aapt resource value: 0x7F030261
+			public const int lineHeight = 2130903649;
+			
+			// aapt resource value: 0x7F030262
+			public const int lineSpacing = 2130903650;
+			
+			// aapt resource value: 0x7F030264
+			public const int listChoiceBackgroundIndicator = 2130903652;
+			
+			// aapt resource value: 0x7F030265
+			public const int listChoiceIndicatorMultipleAnimated = 2130903653;
+			
+			// aapt resource value: 0x7F030266
+			public const int listChoiceIndicatorSingleAnimated = 2130903654;
+			
+			// aapt resource value: 0x7F030267
+			public const int listDividerAlertDialog = 2130903655;
+			
+			// aapt resource value: 0x7F030268
+			public const int listItemLayout = 2130903656;
 			
 			// aapt resource value: 0x7F030269
-			public const int materialAlertDialogBodyTextStyle = 2130903657;
+			public const int listLayout = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int materialAlertDialogTheme = 2130903658;
+			public const int listMenuViewStyle = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int materialAlertDialogTitleIconStyle = 2130903659;
+			public const int listPopupWindowStyle = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int materialAlertDialogTitlePanelStyle = 2130903660;
+			public const int listPreferredItemHeight = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int materialAlertDialogTitleTextStyle = 2130903661;
+			public const int listPreferredItemHeightLarge = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int materialButtonOutlinedStyle = 2130903662;
+			public const int listPreferredItemHeightSmall = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int materialButtonStyle = 2130903663;
+			public const int listPreferredItemPaddingEnd = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int materialButtonToggleGroupStyle = 2130903664;
+			public const int listPreferredItemPaddingLeft = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int materialCalendarDay = 2130903665;
+			public const int listPreferredItemPaddingRight = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int materialCalendarFullscreenTheme = 2130903666;
+			public const int listPreferredItemPaddingStart = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int materialCalendarHeaderCancelButton = 2130903667;
+			public const int logo = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int materialCalendarHeaderConfirmButton = 2130903668;
+			public const int logoDescription = 2130903668;
+			
+			// aapt resource value: 0x7F030210
+			public const int lStar = 2130903568;
 			
 			// aapt resource value: 0x7F030275
-			public const int materialCalendarHeaderDivider = 2130903669;
+			public const int materialAlertDialogBodyTextStyle = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int materialCalendarHeaderLayout = 2130903670;
+			public const int materialAlertDialogTheme = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int materialCalendarHeaderSelection = 2130903671;
+			public const int materialAlertDialogTitleIconStyle = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int materialCalendarHeaderTitle = 2130903672;
+			public const int materialAlertDialogTitlePanelStyle = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int materialCalendarHeaderToggleButton = 2130903673;
+			public const int materialAlertDialogTitleTextStyle = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int materialCalendarMonth = 2130903674;
+			public const int materialButtonOutlinedStyle = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int materialCalendarMonthNavigationButton = 2130903675;
+			public const int materialButtonStyle = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int materialCalendarStyle = 2130903676;
+			public const int materialButtonToggleGroupStyle = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int materialCalendarTheme = 2130903677;
+			public const int materialCalendarDay = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int materialCalendarYearNavigationButton = 2130903678;
+			public const int materialCalendarFullscreenTheme = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int materialCardViewStyle = 2130903679;
+			public const int materialCalendarHeaderCancelButton = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int materialCircleRadius = 2130903680;
+			public const int materialCalendarHeaderConfirmButton = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int materialClockStyle = 2130903681;
+			public const int materialCalendarHeaderDivider = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int materialThemeOverlay = 2130903682;
+			public const int materialCalendarHeaderLayout = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int materialTimePickerStyle = 2130903683;
+			public const int materialCalendarHeaderSelection = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int materialTimePickerTheme = 2130903684;
+			public const int materialCalendarHeaderTitle = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int maxAcceleration = 2130903685;
+			public const int materialCalendarHeaderToggleButton = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int maxActionInlineWidth = 2130903686;
+			public const int materialCalendarMonth = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int maxButtonHeight = 2130903687;
+			public const int materialCalendarMonthNavigationButton = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int maxCharacterCount = 2130903688;
+			public const int materialCalendarStyle = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int maxHeight = 2130903689;
+			public const int materialCalendarTheme = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int maxImageSize = 2130903690;
+			public const int materialCalendarYearNavigationButton = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int maxLines = 2130903691;
+			public const int materialCardViewStyle = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int maxVelocity = 2130903692;
+			public const int materialCircleRadius = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int maxWidth = 2130903693;
+			public const int materialClockStyle = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int measureWithLargestChild = 2130903694;
+			public const int materialThemeOverlay = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int menu = 2130903695;
+			public const int materialTimePickerStyle = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int menuGravity = 2130903696;
+			public const int materialTimePickerTheme = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int methodName = 2130903697;
+			public const int maxAcceleration = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int mimeType = 2130903698;
+			public const int maxActionInlineWidth = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int min = 2130903699;
+			public const int maxButtonHeight = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int minHeight = 2130903700;
+			public const int maxCharacterCount = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int minHideDelay = 2130903701;
+			public const int maxHeight = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int minSeparation = 2130903702;
+			public const int maxImageSize = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int minTouchTargetSize = 2130903703;
+			public const int maxLines = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int minWidth = 2130903704;
+			public const int maxVelocity = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int mock_diagonalsColor = 2130903705;
+			public const int maxWidth = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int mock_label = 2130903706;
+			public const int measureWithLargestChild = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int mock_labelBackgroundColor = 2130903707;
+			public const int menu = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int mock_labelColor = 2130903708;
+			public const int menuGravity = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int mock_showDiagonals = 2130903709;
+			public const int methodName = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int mock_showLabel = 2130903710;
+			public const int mimeType = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int motionDebug = 2130903711;
+			public const int min = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int motionDurationLong1 = 2130903712;
+			public const int minHeight = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int motionDurationLong2 = 2130903713;
+			public const int minHideDelay = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int motionDurationMedium1 = 2130903714;
+			public const int minSeparation = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int motionDurationMedium2 = 2130903715;
+			public const int minTouchTargetSize = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int motionDurationShort1 = 2130903716;
+			public const int minWidth = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int motionDurationShort2 = 2130903717;
+			public const int mock_diagonalsColor = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int motionEasingAccelerated = 2130903718;
+			public const int mock_label = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int motionEasingDecelerated = 2130903719;
+			public const int mock_labelBackgroundColor = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int motionEasingEmphasized = 2130903720;
+			public const int mock_labelColor = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int motionEasingLinear = 2130903721;
+			public const int mock_showDiagonals = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int motionEasingStandard = 2130903722;
+			public const int mock_showLabel = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int motionEffect_alpha = 2130903723;
+			public const int motionDebug = 2130903723;
 			
 			// aapt resource value: 0x7F0302AC
-			public const int motionEffect_end = 2130903724;
+			public const int motionDurationLong1 = 2130903724;
 			
 			// aapt resource value: 0x7F0302AD
-			public const int motionEffect_move = 2130903725;
+			public const int motionDurationLong2 = 2130903725;
 			
 			// aapt resource value: 0x7F0302AE
-			public const int motionEffect_start = 2130903726;
+			public const int motionDurationMedium1 = 2130903726;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int motionEffect_strict = 2130903727;
+			public const int motionDurationMedium2 = 2130903727;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int motionEffect_translationX = 2130903728;
+			public const int motionDurationShort1 = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int motionEffect_translationY = 2130903729;
+			public const int motionDurationShort2 = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int motionEffect_viewTransition = 2130903730;
+			public const int motionEasingAccelerated = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int motionInterpolator = 2130903731;
+			public const int motionEasingDecelerated = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int motionPath = 2130903732;
+			public const int motionEasingEmphasized = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int motionPathRotate = 2130903733;
+			public const int motionEasingLinear = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int motionProgress = 2130903734;
+			public const int motionEasingStandard = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int motionStagger = 2130903735;
+			public const int motionEffect_alpha = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int motionTarget = 2130903736;
+			public const int motionEffect_end = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int motion_postLayoutCollision = 2130903737;
+			public const int motionEffect_move = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int motion_triggerOnCollision = 2130903738;
+			public const int motionEffect_start = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int moveWhenScrollAtTop = 2130903739;
+			public const int motionEffect_strict = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int multiChoiceItemLayout = 2130903740;
+			public const int motionEffect_translationX = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int navGraph = 2130903741;
+			public const int motionEffect_translationY = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int navigationContentDescription = 2130903742;
+			public const int motionEffect_viewTransition = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int navigationIcon = 2130903743;
+			public const int motionInterpolator = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int navigationIconTint = 2130903744;
+			public const int motionPath = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int navigationMode = 2130903745;
+			public const int motionPathRotate = 2130903745;
 			
 			// aapt resource value: 0x7F0302C2
-			public const int navigationRailStyle = 2130903746;
+			public const int motionProgress = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int navigationViewStyle = 2130903747;
+			public const int motionStagger = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int negativeButtonText = 2130903748;
-			
-			// aapt resource value: 0x7F0302C7
-			public const int nestedScrollable = 2130903751;
+			public const int motionTarget = 2130903748;
 			
 			// aapt resource value: 0x7F0302C5
-			public const int nestedScrollFlags = 2130903749;
+			public const int motion_postLayoutCollision = 2130903749;
 			
 			// aapt resource value: 0x7F0302C6
-			public const int nestedScrollViewStyle = 2130903750;
+			public const int motion_triggerOnCollision = 2130903750;
+			
+			// aapt resource value: 0x7F0302C7
+			public const int moveWhenScrollAtTop = 2130903751;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int nullable = 2130903752;
+			public const int multiChoiceItemLayout = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int number = 2130903753;
+			public const int navGraph = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int numericModifiers = 2130903754;
+			public const int navigationContentDescription = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int onCross = 2130903755;
+			public const int navigationIcon = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int onHide = 2130903756;
+			public const int navigationIconTint = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int onNegativeCross = 2130903757;
+			public const int navigationMode = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int onPositiveCross = 2130903758;
+			public const int navigationRailStyle = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int onShow = 2130903759;
+			public const int navigationViewStyle = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int onStateTransition = 2130903760;
-			
-			// aapt resource value: 0x7F0302D1
-			public const int onTouchUp = 2130903761;
-			
-			// aapt resource value: 0x7F0302D2
-			public const int order = 2130903762;
+			public const int negativeButtonText = 2130903760;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int orderingFromXml = 2130903763;
+			public const int nestedScrollable = 2130903763;
+			
+			// aapt resource value: 0x7F0302D1
+			public const int nestedScrollFlags = 2130903761;
+			
+			// aapt resource value: 0x7F0302D2
+			public const int nestedScrollViewStyle = 2130903762;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int overlapAnchor = 2130903764;
+			public const int nullable = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int overlay = 2130903765;
+			public const int number = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int paddingBottomNoButtons = 2130903766;
+			public const int numericModifiers = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int paddingBottomSystemWindowInsets = 2130903767;
+			public const int onCross = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int paddingEnd = 2130903768;
+			public const int onHide = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int paddingLeftSystemWindowInsets = 2130903769;
+			public const int onNegativeCross = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int paddingRightSystemWindowInsets = 2130903770;
+			public const int onPositiveCross = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int paddingStart = 2130903771;
+			public const int onShow = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int paddingTopNoTitle = 2130903772;
+			public const int onStateTransition = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int paddingTopSystemWindowInsets = 2130903773;
+			public const int onTouchUp = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int panelBackground = 2130903774;
+			public const int order = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int panelMenuListTheme = 2130903775;
+			public const int orderingFromXml = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int panelMenuListWidth = 2130903776;
+			public const int overlapAnchor = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int passwordToggleContentDescription = 2130903777;
+			public const int overlay = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int passwordToggleDrawable = 2130903778;
+			public const int paddingBottomNoButtons = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int passwordToggleEnabled = 2130903779;
+			public const int paddingBottomSystemWindowInsets = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int passwordToggleTint = 2130903780;
+			public const int paddingEnd = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int passwordToggleTintMode = 2130903781;
+			public const int paddingLeftSystemWindowInsets = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int pathMotionArc = 2130903782;
+			public const int paddingRightSystemWindowInsets = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int path_percent = 2130903783;
+			public const int paddingStart = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int percentHeight = 2130903784;
+			public const int paddingTopNoTitle = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int percentWidth = 2130903785;
+			public const int paddingTopSystemWindowInsets = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int percentX = 2130903786;
+			public const int panelBackground = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int percentY = 2130903787;
+			public const int panelMenuListTheme = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int perpendicularPath_percent = 2130903788;
+			public const int panelMenuListWidth = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int persistent = 2130903789;
+			public const int passwordToggleContentDescription = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int pivotAnchor = 2130903790;
+			public const int passwordToggleDrawable = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int placeholderText = 2130903791;
+			public const int passwordToggleEnabled = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int placeholderTextAppearance = 2130903792;
+			public const int passwordToggleTint = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int placeholderTextColor = 2130903793;
+			public const int passwordToggleTintMode = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int placeholder_emptyVisibility = 2130903794;
+			public const int pathMotionArc = 2130903794;
 			
 			// aapt resource value: 0x7F0302F3
-			public const int polarRelativeTo = 2130903795;
+			public const int path_percent = 2130903795;
 			
 			// aapt resource value: 0x7F0302F4
-			public const int popEnterAnim = 2130903796;
+			public const int percentHeight = 2130903796;
 			
 			// aapt resource value: 0x7F0302F5
-			public const int popExitAnim = 2130903797;
-			
-			// aapt resource value: 0x7F0302F8
-			public const int popupMenuBackground = 2130903800;
-			
-			// aapt resource value: 0x7F0302F9
-			public const int popupMenuStyle = 2130903801;
-			
-			// aapt resource value: 0x7F0302FA
-			public const int popupTheme = 2130903802;
+			public const int percentWidth = 2130903797;
 			
 			// aapt resource value: 0x7F0302F6
-			public const int popUpTo = 2130903798;
+			public const int percentX = 2130903798;
 			
 			// aapt resource value: 0x7F0302F7
-			public const int popUpToInclusive = 2130903799;
+			public const int percentY = 2130903799;
+			
+			// aapt resource value: 0x7F0302F8
+			public const int perpendicularPath_percent = 2130903800;
+			
+			// aapt resource value: 0x7F0302F9
+			public const int persistent = 2130903801;
+			
+			// aapt resource value: 0x7F0302FA
+			public const int pivotAnchor = 2130903802;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int popupWindowStyle = 2130903803;
+			public const int placeholderText = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int positiveButtonText = 2130903804;
+			public const int placeholderTextAppearance = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int preferenceCategoryStyle = 2130903805;
+			public const int placeholderTextColor = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int preferenceCategoryTitleTextAppearance = 2130903806;
+			public const int placeholder_emptyVisibility = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int preferenceFragmentCompatStyle = 2130903807;
+			public const int polarRelativeTo = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int preferenceFragmentListStyle = 2130903808;
+			public const int popEnterAnim = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int preferenceFragmentStyle = 2130903809;
-			
-			// aapt resource value: 0x7F030302
-			public const int preferenceInformationStyle = 2130903810;
-			
-			// aapt resource value: 0x7F030303
-			public const int preferenceScreenStyle = 2130903811;
+			public const int popExitAnim = 2130903809;
 			
 			// aapt resource value: 0x7F030304
-			public const int preferenceStyle = 2130903812;
+			public const int popupMenuBackground = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int preferenceTheme = 2130903813;
+			public const int popupMenuStyle = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int prefixText = 2130903814;
+			public const int popupTheme = 2130903814;
+			
+			// aapt resource value: 0x7F030302
+			public const int popUpTo = 2130903810;
+			
+			// aapt resource value: 0x7F030303
+			public const int popUpToInclusive = 2130903811;
 			
 			// aapt resource value: 0x7F030307
-			public const int prefixTextAppearance = 2130903815;
+			public const int popupWindowStyle = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int prefixTextColor = 2130903816;
+			public const int positiveButtonText = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int preserveIconSpacing = 2130903817;
+			public const int preferenceCategoryStyle = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int pressedTranslationZ = 2130903818;
+			public const int preferenceCategoryTitleTextAppearance = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int progressBarPadding = 2130903819;
+			public const int preferenceFragmentCompatStyle = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int progressBarStyle = 2130903820;
+			public const int preferenceFragmentListStyle = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int quantizeMotionInterpolator = 2130903821;
+			public const int preferenceFragmentStyle = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int quantizeMotionPhase = 2130903822;
+			public const int preferenceInformationStyle = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int quantizeMotionSteps = 2130903823;
+			public const int preferenceScreenStyle = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int queryBackground = 2130903824;
+			public const int preferenceStyle = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int queryHint = 2130903825;
+			public const int preferenceTheme = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int queryPatterns = 2130903826;
+			public const int prefixText = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int radioButtonStyle = 2130903827;
+			public const int prefixTextAppearance = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int rangeFillColor = 2130903828;
+			public const int prefixTextColor = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int ratingBarStyle = 2130903829;
+			public const int preserveIconSpacing = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int ratingBarStyleIndicator = 2130903830;
+			public const int pressedTranslationZ = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int ratingBarStyleSmall = 2130903831;
+			public const int progressBarPadding = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int reactiveGuide_animateChange = 2130903832;
+			public const int progressBarStyle = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int reactiveGuide_applyToAllConstraintSets = 2130903833;
+			public const int quantizeMotionInterpolator = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int reactiveGuide_applyToConstraintSet = 2130903834;
+			public const int quantizeMotionPhase = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int reactiveGuide_valueId = 2130903835;
+			public const int quantizeMotionSteps = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int recyclerViewStyle = 2130903836;
+			public const int queryBackground = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int region_heightLessThan = 2130903837;
+			public const int queryHint = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int region_heightMoreThan = 2130903838;
+			public const int queryPatterns = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int region_widthLessThan = 2130903839;
+			public const int radioButtonStyle = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int region_widthMoreThan = 2130903840;
+			public const int rangeFillColor = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int reverseLayout = 2130903841;
+			public const int ratingBarStyle = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int rippleColor = 2130903842;
+			public const int ratingBarStyleIndicator = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int rotationCenterId = 2130903843;
+			public const int ratingBarStyleSmall = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int round = 2130903844;
+			public const int reactiveGuide_animateChange = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int roundPercent = 2130903845;
+			public const int reactiveGuide_applyToAllConstraintSets = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int saturation = 2130903846;
+			public const int reactiveGuide_applyToConstraintSet = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int scaleFromTextSize = 2130903847;
+			public const int reactiveGuide_valueId = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int scrimAnimationDuration = 2130903848;
+			public const int recyclerViewStyle = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int scrimBackground = 2130903849;
+			public const int region_heightLessThan = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int scrimVisibleHeightTrigger = 2130903850;
+			public const int region_heightMoreThan = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int scrollViewStyle = 2130903851;
+			public const int region_widthLessThan = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int searchHintIcon = 2130903852;
+			public const int region_widthMoreThan = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int searchIcon = 2130903853;
+			public const int reverseLayout = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int searchViewStyle = 2130903854;
+			public const int rippleColor = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int seekBarIncrement = 2130903855;
+			public const int rotationCenterId = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int seekBarPreferenceStyle = 2130903856;
+			public const int round = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int seekBarStyle = 2130903857;
+			public const int roundPercent = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int selectable = 2130903858;
+			public const int saturation = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int selectableItemBackground = 2130903859;
+			public const int scaleFromTextSize = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int selectableItemBackgroundBorderless = 2130903860;
+			public const int scrimAnimationDuration = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int selectionRequired = 2130903861;
+			public const int scrimBackground = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int selectorSize = 2130903862;
+			public const int scrimVisibleHeightTrigger = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int setsTag = 2130903863;
+			public const int scrollViewStyle = 2130903863;
 			
 			// aapt resource value: 0x7F030338
-			public const int shapeAppearance = 2130903864;
+			public const int searchHintIcon = 2130903864;
 			
 			// aapt resource value: 0x7F030339
-			public const int shapeAppearanceLargeComponent = 2130903865;
+			public const int searchIcon = 2130903865;
 			
 			// aapt resource value: 0x7F03033A
-			public const int shapeAppearanceMediumComponent = 2130903866;
+			public const int searchViewStyle = 2130903866;
 			
 			// aapt resource value: 0x7F03033B
-			public const int shapeAppearanceOverlay = 2130903867;
+			public const int seekBarIncrement = 2130903867;
 			
 			// aapt resource value: 0x7F03033C
-			public const int shapeAppearanceSmallComponent = 2130903868;
+			public const int seekBarPreferenceStyle = 2130903868;
+			
+			// aapt resource value: 0x7F03033D
+			public const int seekBarStyle = 2130903869;
+			
+			// aapt resource value: 0x7F03033E
+			public const int selectable = 2130903870;
+			
+			// aapt resource value: 0x7F03033F
+			public const int selectableItemBackground = 2130903871;
+			
+			// aapt resource value: 0x7F030340
+			public const int selectableItemBackgroundBorderless = 2130903872;
+			
+			// aapt resource value: 0x7F030341
+			public const int selectionRequired = 2130903873;
+			
+			// aapt resource value: 0x7F030342
+			public const int selectorSize = 2130903874;
+			
+			// aapt resource value: 0x7F030343
+			public const int setsTag = 2130903875;
+			
+			// aapt resource value: 0x7F030344
+			public const int shapeAppearance = 2130903876;
+			
+			// aapt resource value: 0x7F030345
+			public const int shapeAppearanceLargeComponent = 2130903877;
+			
+			// aapt resource value: 0x7F030346
+			public const int shapeAppearanceMediumComponent = 2130903878;
+			
+			// aapt resource value: 0x7F030347
+			public const int shapeAppearanceOverlay = 2130903879;
+			
+			// aapt resource value: 0x7F030348
+			public const int shapeAppearanceSmallComponent = 2130903880;
 			
 			// aapt resource value: 0x7F030001
 			public const int SharedValue = 2130903041;
@@ -13366,749 +16025,749 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0x7F030002
 			public const int SharedValueId = 2130903042;
 			
-			// aapt resource value: 0x7F03033D
-			public const int shortcutMatchRequired = 2130903869;
-			
-			// aapt resource value: 0x7F03033E
-			public const int shouldDisableView = 2130903870;
-			
-			// aapt resource value: 0x7F03033F
-			public const int showAnimationBehavior = 2130903871;
-			
-			// aapt resource value: 0x7F030340
-			public const int showAsAction = 2130903872;
-			
-			// aapt resource value: 0x7F030341
-			public const int showDelay = 2130903873;
-			
-			// aapt resource value: 0x7F030342
-			public const int showDividers = 2130903874;
-			
-			// aapt resource value: 0x7F030343
-			public const int showMotionSpec = 2130903875;
-			
-			// aapt resource value: 0x7F030344
-			public const int showPaths = 2130903876;
-			
-			// aapt resource value: 0x7F030345
-			public const int showSeekBarValue = 2130903877;
-			
-			// aapt resource value: 0x7F030346
-			public const int showText = 2130903878;
-			
-			// aapt resource value: 0x7F030347
-			public const int showTitle = 2130903879;
-			
-			// aapt resource value: 0x7F030348
-			public const int shrinkMotionSpec = 2130903880;
-			
 			// aapt resource value: 0x7F030349
-			public const int singleChoiceItemLayout = 2130903881;
+			public const int shortcutMatchRequired = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int singleLine = 2130903882;
+			public const int shouldDisableView = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int singleLineTitle = 2130903883;
+			public const int showAnimationBehavior = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int singleSelection = 2130903884;
+			public const int showAsAction = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int sizePercent = 2130903885;
+			public const int showDelay = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int sliderStyle = 2130903886;
+			public const int showDividers = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int snackbarButtonStyle = 2130903887;
+			public const int showMotionSpec = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int snackbarStyle = 2130903888;
+			public const int showPaths = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int snackbarTextViewStyle = 2130903889;
+			public const int showSeekBarValue = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int spanCount = 2130903890;
+			public const int showText = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int spinBars = 2130903891;
+			public const int showTitle = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int spinnerDropDownItemStyle = 2130903892;
+			public const int shrinkMotionSpec = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int spinnerStyle = 2130903893;
+			public const int singleChoiceItemLayout = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int splitTrack = 2130903894;
+			public const int singleLine = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int springBoundary = 2130903895;
+			public const int singleLineTitle = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int springDamping = 2130903896;
+			public const int singleSelection = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int springMass = 2130903897;
+			public const int sizePercent = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int springStiffness = 2130903898;
+			public const int sliderStyle = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int springStopThreshold = 2130903899;
+			public const int snackbarButtonStyle = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int srcCompat = 2130903900;
+			public const int snackbarStyle = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int stackFromEnd = 2130903901;
+			public const int snackbarTextViewStyle = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int staggered = 2130903902;
+			public const int spanCount = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int startDestination = 2130903903;
+			public const int spinBars = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int startIconCheckable = 2130903904;
+			public const int spinnerDropDownItemStyle = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int startIconContentDescription = 2130903905;
+			public const int spinnerStyle = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int startIconDrawable = 2130903906;
+			public const int splitTrack = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int startIconTint = 2130903907;
+			public const int springBoundary = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int startIconTintMode = 2130903908;
+			public const int springDamping = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int state_above_anchor = 2130903909;
+			public const int springMass = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int state_collapsed = 2130903910;
+			public const int springStiffness = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int state_collapsible = 2130903911;
+			public const int springStopThreshold = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int state_dragged = 2130903912;
+			public const int srcCompat = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int state_liftable = 2130903913;
+			public const int stackFromEnd = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int state_lifted = 2130903914;
+			public const int staggered = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int statusBarBackground = 2130903915;
+			public const int startDestination = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int statusBarForeground = 2130903916;
+			public const int startIconCheckable = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int statusBarScrim = 2130903917;
+			public const int startIconContentDescription = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int strokeColor = 2130903918;
+			public const int startIconDrawable = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int strokeWidth = 2130903919;
+			public const int startIconTint = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int subMenuArrow = 2130903920;
+			public const int startIconTintMode = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int submitBackground = 2130903921;
+			public const int state_above_anchor = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int subtitle = 2130903922;
+			public const int state_collapsed = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int subtitleCentered = 2130903923;
+			public const int state_collapsible = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int subtitleTextAppearance = 2130903924;
+			public const int state_dragged = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int subtitleTextColor = 2130903925;
+			public const int state_liftable = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int subtitleTextStyle = 2130903926;
+			public const int state_lifted = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int suffixText = 2130903927;
+			public const int statusBarBackground = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int suffixTextAppearance = 2130903928;
+			public const int statusBarForeground = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int suffixTextColor = 2130903929;
+			public const int statusBarScrim = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int suggestionRowLayout = 2130903930;
+			public const int strokeColor = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int summary = 2130903931;
+			public const int strokeWidth = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int summaryOff = 2130903932;
+			public const int subMenuArrow = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int summaryOn = 2130903933;
+			public const int submitBackground = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903934;
+			public const int subtitle = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int switchMinWidth = 2130903935;
+			public const int subtitleCentered = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int switchPadding = 2130903936;
+			public const int subtitleTextAppearance = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int switchPreferenceCompatStyle = 2130903937;
+			public const int subtitleTextColor = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int switchPreferenceStyle = 2130903938;
+			public const int subtitleTextStyle = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int switchStyle = 2130903939;
+			public const int suffixText = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int switchTextAppearance = 2130903940;
+			public const int suffixTextAppearance = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int switchTextOff = 2130903941;
+			public const int suffixTextColor = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int switchTextOn = 2130903942;
+			public const int suggestionRowLayout = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int tabBackground = 2130903943;
+			public const int summary = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int tabContentStart = 2130903944;
+			public const int summaryOff = 2130903944;
 			
 			// aapt resource value: 0x7F030389
-			public const int tabGravity = 2130903945;
+			public const int summaryOn = 2130903945;
 			
 			// aapt resource value: 0x7F03038A
-			public const int tabIconTint = 2130903946;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903946;
 			
 			// aapt resource value: 0x7F03038B
-			public const int tabIconTintMode = 2130903947;
+			public const int switchMinWidth = 2130903947;
 			
 			// aapt resource value: 0x7F03038C
-			public const int tabIndicator = 2130903948;
+			public const int switchPadding = 2130903948;
 			
 			// aapt resource value: 0x7F03038D
-			public const int tabIndicatorAnimationDuration = 2130903949;
+			public const int switchPreferenceCompatStyle = 2130903949;
 			
 			// aapt resource value: 0x7F03038E
-			public const int tabIndicatorAnimationMode = 2130903950;
+			public const int switchPreferenceStyle = 2130903950;
 			
 			// aapt resource value: 0x7F03038F
-			public const int tabIndicatorColor = 2130903951;
+			public const int switchStyle = 2130903951;
 			
 			// aapt resource value: 0x7F030390
-			public const int tabIndicatorFullWidth = 2130903952;
+			public const int switchTextAppearance = 2130903952;
 			
 			// aapt resource value: 0x7F030391
-			public const int tabIndicatorGravity = 2130903953;
+			public const int switchTextOff = 2130903953;
 			
 			// aapt resource value: 0x7F030392
-			public const int tabIndicatorHeight = 2130903954;
+			public const int switchTextOn = 2130903954;
 			
 			// aapt resource value: 0x7F030393
-			public const int tabInlineLabel = 2130903955;
+			public const int tabBackground = 2130903955;
 			
 			// aapt resource value: 0x7F030394
-			public const int tabMaxWidth = 2130903956;
+			public const int tabContentStart = 2130903956;
 			
 			// aapt resource value: 0x7F030395
-			public const int tabMinWidth = 2130903957;
+			public const int tabGravity = 2130903957;
 			
 			// aapt resource value: 0x7F030396
-			public const int tabMode = 2130903958;
+			public const int tabIconTint = 2130903958;
 			
 			// aapt resource value: 0x7F030397
-			public const int tabPadding = 2130903959;
+			public const int tabIconTintMode = 2130903959;
 			
 			// aapt resource value: 0x7F030398
-			public const int tabPaddingBottom = 2130903960;
+			public const int tabIndicator = 2130903960;
 			
 			// aapt resource value: 0x7F030399
-			public const int tabPaddingEnd = 2130903961;
+			public const int tabIndicatorAnimationDuration = 2130903961;
 			
 			// aapt resource value: 0x7F03039A
-			public const int tabPaddingStart = 2130903962;
+			public const int tabIndicatorAnimationMode = 2130903962;
 			
 			// aapt resource value: 0x7F03039B
-			public const int tabPaddingTop = 2130903963;
+			public const int tabIndicatorColor = 2130903963;
 			
 			// aapt resource value: 0x7F03039C
-			public const int tabRippleColor = 2130903964;
+			public const int tabIndicatorFullWidth = 2130903964;
 			
 			// aapt resource value: 0x7F03039D
-			public const int tabSelectedTextColor = 2130903965;
+			public const int tabIndicatorGravity = 2130903965;
 			
 			// aapt resource value: 0x7F03039E
-			public const int tabStyle = 2130903966;
+			public const int tabIndicatorHeight = 2130903966;
 			
 			// aapt resource value: 0x7F03039F
-			public const int tabTextAppearance = 2130903967;
+			public const int tabInlineLabel = 2130903967;
 			
 			// aapt resource value: 0x7F0303A0
-			public const int tabTextColor = 2130903968;
+			public const int tabMaxWidth = 2130903968;
 			
 			// aapt resource value: 0x7F0303A1
-			public const int tabUnboundedRipple = 2130903969;
+			public const int tabMinWidth = 2130903969;
 			
 			// aapt resource value: 0x7F0303A2
-			public const int targetId = 2130903970;
+			public const int tabMode = 2130903970;
 			
 			// aapt resource value: 0x7F0303A3
-			public const int targetPackage = 2130903971;
+			public const int tabPadding = 2130903971;
 			
 			// aapt resource value: 0x7F0303A4
-			public const int telltales_tailColor = 2130903972;
+			public const int tabPaddingBottom = 2130903972;
 			
 			// aapt resource value: 0x7F0303A5
-			public const int telltales_tailScale = 2130903973;
+			public const int tabPaddingEnd = 2130903973;
 			
 			// aapt resource value: 0x7F0303A6
-			public const int telltales_velocityMode = 2130903974;
+			public const int tabPaddingStart = 2130903974;
 			
 			// aapt resource value: 0x7F0303A7
-			public const int textAllCaps = 2130903975;
+			public const int tabPaddingTop = 2130903975;
 			
 			// aapt resource value: 0x7F0303A8
-			public const int textAppearanceBody1 = 2130903976;
+			public const int tabRippleColor = 2130903976;
 			
 			// aapt resource value: 0x7F0303A9
-			public const int textAppearanceBody2 = 2130903977;
+			public const int tabSelectedTextColor = 2130903977;
 			
 			// aapt resource value: 0x7F0303AA
-			public const int textAppearanceButton = 2130903978;
+			public const int tabStyle = 2130903978;
 			
 			// aapt resource value: 0x7F0303AB
-			public const int textAppearanceCaption = 2130903979;
+			public const int tabTextAppearance = 2130903979;
 			
 			// aapt resource value: 0x7F0303AC
-			public const int textAppearanceHeadline1 = 2130903980;
+			public const int tabTextColor = 2130903980;
 			
 			// aapt resource value: 0x7F0303AD
-			public const int textAppearanceHeadline2 = 2130903981;
+			public const int tabUnboundedRipple = 2130903981;
 			
 			// aapt resource value: 0x7F0303AE
-			public const int textAppearanceHeadline3 = 2130903982;
+			public const int targetId = 2130903982;
 			
 			// aapt resource value: 0x7F0303AF
-			public const int textAppearanceHeadline4 = 2130903983;
+			public const int targetPackage = 2130903983;
 			
 			// aapt resource value: 0x7F0303B0
-			public const int textAppearanceHeadline5 = 2130903984;
+			public const int telltales_tailColor = 2130903984;
 			
 			// aapt resource value: 0x7F0303B1
-			public const int textAppearanceHeadline6 = 2130903985;
+			public const int telltales_tailScale = 2130903985;
 			
 			// aapt resource value: 0x7F0303B2
-			public const int textAppearanceLargePopupMenu = 2130903986;
+			public const int telltales_velocityMode = 2130903986;
 			
 			// aapt resource value: 0x7F0303B3
-			public const int textAppearanceLineHeightEnabled = 2130903987;
+			public const int textAllCaps = 2130903987;
 			
 			// aapt resource value: 0x7F0303B4
-			public const int textAppearanceListItem = 2130903988;
+			public const int textAppearanceBody1 = 2130903988;
 			
 			// aapt resource value: 0x7F0303B5
-			public const int textAppearanceListItemSecondary = 2130903989;
+			public const int textAppearanceBody2 = 2130903989;
 			
 			// aapt resource value: 0x7F0303B6
-			public const int textAppearanceListItemSmall = 2130903990;
+			public const int textAppearanceButton = 2130903990;
 			
 			// aapt resource value: 0x7F0303B7
-			public const int textAppearanceOverline = 2130903991;
+			public const int textAppearanceCaption = 2130903991;
 			
 			// aapt resource value: 0x7F0303B8
-			public const int textAppearancePopupMenuHeader = 2130903992;
+			public const int textAppearanceHeadline1 = 2130903992;
 			
 			// aapt resource value: 0x7F0303B9
-			public const int textAppearanceSearchResultSubtitle = 2130903993;
+			public const int textAppearanceHeadline2 = 2130903993;
 			
 			// aapt resource value: 0x7F0303BA
-			public const int textAppearanceSearchResultTitle = 2130903994;
+			public const int textAppearanceHeadline3 = 2130903994;
 			
 			// aapt resource value: 0x7F0303BB
-			public const int textAppearanceSmallPopupMenu = 2130903995;
+			public const int textAppearanceHeadline4 = 2130903995;
 			
 			// aapt resource value: 0x7F0303BC
-			public const int textAppearanceSubtitle1 = 2130903996;
+			public const int textAppearanceHeadline5 = 2130903996;
 			
 			// aapt resource value: 0x7F0303BD
-			public const int textAppearanceSubtitle2 = 2130903997;
+			public const int textAppearanceHeadline6 = 2130903997;
 			
 			// aapt resource value: 0x7F0303BE
-			public const int textBackground = 2130903998;
+			public const int textAppearanceLargePopupMenu = 2130903998;
 			
 			// aapt resource value: 0x7F0303BF
-			public const int textBackgroundPanX = 2130903999;
+			public const int textAppearanceLineHeightEnabled = 2130903999;
 			
 			// aapt resource value: 0x7F0303C0
-			public const int textBackgroundPanY = 2130904000;
+			public const int textAppearanceListItem = 2130904000;
 			
 			// aapt resource value: 0x7F0303C1
-			public const int textBackgroundRotate = 2130904001;
+			public const int textAppearanceListItemSecondary = 2130904001;
 			
 			// aapt resource value: 0x7F0303C2
-			public const int textBackgroundZoom = 2130904002;
+			public const int textAppearanceListItemSmall = 2130904002;
 			
 			// aapt resource value: 0x7F0303C3
-			public const int textColorAlertDialogListItem = 2130904003;
+			public const int textAppearanceOverline = 2130904003;
 			
 			// aapt resource value: 0x7F0303C4
-			public const int textColorSearchUrl = 2130904004;
+			public const int textAppearancePopupMenuHeader = 2130904004;
 			
 			// aapt resource value: 0x7F0303C5
-			public const int textEndPadding = 2130904005;
+			public const int textAppearanceSearchResultSubtitle = 2130904005;
 			
 			// aapt resource value: 0x7F0303C6
-			public const int textFillColor = 2130904006;
+			public const int textAppearanceSearchResultTitle = 2130904006;
 			
 			// aapt resource value: 0x7F0303C7
-			public const int textInputLayoutFocusedRectEnabled = 2130904007;
+			public const int textAppearanceSmallPopupMenu = 2130904007;
 			
 			// aapt resource value: 0x7F0303C8
-			public const int textInputStyle = 2130904008;
+			public const int textAppearanceSubtitle1 = 2130904008;
 			
 			// aapt resource value: 0x7F0303C9
-			public const int textLocale = 2130904009;
+			public const int textAppearanceSubtitle2 = 2130904009;
 			
 			// aapt resource value: 0x7F0303CA
-			public const int textOutlineColor = 2130904010;
+			public const int textBackground = 2130904010;
 			
 			// aapt resource value: 0x7F0303CB
-			public const int textOutlineThickness = 2130904011;
+			public const int textBackgroundPanX = 2130904011;
 			
 			// aapt resource value: 0x7F0303CC
-			public const int textPanX = 2130904012;
+			public const int textBackgroundPanY = 2130904012;
 			
 			// aapt resource value: 0x7F0303CD
-			public const int textPanY = 2130904013;
+			public const int textBackgroundRotate = 2130904013;
 			
 			// aapt resource value: 0x7F0303CE
-			public const int textStartPadding = 2130904014;
+			public const int textBackgroundZoom = 2130904014;
 			
 			// aapt resource value: 0x7F0303CF
-			public const int textureBlurFactor = 2130904015;
+			public const int textColorAlertDialogListItem = 2130904015;
 			
 			// aapt resource value: 0x7F0303D0
-			public const int textureEffect = 2130904016;
+			public const int textColorSearchUrl = 2130904016;
 			
 			// aapt resource value: 0x7F0303D1
-			public const int textureHeight = 2130904017;
+			public const int textEndPadding = 2130904017;
 			
 			// aapt resource value: 0x7F0303D2
-			public const int textureWidth = 2130904018;
+			public const int textFillColor = 2130904018;
 			
 			// aapt resource value: 0x7F0303D3
-			public const int theme = 2130904019;
+			public const int textInputLayoutFocusedRectEnabled = 2130904019;
 			
 			// aapt resource value: 0x7F0303D4
-			public const int themeLineHeight = 2130904020;
+			public const int textInputStyle = 2130904020;
 			
 			// aapt resource value: 0x7F0303D5
-			public const int thickness = 2130904021;
+			public const int textLocale = 2130904021;
 			
 			// aapt resource value: 0x7F0303D6
-			public const int thumbColor = 2130904022;
+			public const int textOutlineColor = 2130904022;
 			
 			// aapt resource value: 0x7F0303D7
-			public const int thumbElevation = 2130904023;
+			public const int textOutlineThickness = 2130904023;
 			
 			// aapt resource value: 0x7F0303D8
-			public const int thumbRadius = 2130904024;
+			public const int textPanX = 2130904024;
 			
 			// aapt resource value: 0x7F0303D9
-			public const int thumbStrokeColor = 2130904025;
+			public const int textPanY = 2130904025;
 			
 			// aapt resource value: 0x7F0303DA
-			public const int thumbStrokeWidth = 2130904026;
+			public const int textStartPadding = 2130904026;
 			
 			// aapt resource value: 0x7F0303DB
-			public const int thumbTextPadding = 2130904027;
+			public const int textureBlurFactor = 2130904027;
 			
 			// aapt resource value: 0x7F0303DC
-			public const int thumbTint = 2130904028;
+			public const int textureEffect = 2130904028;
 			
 			// aapt resource value: 0x7F0303DD
-			public const int thumbTintMode = 2130904029;
+			public const int textureHeight = 2130904029;
 			
 			// aapt resource value: 0x7F0303DE
-			public const int tickColor = 2130904030;
+			public const int textureWidth = 2130904030;
 			
 			// aapt resource value: 0x7F0303DF
-			public const int tickColorActive = 2130904031;
+			public const int theme = 2130904031;
 			
 			// aapt resource value: 0x7F0303E0
-			public const int tickColorInactive = 2130904032;
+			public const int themeLineHeight = 2130904032;
 			
 			// aapt resource value: 0x7F0303E1
-			public const int tickMark = 2130904033;
+			public const int thickness = 2130904033;
 			
 			// aapt resource value: 0x7F0303E2
-			public const int tickMarkTint = 2130904034;
+			public const int thumbColor = 2130904034;
 			
 			// aapt resource value: 0x7F0303E3
-			public const int tickMarkTintMode = 2130904035;
+			public const int thumbElevation = 2130904035;
 			
 			// aapt resource value: 0x7F0303E4
-			public const int tickVisible = 2130904036;
+			public const int thumbRadius = 2130904036;
 			
 			// aapt resource value: 0x7F0303E5
-			public const int tint = 2130904037;
+			public const int thumbStrokeColor = 2130904037;
 			
 			// aapt resource value: 0x7F0303E6
-			public const int tintMode = 2130904038;
+			public const int thumbStrokeWidth = 2130904038;
 			
 			// aapt resource value: 0x7F0303E7
-			public const int title = 2130904039;
+			public const int thumbTextPadding = 2130904039;
 			
 			// aapt resource value: 0x7F0303E8
-			public const int titleCentered = 2130904040;
+			public const int thumbTint = 2130904040;
 			
 			// aapt resource value: 0x7F0303E9
-			public const int titleCollapseMode = 2130904041;
+			public const int thumbTintMode = 2130904041;
 			
 			// aapt resource value: 0x7F0303EA
-			public const int titleEnabled = 2130904042;
+			public const int tickColor = 2130904042;
 			
 			// aapt resource value: 0x7F0303EB
-			public const int titleMargin = 2130904043;
+			public const int tickColorActive = 2130904043;
 			
 			// aapt resource value: 0x7F0303EC
-			public const int titleMarginBottom = 2130904044;
+			public const int tickColorInactive = 2130904044;
 			
 			// aapt resource value: 0x7F0303ED
-			public const int titleMarginEnd = 2130904045;
-			
-			// aapt resource value: 0x7F0303F0
-			public const int titleMargins = 2130904048;
+			public const int tickMark = 2130904045;
 			
 			// aapt resource value: 0x7F0303EE
-			public const int titleMarginStart = 2130904046;
+			public const int tickMarkTint = 2130904046;
 			
 			// aapt resource value: 0x7F0303EF
-			public const int titleMarginTop = 2130904047;
+			public const int tickMarkTintMode = 2130904047;
+			
+			// aapt resource value: 0x7F0303F0
+			public const int tickVisible = 2130904048;
 			
 			// aapt resource value: 0x7F0303F1
-			public const int titleTextAppearance = 2130904049;
+			public const int tint = 2130904049;
 			
 			// aapt resource value: 0x7F0303F2
-			public const int titleTextColor = 2130904050;
+			public const int tintMode = 2130904050;
 			
 			// aapt resource value: 0x7F0303F3
-			public const int titleTextStyle = 2130904051;
+			public const int title = 2130904051;
 			
 			// aapt resource value: 0x7F0303F4
-			public const int toolbarId = 2130904052;
+			public const int titleCentered = 2130904052;
 			
 			// aapt resource value: 0x7F0303F5
-			public const int toolbarNavigationButtonStyle = 2130904053;
+			public const int titleCollapseMode = 2130904053;
 			
 			// aapt resource value: 0x7F0303F6
-			public const int toolbarStyle = 2130904054;
+			public const int titleEnabled = 2130904054;
 			
 			// aapt resource value: 0x7F0303F7
-			public const int tooltipForegroundColor = 2130904055;
+			public const int titleMargin = 2130904055;
 			
 			// aapt resource value: 0x7F0303F8
-			public const int tooltipFrameBackground = 2130904056;
+			public const int titleMarginBottom = 2130904056;
 			
 			// aapt resource value: 0x7F0303F9
-			public const int tooltipStyle = 2130904057;
-			
-			// aapt resource value: 0x7F0303FA
-			public const int tooltipText = 2130904058;
-			
-			// aapt resource value: 0x7F0303FB
-			public const int touchAnchorId = 2130904059;
+			public const int titleMarginEnd = 2130904057;
 			
 			// aapt resource value: 0x7F0303FC
-			public const int touchAnchorSide = 2130904060;
+			public const int titleMargins = 2130904060;
+			
+			// aapt resource value: 0x7F0303FA
+			public const int titleMarginStart = 2130904058;
+			
+			// aapt resource value: 0x7F0303FB
+			public const int titleMarginTop = 2130904059;
 			
 			// aapt resource value: 0x7F0303FD
-			public const int touchRegionId = 2130904061;
+			public const int titleTextAppearance = 2130904061;
 			
 			// aapt resource value: 0x7F0303FE
-			public const int track = 2130904062;
+			public const int titleTextColor = 2130904062;
 			
 			// aapt resource value: 0x7F0303FF
-			public const int trackColor = 2130904063;
+			public const int titleTextStyle = 2130904063;
 			
 			// aapt resource value: 0x7F030400
-			public const int trackColorActive = 2130904064;
+			public const int toolbarId = 2130904064;
 			
 			// aapt resource value: 0x7F030401
-			public const int trackColorInactive = 2130904065;
+			public const int toolbarNavigationButtonStyle = 2130904065;
 			
 			// aapt resource value: 0x7F030402
-			public const int trackCornerRadius = 2130904066;
+			public const int toolbarStyle = 2130904066;
 			
 			// aapt resource value: 0x7F030403
-			public const int trackHeight = 2130904067;
+			public const int tooltipForegroundColor = 2130904067;
 			
 			// aapt resource value: 0x7F030404
-			public const int trackThickness = 2130904068;
+			public const int tooltipFrameBackground = 2130904068;
 			
 			// aapt resource value: 0x7F030405
-			public const int trackTint = 2130904069;
+			public const int tooltipStyle = 2130904069;
 			
 			// aapt resource value: 0x7F030406
-			public const int trackTintMode = 2130904070;
+			public const int tooltipText = 2130904070;
 			
 			// aapt resource value: 0x7F030407
-			public const int transformPivotTarget = 2130904071;
+			public const int touchAnchorId = 2130904071;
 			
 			// aapt resource value: 0x7F030408
-			public const int transitionDisable = 2130904072;
+			public const int touchAnchorSide = 2130904072;
 			
 			// aapt resource value: 0x7F030409
-			public const int transitionEasing = 2130904073;
+			public const int touchRegionId = 2130904073;
 			
 			// aapt resource value: 0x7F03040A
-			public const int transitionFlags = 2130904074;
+			public const int track = 2130904074;
 			
 			// aapt resource value: 0x7F03040B
-			public const int transitionPathRotate = 2130904075;
+			public const int trackColor = 2130904075;
 			
 			// aapt resource value: 0x7F03040C
-			public const int transitionShapeAppearance = 2130904076;
+			public const int trackColorActive = 2130904076;
 			
 			// aapt resource value: 0x7F03040D
-			public const int triggerId = 2130904077;
+			public const int trackColorInactive = 2130904077;
 			
 			// aapt resource value: 0x7F03040E
-			public const int triggerReceiver = 2130904078;
+			public const int trackCornerRadius = 2130904078;
 			
 			// aapt resource value: 0x7F03040F
-			public const int triggerSlack = 2130904079;
+			public const int trackHeight = 2130904079;
 			
 			// aapt resource value: 0x7F030410
-			public const int ttcIndex = 2130904080;
-			
-			// aapt resource value: 0x7F030412
-			public const int updatesContinuously = 2130904082;
+			public const int trackThickness = 2130904080;
 			
 			// aapt resource value: 0x7F030411
-			public const int upDuration = 2130904081;
+			public const int trackTint = 2130904081;
+			
+			// aapt resource value: 0x7F030412
+			public const int trackTintMode = 2130904082;
 			
 			// aapt resource value: 0x7F030413
-			public const int uri = 2130904083;
+			public const int transformPivotTarget = 2130904083;
 			
 			// aapt resource value: 0x7F030414
-			public const int useCompatPadding = 2130904084;
+			public const int transitionDisable = 2130904084;
 			
 			// aapt resource value: 0x7F030415
-			public const int useMaterialThemeColors = 2130904085;
+			public const int transitionEasing = 2130904085;
 			
 			// aapt resource value: 0x7F030416
-			public const int useSimpleSummaryProvider = 2130904086;
+			public const int transitionFlags = 2130904086;
 			
 			// aapt resource value: 0x7F030417
-			public const int values = 2130904087;
+			public const int transitionPathRotate = 2130904087;
 			
 			// aapt resource value: 0x7F030418
-			public const int verticalOffset = 2130904088;
+			public const int transitionShapeAppearance = 2130904088;
 			
 			// aapt resource value: 0x7F030419
-			public const int viewInflaterClass = 2130904089;
+			public const int triggerId = 2130904089;
 			
 			// aapt resource value: 0x7F03041A
-			public const int viewTransitionMode = 2130904090;
+			public const int triggerReceiver = 2130904090;
 			
 			// aapt resource value: 0x7F03041B
-			public const int viewTransitionOnCross = 2130904091;
+			public const int triggerSlack = 2130904091;
 			
 			// aapt resource value: 0x7F03041C
-			public const int viewTransitionOnNegativeCross = 2130904092;
-			
-			// aapt resource value: 0x7F03041D
-			public const int viewTransitionOnPositiveCross = 2130904093;
+			public const int ttcIndex = 2130904092;
 			
 			// aapt resource value: 0x7F03041E
-			public const int visibilityMode = 2130904094;
+			public const int updatesContinuously = 2130904094;
+			
+			// aapt resource value: 0x7F03041D
+			public const int upDuration = 2130904093;
 			
 			// aapt resource value: 0x7F03041F
-			public const int voiceIcon = 2130904095;
+			public const int uri = 2130904095;
 			
 			// aapt resource value: 0x7F030420
-			public const int warmth = 2130904096;
+			public const int useCompatPadding = 2130904096;
 			
 			// aapt resource value: 0x7F030421
-			public const int waveDecay = 2130904097;
+			public const int useMaterialThemeColors = 2130904097;
 			
 			// aapt resource value: 0x7F030422
-			public const int waveOffset = 2130904098;
+			public const int useSimpleSummaryProvider = 2130904098;
 			
 			// aapt resource value: 0x7F030423
-			public const int wavePeriod = 2130904099;
+			public const int values = 2130904099;
 			
 			// aapt resource value: 0x7F030424
-			public const int wavePhase = 2130904100;
+			public const int verticalOffset = 2130904100;
 			
 			// aapt resource value: 0x7F030425
-			public const int waveShape = 2130904101;
+			public const int viewInflaterClass = 2130904101;
 			
 			// aapt resource value: 0x7F030426
-			public const int waveVariesBy = 2130904102;
+			public const int viewTransitionMode = 2130904102;
 			
 			// aapt resource value: 0x7F030427
-			public const int widgetLayout = 2130904103;
+			public const int viewTransitionOnCross = 2130904103;
 			
 			// aapt resource value: 0x7F030428
-			public const int windowActionBar = 2130904104;
+			public const int viewTransitionOnNegativeCross = 2130904104;
 			
 			// aapt resource value: 0x7F030429
-			public const int windowActionBarOverlay = 2130904105;
+			public const int viewTransitionOnPositiveCross = 2130904105;
 			
 			// aapt resource value: 0x7F03042A
-			public const int windowActionModeOverlay = 2130904106;
+			public const int visibilityMode = 2130904106;
 			
 			// aapt resource value: 0x7F03042B
-			public const int windowFixedHeightMajor = 2130904107;
+			public const int voiceIcon = 2130904107;
 			
 			// aapt resource value: 0x7F03042C
-			public const int windowFixedHeightMinor = 2130904108;
+			public const int warmth = 2130904108;
 			
 			// aapt resource value: 0x7F03042D
-			public const int windowFixedWidthMajor = 2130904109;
+			public const int waveDecay = 2130904109;
 			
 			// aapt resource value: 0x7F03042E
-			public const int windowFixedWidthMinor = 2130904110;
+			public const int waveOffset = 2130904110;
 			
 			// aapt resource value: 0x7F03042F
-			public const int windowMinWidthMajor = 2130904111;
+			public const int wavePeriod = 2130904111;
 			
 			// aapt resource value: 0x7F030430
-			public const int windowMinWidthMinor = 2130904112;
+			public const int wavePhase = 2130904112;
 			
 			// aapt resource value: 0x7F030431
-			public const int windowNoTitle = 2130904113;
+			public const int waveShape = 2130904113;
 			
 			// aapt resource value: 0x7F030432
-			public const int yearSelectedStyle = 2130904114;
+			public const int waveVariesBy = 2130904114;
 			
 			// aapt resource value: 0x7F030433
-			public const int yearStyle = 2130904115;
+			public const int widgetLayout = 2130904115;
 			
 			// aapt resource value: 0x7F030434
-			public const int yearTodayStyle = 2130904116;
+			public const int windowActionBar = 2130904116;
+			
+			// aapt resource value: 0x7F030435
+			public const int windowActionBarOverlay = 2130904117;
+			
+			// aapt resource value: 0x7F030436
+			public const int windowActionModeOverlay = 2130904118;
+			
+			// aapt resource value: 0x7F030437
+			public const int windowFixedHeightMajor = 2130904119;
+			
+			// aapt resource value: 0x7F030438
+			public const int windowFixedHeightMinor = 2130904120;
+			
+			// aapt resource value: 0x7F030439
+			public const int windowFixedWidthMajor = 2130904121;
+			
+			// aapt resource value: 0x7F03043A
+			public const int windowFixedWidthMinor = 2130904122;
+			
+			// aapt resource value: 0x7F03043B
+			public const int windowMinWidthMajor = 2130904123;
+			
+			// aapt resource value: 0x7F03043C
+			public const int windowMinWidthMinor = 2130904124;
+			
+			// aapt resource value: 0x7F03043D
+			public const int windowNoTitle = 2130904125;
+			
+			// aapt resource value: 0x7F03043E
+			public const int yearSelectedStyle = 2130904126;
+			
+			// aapt resource value: 0x7F03043F
+			public const int yearStyle = 2130904127;
+			
+			// aapt resource value: 0x7F030440
+			public const int yearTodayStyle = 2130904128;
 			
 			static Attribute()
 			{
@@ -16359,256 +19018,340 @@ namespace WeatherApp.Droid
 			public const int avd_show_password = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int bg = 2131165272;
+			public const int baclieu = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int btn_checkbox_checked_mtrl = 2131165273;
+			public const int binhdinh = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165274;
+			public const int btn_checkbox_checked_mtrl = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_checkbox_unchecked_mtrl = 2131165275;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165276;
+			public const int btn_checkbox_unchecked_mtrl = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_radio_off_mtrl = 2131165277;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165278;
+			public const int btn_radio_off_mtrl = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_radio_on_mtrl = 2131165279;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165280;
+			public const int btn_radio_on_mtrl = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int cloud = 2131165281;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int cloudiness = 2131165282;
+			public const int camau = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_fab_background = 2131165283;
+			public const int cloud = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_ic_visibility = 2131165284;
+			public const int cloudiness = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_ic_visibility_off = 2131165285;
+			public const int dalat = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_password_eye = 2131165286;
+			public const int danang = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int design_snackbar_background = 2131165287;
+			public const int design_fab_background = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int gauge = 2131165288;
+			public const int design_ic_visibility = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int humidity = 2131165289;
+			public const int design_ic_visibility_off = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_arrow_down_24dp = 2131165290;
+			public const int design_password_eye = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_clock_black_24dp = 2131165291;
+			public const int design_snackbar_background = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_keyboard_black_24dp = 2131165292;
+			public const int dongthap = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_checked_circle = 2131165293;
+			public const int gauge = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_black = 2131165294;
+			public const int haiphong = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_checked_circle = 2131165295;
+			public const int halong = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_close_circle = 2131165296;
+			public const int hanoi = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int material_cursor_drawable = 2131165297;
+			public const int hatinh = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_ic_calendar_black_24dp = 2131165298;
+			public const int hoabinh = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_clear_black_24dp = 2131165299;
+			public const int hochiminh = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_edit_black_24dp = 2131165300;
+			public const int hue = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165301;
+			public const int humidity = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165302;
+			public const int hungyen = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165303;
+			public const int ic_arrow_down_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165304;
+			public const int ic_clock_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165305;
+			public const int ic_errorstatus = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165306;
+			public const int ic_keyboard_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int menu = 2131165307;
+			public const int ic_mtrl_checked_circle = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_dialog_background = 2131165308;
+			public const int ic_mtrl_chip_checked_black = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_dropdown_arrow = 2131165309;
+			public const int ic_mtrl_chip_checked_circle = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_arrow_drop_down = 2131165310;
+			public const int ic_mtrl_chip_close_circle = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_ic_arrow_drop_up = 2131165311;
+			public const int ic_successstatus = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_cancel = 2131165312;
+			public const int KwuangBinh = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_error = 2131165313;
+			public const int longan = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_navigation_bar_item_background = 2131165314;
+			public const int material_cursor_drawable = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_popupmenu_background = 2131165315;
+			public const int material_ic_calendar_black_24dp = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_popupmenu_background_dark = 2131165316;
+			public const int material_ic_clear_black_24dp = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_tabs_default_indicator = 2131165317;
+			public const int material_ic_edit_black_24dp = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int navigation_empty_icon = 2131165318;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_action_background = 2131165319;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg = 2131165320;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_low = 2131165321;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg_low_normal = 2131165322;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_low_pressed = 2131165323;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_normal = 2131165324;
+			public const int menu = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_bg_normal_pressed = 2131165325;
+			public const int mtrl_dialog_background = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_icon_background = 2131165326;
+			public const int mtrl_dropdown_arrow = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_template_icon_bg = 2131165327;
+			public const int mtrl_ic_arrow_drop_down = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_template_icon_low_bg = 2131165328;
+			public const int mtrl_ic_arrow_drop_up = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_tile_bg = 2131165329;
+			public const int mtrl_ic_cancel = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notify_panel_notification_icon_bg = 2131165330;
+			public const int mtrl_ic_error = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int overlay = 2131165331;
+			public const int mtrl_navigation_bar_item_background = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int preference_list_divider_material = 2131165332;
+			public const int mtrl_popupmenu_background = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int test_custom_background = 2131165333;
+			public const int mtrl_popupmenu_background_dark = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int test_level_drawable = 2131165334;
+			public const int mtrl_tabs_default_indicator = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int tooltip_frame_dark = 2131165335;
+			public const int navigation_empty_icon = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int tooltip_frame_light = 2131165336;
+			public const int nghean = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int w01d = 2131165337;
+			public const int nhatrang = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int w01n = 2131165338;
+			public const int notification_action_background = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int w02d = 2131165339;
+			public const int notification_bg = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int w02n = 2131165340;
+			public const int notification_bg_low = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int w03d = 2131165341;
+			public const int notification_bg_low_normal = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int w03n = 2131165342;
+			public const int notification_bg_low_pressed = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int w04d = 2131165343;
+			public const int notification_bg_normal = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int w04n = 2131165344;
+			public const int notification_bg_normal_pressed = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int w09d = 2131165345;
+			public const int notification_icon_background = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int w09n = 2131165346;
+			public const int notification_template_icon_bg = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int w10d = 2131165347;
+			public const int notification_template_icon_low_bg = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int w10n = 2131165348;
+			public const int notification_tile_bg = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int w11d = 2131165349;
+			public const int notify_panel_notification_icon_bg = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int w11n = 2131165350;
+			public const int overlay = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int w13d = 2131165351;
+			public const int phanthiet = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int w13n = 2131165352;
+			public const int phuyen = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int w50d = 2131165353;
+			public const int preference_list_divider_material = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int w50n = 2131165354;
+			public const int quangngai = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int wind = 2131165355;
+			public const int roundedbg = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int roundedbgdark = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int sapa = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int test_custom_background = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int test_level_drawable = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int thanhhoa = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int tooltip_frame_dark = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int tooltip_frame_light = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int vinhlong = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int vungtau = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int w01d = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int w01n = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int w02d = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int w02n = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int w03d = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int w03n = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int w04d = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int w04n = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int w09d = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int w09n = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int w10d = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int w10n = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int w11d = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int w11n = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int w13d = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int w13n = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int w50d = 2131165381;
+			
+			// aapt resource value: 0x7F0700C6
+			public const int w50n = 2131165382;
+			
+			// aapt resource value: 0x7F0700C7
+			public const int wind = 2131165383;
 			
 			static Drawable()
 			{
@@ -17323,445 +20066,454 @@ namespace WeatherApp.Droid
 			public const int list_item = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int main_appbar = 2131230962;
+			public const int loadingImage = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int main_tablayout = 2131230963;
+			public const int loadingProgressBar = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int main_toolbar = 2131230964;
+			public const int loadingProgressWheel = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int main_viewpager = 2131230965;
+			public const int main_appbar = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int masked = 2131230966;
+			public const int main_tablayout = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int match_constraint = 2131230967;
+			public const int main_toolbar = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int match_parent = 2131230968;
+			public const int main_viewpager = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int material_clock_display = 2131230969;
+			public const int masked = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int material_clock_face = 2131230970;
+			public const int match_constraint = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int material_clock_hand = 2131230971;
+			public const int match_parent = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int material_clock_period_am_button = 2131230972;
+			public const int material_clock_display = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_pm_button = 2131230973;
+			public const int material_clock_face = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_toggle = 2131230974;
+			public const int material_clock_hand = 2131230974;
 			
 			// aapt resource value: 0x7F0800FF
-			public const int material_hour_text_input = 2131230975;
+			public const int material_clock_period_am_button = 2131230975;
 			
 			// aapt resource value: 0x7F080100
-			public const int material_hour_tv = 2131230976;
+			public const int material_clock_period_pm_button = 2131230976;
 			
 			// aapt resource value: 0x7F080101
-			public const int material_label = 2131230977;
+			public const int material_clock_period_toggle = 2131230977;
 			
 			// aapt resource value: 0x7F080102
-			public const int material_minute_text_input = 2131230978;
+			public const int material_hour_text_input = 2131230978;
 			
 			// aapt resource value: 0x7F080103
-			public const int material_minute_tv = 2131230979;
+			public const int material_hour_tv = 2131230979;
 			
 			// aapt resource value: 0x7F080104
-			public const int material_textinput_timepicker = 2131230980;
+			public const int material_label = 2131230980;
 			
 			// aapt resource value: 0x7F080105
-			public const int material_timepicker_cancel_button = 2131230981;
+			public const int material_minute_text_input = 2131230981;
 			
 			// aapt resource value: 0x7F080106
-			public const int material_timepicker_container = 2131230982;
+			public const int material_minute_tv = 2131230982;
 			
 			// aapt resource value: 0x7F080107
-			public const int material_timepicker_edit_text = 2131230983;
+			public const int material_textinput_timepicker = 2131230983;
 			
 			// aapt resource value: 0x7F080108
-			public const int material_timepicker_mode_button = 2131230984;
+			public const int material_timepicker_cancel_button = 2131230984;
 			
 			// aapt resource value: 0x7F080109
-			public const int material_timepicker_ok_button = 2131230985;
+			public const int material_timepicker_container = 2131230985;
 			
 			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_view = 2131230986;
+			public const int material_timepicker_edit_text = 2131230986;
 			
 			// aapt resource value: 0x7F08010B
-			public const int material_value_index = 2131230987;
+			public const int material_timepicker_mode_button = 2131230987;
 			
 			// aapt resource value: 0x7F08010C
-			public const int media_actions = 2131230988;
+			public const int material_timepicker_ok_button = 2131230988;
 			
 			// aapt resource value: 0x7F08010D
-			public const int media_controller_compat_view_tag = 2131230989;
+			public const int material_timepicker_view = 2131230989;
 			
 			// aapt resource value: 0x7F08010E
-			public const int message = 2131230990;
+			public const int material_value_index = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int media_actions = 2131230991;
+			
+			// aapt resource value: 0x7F080110
+			public const int media_controller_compat_view_tag = 2131230992;
+			
+			// aapt resource value: 0x7F080111
+			public const int message = 2131230993;
 			
 			// aapt resource value: 0x7F080005
 			public const int META = 2131230725;
 			
-			// aapt resource value: 0x7F08010F
-			public const int middle = 2131230991;
-			
-			// aapt resource value: 0x7F080110
-			public const int mini = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int month_grid = 2131230993;
-			
 			// aapt resource value: 0x7F080112
-			public const int month_navigation_bar = 2131230994;
+			public const int middle = 2131230994;
 			
 			// aapt resource value: 0x7F080113
-			public const int month_navigation_fragment_toggle = 2131230995;
+			public const int mini = 2131230995;
 			
 			// aapt resource value: 0x7F080114
-			public const int month_navigation_next = 2131230996;
+			public const int month_grid = 2131230996;
 			
 			// aapt resource value: 0x7F080115
-			public const int month_navigation_previous = 2131230997;
+			public const int month_navigation_bar = 2131230997;
 			
 			// aapt resource value: 0x7F080116
-			public const int month_title = 2131230998;
+			public const int month_navigation_fragment_toggle = 2131230998;
 			
 			// aapt resource value: 0x7F080117
-			public const int motion_base = 2131230999;
+			public const int month_navigation_next = 2131230999;
 			
 			// aapt resource value: 0x7F080118
-			public const int mtrl_anchor_parent = 2131231000;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_days_of_week = 2131231002;
+			public const int month_navigation_previous = 2131231000;
 			
 			// aapt resource value: 0x7F080119
-			public const int mtrl_calendar_day_selector_frame = 2131231001;
+			public const int month_title = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int motion_base = 2131231002;
 			
 			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_frame = 2131231003;
-			
-			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_main_pane = 2131231004;
+			public const int mtrl_anchor_parent = 2131231003;
 			
 			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_months = 2131231005;
+			public const int mtrl_calendar_days_of_week = 2131231005;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_day_selector_frame = 2131231004;
 			
 			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_selection_frame = 2131231006;
+			public const int mtrl_calendar_frame = 2131231006;
 			
 			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_text_input_frame = 2131231007;
+			public const int mtrl_calendar_main_pane = 2131231007;
 			
 			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_year_selector_frame = 2131231008;
+			public const int mtrl_calendar_months = 2131231008;
 			
 			// aapt resource value: 0x7F080121
-			public const int mtrl_card_checked_layer_id = 2131231009;
+			public const int mtrl_calendar_selection_frame = 2131231009;
 			
 			// aapt resource value: 0x7F080122
-			public const int mtrl_child_content_container = 2131231010;
+			public const int mtrl_calendar_text_input_frame = 2131231010;
 			
 			// aapt resource value: 0x7F080123
-			public const int mtrl_internal_children_alpha_tag = 2131231011;
+			public const int mtrl_calendar_year_selector_frame = 2131231011;
 			
 			// aapt resource value: 0x7F080124
-			public const int mtrl_motion_snapshot_view = 2131231012;
+			public const int mtrl_card_checked_layer_id = 2131231012;
 			
 			// aapt resource value: 0x7F080125
-			public const int mtrl_picker_fullscreen = 2131231013;
+			public const int mtrl_child_content_container = 2131231013;
 			
 			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_header = 2131231014;
+			public const int mtrl_internal_children_alpha_tag = 2131231014;
 			
 			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header_selection_text = 2131231015;
+			public const int mtrl_motion_snapshot_view = 2131231015;
 			
 			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_title_and_selection = 2131231016;
+			public const int mtrl_picker_fullscreen = 2131231016;
 			
 			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_toggle = 2131231017;
+			public const int mtrl_picker_header = 2131231017;
 			
 			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_text_input_date = 2131231018;
+			public const int mtrl_picker_header_selection_text = 2131231018;
 			
 			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_range_end = 2131231019;
+			public const int mtrl_picker_header_title_and_selection = 2131231019;
 			
 			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_start = 2131231020;
+			public const int mtrl_picker_header_toggle = 2131231020;
 			
 			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_title_text = 2131231021;
+			public const int mtrl_picker_text_input_date = 2131231021;
 			
 			// aapt resource value: 0x7F08012E
-			public const int mtrl_view_tag_bottom_padding = 2131231022;
+			public const int mtrl_picker_text_input_range_end = 2131231022;
 			
 			// aapt resource value: 0x7F08012F
-			public const int multiply = 2131231023;
-			
-			// aapt resource value: 0x7F080131
-			public const int navigation_bar_item_icon_view = 2131231025;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_labels_group = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_large_label_view = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_small_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_header_container = 2131231029;
+			public const int mtrl_picker_text_input_range_start = 2131231023;
 			
 			// aapt resource value: 0x7F080130
-			public const int nav_controller_view_tag = 2131231024;
+			public const int mtrl_picker_title_text = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int mtrl_view_tag_bottom_padding = 2131231025;
+			
+			// aapt resource value: 0x7F080132
+			public const int multiply = 2131231026;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_icon_view = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_labels_group = 2131231029;
 			
 			// aapt resource value: 0x7F080136
-			public const int never = 2131231030;
+			public const int navigation_bar_item_large_label_view = 2131231030;
 			
 			// aapt resource value: 0x7F080137
-			public const int neverCompleteToEnd = 2131231031;
+			public const int navigation_bar_item_small_label_view = 2131231031;
 			
 			// aapt resource value: 0x7F080138
-			public const int neverCompleteToStart = 2131231032;
+			public const int navigation_header_container = 2131231032;
 			
-			// aapt resource value: 0x7F08013B
-			public const int none = 2131231035;
-			
-			// aapt resource value: 0x7F08013C
-			public const int normal = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int north = 2131231037;
+			// aapt resource value: 0x7F080133
+			public const int nav_controller_view_tag = 2131231027;
 			
 			// aapt resource value: 0x7F080139
-			public const int noScroll = 2131231033;
+			public const int never = 2131231033;
 			
 			// aapt resource value: 0x7F08013A
-			public const int noState = 2131231034;
+			public const int neverCompleteToEnd = 2131231034;
+			
+			// aapt resource value: 0x7F08013B
+			public const int neverCompleteToStart = 2131231035;
 			
 			// aapt resource value: 0x7F08013E
-			public const int notification_background = 2131231038;
+			public const int none = 2131231038;
 			
 			// aapt resource value: 0x7F08013F
-			public const int notification_main_column = 2131231039;
+			public const int normal = 2131231039;
 			
 			// aapt resource value: 0x7F080140
-			public const int notification_main_column_container = 2131231040;
+			public const int north = 2131231040;
+			
+			// aapt resource value: 0x7F08013C
+			public const int noScroll = 2131231036;
+			
+			// aapt resource value: 0x7F08013D
+			public const int noState = 2131231037;
+			
+			// aapt resource value: 0x7F080141
+			public const int notification_background = 2131231041;
+			
+			// aapt resource value: 0x7F080142
+			public const int notification_main_column = 2131231042;
+			
+			// aapt resource value: 0x7F080143
+			public const int notification_main_column_container = 2131231043;
 			
 			// aapt resource value: 0x7F080006
 			public const int NO_DEBUG = 2131230726;
 			
-			// aapt resource value: 0x7F080141
-			public const int off = 2131231041;
-			
-			// aapt resource value: 0x7F080142
-			public const int on = 2131231042;
-			
-			// aapt resource value: 0x7F080143
-			public const int outline = 2131231043;
-			
 			// aapt resource value: 0x7F080144
-			public const int outward = 2131231044;
+			public const int off = 2131231044;
 			
 			// aapt resource value: 0x7F080145
-			public const int overshoot = 2131231045;
+			public const int on = 2131231045;
 			
 			// aapt resource value: 0x7F080146
-			public const int packed = 2131231046;
+			public const int outline = 2131231046;
 			
 			// aapt resource value: 0x7F080147
-			public const int parallax = 2131231047;
+			public const int outward = 2131231047;
 			
 			// aapt resource value: 0x7F080148
-			public const int parent = 2131231048;
+			public const int overshoot = 2131231048;
 			
 			// aapt resource value: 0x7F080149
-			public const int parentPanel = 2131231049;
+			public const int packed = 2131231049;
 			
 			// aapt resource value: 0x7F08014A
-			public const int parentRelative = 2131231050;
+			public const int parallax = 2131231050;
 			
 			// aapt resource value: 0x7F08014B
-			public const int parent_matrix = 2131231051;
+			public const int parent = 2131231051;
 			
 			// aapt resource value: 0x7F08014C
-			public const int password_toggle = 2131231052;
+			public const int parentPanel = 2131231052;
 			
 			// aapt resource value: 0x7F08014D
-			public const int path = 2131231053;
+			public const int parentRelative = 2131231053;
 			
 			// aapt resource value: 0x7F08014E
-			public const int pathRelative = 2131231054;
+			public const int parent_matrix = 2131231054;
 			
 			// aapt resource value: 0x7F08014F
-			public const int peekHeight = 2131231055;
+			public const int password_toggle = 2131231055;
 			
 			// aapt resource value: 0x7F080150
-			public const int percent = 2131231056;
+			public const int path = 2131231056;
 			
 			// aapt resource value: 0x7F080151
-			public const int pin = 2131231057;
+			public const int pathRelative = 2131231057;
 			
 			// aapt resource value: 0x7F080152
-			public const int position = 2131231058;
+			public const int peekHeight = 2131231058;
 			
 			// aapt resource value: 0x7F080153
-			public const int postLayout = 2131231059;
+			public const int percent = 2131231059;
 			
 			// aapt resource value: 0x7F080154
-			public const int progress_circular = 2131231060;
+			public const int pin = 2131231060;
 			
 			// aapt resource value: 0x7F080155
-			public const int progress_horizontal = 2131231061;
+			public const int position = 2131231061;
 			
 			// aapt resource value: 0x7F080156
-			public const int radio = 2131231062;
+			public const int postLayout = 2131231062;
 			
 			// aapt resource value: 0x7F080157
-			public const int ratio = 2131231063;
+			public const int progress_circular = 2131231063;
 			
 			// aapt resource value: 0x7F080158
-			public const int rectangles = 2131231064;
+			public const int progress_horizontal = 2131231064;
 			
 			// aapt resource value: 0x7F080159
-			public const int recycler_view = 2131231065;
+			public const int radio = 2131231065;
 			
 			// aapt resource value: 0x7F08015A
-			public const int reverseSawtooth = 2131231066;
+			public const int ratio = 2131231066;
 			
 			// aapt resource value: 0x7F08015B
-			public const int right = 2131231067;
+			public const int rectangles = 2131231067;
 			
 			// aapt resource value: 0x7F08015C
-			public const int rightToLeft = 2131231068;
+			public const int recycler_view = 2131231068;
 			
 			// aapt resource value: 0x7F08015D
-			public const int right_icon = 2131231069;
+			public const int reverseSawtooth = 2131231069;
 			
 			// aapt resource value: 0x7F08015E
-			public const int right_side = 2131231070;
+			public const int right = 2131231070;
 			
 			// aapt resource value: 0x7F08015F
-			public const int rounded = 2131231071;
+			public const int rightToLeft = 2131231071;
 			
 			// aapt resource value: 0x7F080160
-			public const int row_index_key = 2131231072;
+			public const int right_icon = 2131231072;
 			
 			// aapt resource value: 0x7F080161
-			public const int save_non_transition_alpha = 2131231073;
+			public const int right_side = 2131231073;
 			
 			// aapt resource value: 0x7F080162
-			public const int save_overlay_view = 2131231074;
+			public const int rounded = 2131231074;
 			
 			// aapt resource value: 0x7F080163
-			public const int sawtooth = 2131231075;
+			public const int row_index_key = 2131231075;
 			
 			// aapt resource value: 0x7F080164
-			public const int scale = 2131231076;
+			public const int save_non_transition_alpha = 2131231076;
 			
 			// aapt resource value: 0x7F080165
-			public const int screen = 2131231077;
+			public const int save_overlay_view = 2131231077;
 			
 			// aapt resource value: 0x7F080166
-			public const int scroll = 2131231078;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollable = 2131231082;
+			public const int sawtooth = 2131231078;
 			
 			// aapt resource value: 0x7F080167
-			public const int scrollIndicatorDown = 2131231079;
+			public const int scale = 2131231079;
 			
 			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorUp = 2131231080;
+			public const int screen = 2131231080;
 			
 			// aapt resource value: 0x7F080169
-			public const int scrollView = 2131231081;
-			
-			// aapt resource value: 0x7F08016B
-			public const int search_badge = 2131231083;
-			
-			// aapt resource value: 0x7F08016C
-			public const int search_bar = 2131231084;
+			public const int scroll = 2131231081;
 			
 			// aapt resource value: 0x7F08016D
-			public const int search_button = 2131231085;
+			public const int scrollable = 2131231085;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollIndicatorDown = 2131231082;
+			
+			// aapt resource value: 0x7F08016B
+			public const int scrollIndicatorUp = 2131231083;
+			
+			// aapt resource value: 0x7F08016C
+			public const int scrollView = 2131231084;
 			
 			// aapt resource value: 0x7F08016E
-			public const int search_close_btn = 2131231086;
+			public const int search_badge = 2131231086;
 			
 			// aapt resource value: 0x7F08016F
-			public const int search_edit_frame = 2131231087;
+			public const int search_bar = 2131231087;
 			
 			// aapt resource value: 0x7F080170
-			public const int search_go_btn = 2131231088;
+			public const int search_button = 2131231088;
 			
 			// aapt resource value: 0x7F080171
-			public const int search_mag_icon = 2131231089;
+			public const int search_close_btn = 2131231089;
 			
 			// aapt resource value: 0x7F080172
-			public const int search_plate = 2131231090;
+			public const int search_edit_frame = 2131231090;
 			
 			// aapt resource value: 0x7F080173
-			public const int search_src_text = 2131231091;
+			public const int search_go_btn = 2131231091;
 			
 			// aapt resource value: 0x7F080174
-			public const int search_voice_btn = 2131231092;
+			public const int search_mag_icon = 2131231092;
 			
 			// aapt resource value: 0x7F080175
-			public const int seekbar = 2131231093;
+			public const int search_plate = 2131231093;
 			
 			// aapt resource value: 0x7F080176
-			public const int seekbar_value = 2131231094;
-			
-			// aapt resource value: 0x7F080178
-			public const int selected = 2131231096;
-			
-			// aapt resource value: 0x7F080179
-			public const int selection_type = 2131231097;
+			public const int search_src_text = 2131231094;
 			
 			// aapt resource value: 0x7F080177
-			public const int select_dialog_listview = 2131231095;
+			public const int search_voice_btn = 2131231095;
 			
-			// aapt resource value: 0x7F08017A
-			public const int sharedValueSet = 2131231098;
+			// aapt resource value: 0x7F080178
+			public const int seekbar = 2131231096;
+			
+			// aapt resource value: 0x7F080179
+			public const int seekbar_value = 2131231097;
 			
 			// aapt resource value: 0x7F08017B
-			public const int sharedValueUnset = 2131231099;
+			public const int selected = 2131231099;
 			
 			// aapt resource value: 0x7F08017C
-			public const int shellcontent_appbar = 2131231100;
+			public const int selection_type = 2131231100;
+			
+			// aapt resource value: 0x7F08017A
+			public const int select_dialog_listview = 2131231098;
 			
 			// aapt resource value: 0x7F08017D
-			public const int shellcontent_toolbar = 2131231101;
+			public const int sharedValueSet = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int sharedValueUnset = 2131231102;
+			
+			// aapt resource value: 0x7F08017F
+			public const int shellcontent_appbar = 2131231103;
+			
+			// aapt resource value: 0x7F080180
+			public const int shellcontent_toolbar = 2131231104;
 			
 			// aapt resource value: 0x7F080007
 			public const int SHIFT = 2131230727;
 			
-			// aapt resource value: 0x7F08017E
-			public const int shortcut = 2131231102;
-			
-			// aapt resource value: 0x7F08017F
-			public const int showCustom = 2131231103;
-			
-			// aapt resource value: 0x7F080180
-			public const int showHome = 2131231104;
-			
 			// aapt resource value: 0x7F080181
-			public const int showTitle = 2131231105;
+			public const int shortcut = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int showCustom = 2131231106;
+			
+			// aapt resource value: 0x7F080183
+			public const int showHome = 2131231107;
+			
+			// aapt resource value: 0x7F080184
+			public const int showTitle = 2131231108;
 			
 			// aapt resource value: 0x7F080008
 			public const int SHOW_ALL = 2131230728;
@@ -17772,242 +20524,245 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0x7F08000A
 			public const int SHOW_PROGRESS = 2131230730;
 			
-			// aapt resource value: 0x7F080182
-			public const int sin = 2131231106;
-			
-			// aapt resource value: 0x7F080183
-			public const int skipCollapsed = 2131231107;
-			
-			// aapt resource value: 0x7F080184
-			public const int skipped = 2131231108;
-			
 			// aapt resource value: 0x7F080185
-			public const int slide = 2131231109;
+			public const int sin = 2131231109;
 			
 			// aapt resource value: 0x7F080186
-			public const int sliding_tabs = 2131231110;
+			public const int skipCollapsed = 2131231110;
 			
 			// aapt resource value: 0x7F080187
-			public const int snackbar_action = 2131231111;
+			public const int skipped = 2131231111;
 			
 			// aapt resource value: 0x7F080188
-			public const int snackbar_text = 2131231112;
+			public const int slide = 2131231112;
 			
 			// aapt resource value: 0x7F080189
-			public const int snap = 2131231113;
+			public const int sliding_tabs = 2131231113;
 			
 			// aapt resource value: 0x7F08018A
-			public const int snapMargins = 2131231114;
+			public const int snackbar_action = 2131231114;
 			
 			// aapt resource value: 0x7F08018B
-			public const int south = 2131231115;
+			public const int snackbar_text = 2131231115;
 			
 			// aapt resource value: 0x7F08018C
-			public const int spacer = 2131231116;
+			public const int snap = 2131231116;
 			
 			// aapt resource value: 0x7F08018D
-			public const int special_effects_controller_view_tag = 2131231117;
+			public const int snapMargins = 2131231117;
 			
 			// aapt resource value: 0x7F08018E
-			public const int spinner = 2131231118;
+			public const int south = 2131231118;
 			
 			// aapt resource value: 0x7F08018F
-			public const int spline = 2131231119;
+			public const int spacer = 2131231119;
 			
 			// aapt resource value: 0x7F080190
-			public const int split_action_bar = 2131231120;
+			public const int special_effects_controller_view_tag = 2131231120;
 			
 			// aapt resource value: 0x7F080191
-			public const int spread = 2131231121;
+			public const int spinner = 2131231121;
 			
 			// aapt resource value: 0x7F080192
-			public const int spread_inside = 2131231122;
+			public const int spline = 2131231122;
 			
 			// aapt resource value: 0x7F080193
-			public const int spring = 2131231123;
+			public const int split_action_bar = 2131231123;
 			
 			// aapt resource value: 0x7F080194
-			public const int square = 2131231124;
+			public const int spread = 2131231124;
 			
 			// aapt resource value: 0x7F080195
-			public const int src_atop = 2131231125;
+			public const int spread_inside = 2131231125;
 			
 			// aapt resource value: 0x7F080196
-			public const int src_in = 2131231126;
+			public const int spring = 2131231126;
 			
 			// aapt resource value: 0x7F080197
-			public const int src_over = 2131231127;
+			public const int square = 2131231127;
 			
 			// aapt resource value: 0x7F080198
-			public const int standard = 2131231128;
+			public const int src_atop = 2131231128;
 			
 			// aapt resource value: 0x7F080199
-			public const int start = 2131231129;
+			public const int src_in = 2131231129;
 			
 			// aapt resource value: 0x7F08019A
-			public const int startHorizontal = 2131231130;
+			public const int src_over = 2131231130;
 			
 			// aapt resource value: 0x7F08019B
-			public const int startToEnd = 2131231131;
+			public const int standard = 2131231131;
 			
 			// aapt resource value: 0x7F08019C
-			public const int startVertical = 2131231132;
+			public const int start = 2131231132;
 			
 			// aapt resource value: 0x7F08019D
-			public const int staticLayout = 2131231133;
+			public const int startHorizontal = 2131231133;
 			
 			// aapt resource value: 0x7F08019E
-			public const int staticPostLayout = 2131231134;
+			public const int startToEnd = 2131231134;
 			
 			// aapt resource value: 0x7F08019F
-			public const int status_bar_latest_event_content = 2131231135;
+			public const int startVertical = 2131231135;
 			
 			// aapt resource value: 0x7F0801A0
-			public const int stop = 2131231136;
+			public const int staticLayout = 2131231136;
 			
 			// aapt resource value: 0x7F0801A1
-			public const int stretch = 2131231137;
+			public const int staticPostLayout = 2131231137;
 			
 			// aapt resource value: 0x7F0801A2
-			public const int submenuarrow = 2131231138;
+			public const int status_bar_latest_event_content = 2131231138;
 			
 			// aapt resource value: 0x7F0801A3
-			public const int submit_area = 2131231139;
+			public const int stop = 2131231139;
 			
 			// aapt resource value: 0x7F0801A4
-			public const int supportScrollUp = 2131231140;
+			public const int stretch = 2131231140;
 			
 			// aapt resource value: 0x7F0801A5
-			public const int switchWidget = 2131231141;
+			public const int submenuarrow = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int submit_area = 2131231142;
+			
+			// aapt resource value: 0x7F0801A7
+			public const int supportScrollUp = 2131231143;
+			
+			// aapt resource value: 0x7F0801A8
+			public const int switchWidget = 2131231144;
 			
 			// aapt resource value: 0x7F08000B
 			public const int SYM = 2131230731;
 			
-			// aapt resource value: 0x7F0801A6
-			public const int tabMode = 2131231142;
-			
-			// aapt resource value: 0x7F0801A7
-			public const int tag_accessibility_actions = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_clickable_spans = 2131231144;
-			
 			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_heading = 2131231145;
+			public const int tabMode = 2131231145;
 			
 			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_pane_title = 2131231146;
+			public const int tag_accessibility_actions = 2131231146;
 			
 			// aapt resource value: 0x7F0801AB
-			public const int tag_on_apply_window_listener = 2131231147;
+			public const int tag_accessibility_clickable_spans = 2131231147;
 			
 			// aapt resource value: 0x7F0801AC
-			public const int tag_on_receive_content_listener = 2131231148;
+			public const int tag_accessibility_heading = 2131231148;
 			
 			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_mime_types = 2131231149;
+			public const int tag_accessibility_pane_title = 2131231149;
 			
 			// aapt resource value: 0x7F0801AE
-			public const int tag_screen_reader_focusable = 2131231150;
+			public const int tag_on_apply_window_listener = 2131231150;
 			
 			// aapt resource value: 0x7F0801AF
-			public const int tag_state_description = 2131231151;
+			public const int tag_on_receive_content_listener = 2131231151;
 			
 			// aapt resource value: 0x7F0801B0
-			public const int tag_transition_group = 2131231152;
+			public const int tag_on_receive_content_mime_types = 2131231152;
 			
 			// aapt resource value: 0x7F0801B1
-			public const int tag_unhandled_key_event_manager = 2131231153;
+			public const int tag_screen_reader_focusable = 2131231153;
 			
 			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_listeners = 2131231154;
+			public const int tag_state_description = 2131231154;
 			
 			// aapt resource value: 0x7F0801B3
-			public const int tag_window_insets_animation_callback = 2131231155;
+			public const int tag_transition_group = 2131231155;
 			
 			// aapt resource value: 0x7F0801B4
-			public const int test_checkbox_android_button_tint = 2131231156;
+			public const int tag_unhandled_key_event_manager = 2131231156;
 			
 			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_app_button_tint = 2131231157;
+			public const int tag_unhandled_key_listeners = 2131231157;
 			
 			// aapt resource value: 0x7F0801B6
-			public const int test_radiobutton_android_button_tint = 2131231158;
+			public const int tag_window_insets_animation_callback = 2131231158;
 			
 			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_app_button_tint = 2131231159;
+			public const int test_checkbox_android_button_tint = 2131231159;
 			
 			// aapt resource value: 0x7F0801B8
-			public const int text = 2131231160;
+			public const int test_checkbox_app_button_tint = 2131231160;
 			
 			// aapt resource value: 0x7F0801B9
-			public const int text2 = 2131231161;
+			public const int test_radiobutton_android_button_tint = 2131231161;
 			
 			// aapt resource value: 0x7F0801BA
-			public const int textEnd = 2131231162;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int textinput_counter = 2131231170;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_error = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_helper_text = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_placeholder = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_prefix_text = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_suffix_text = 2131231175;
+			public const int test_radiobutton_app_button_tint = 2131231162;
 			
 			// aapt resource value: 0x7F0801BB
-			public const int textSpacerNoButtons = 2131231163;
+			public const int text = 2131231163;
 			
 			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoTitle = 2131231164;
+			public const int text2 = 2131231164;
 			
 			// aapt resource value: 0x7F0801BD
-			public const int textStart = 2131231165;
+			public const int textEnd = 2131231165;
 			
-			// aapt resource value: 0x7F0801BE
-			public const int textTop = 2131231166;
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_counter = 2131231174;
 			
-			// aapt resource value: 0x7F0801BF
-			public const int text_input_end_icon = 2131231167;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_error_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_start_icon = 2131231169;
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_error = 2131231175;
 			
 			// aapt resource value: 0x7F0801C8
-			public const int time = 2131231176;
+			public const int textinput_helper_text = 2131231176;
 			
 			// aapt resource value: 0x7F0801C9
-			public const int title = 2131231177;
+			public const int textinput_placeholder = 2131231177;
 			
 			// aapt resource value: 0x7F0801CA
-			public const int titleDividerNoCustom = 2131231178;
+			public const int textinput_prefix_text = 2131231178;
 			
 			// aapt resource value: 0x7F0801CB
-			public const int title_template = 2131231179;
+			public const int textinput_suffix_text = 2131231179;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textSpacerNoButtons = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textSpacerNoTitle = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int textStart = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int textTop = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int textViewStatus = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int text_input_end_icon = 2131231171;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int text_input_error_icon = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int text_input_start_icon = 2131231173;
 			
 			// aapt resource value: 0x7F0801CC
-			public const int toggle = 2131231180;
+			public const int time = 2131231180;
 			
 			// aapt resource value: 0x7F0801CD
-			public const int toolbar = 2131231181;
+			public const int title = 2131231181;
 			
 			// aapt resource value: 0x7F0801CE
-			public const int top = 2131231182;
+			public const int titleDividerNoCustom = 2131231182;
 			
 			// aapt resource value: 0x7F0801CF
-			public const int topPanel = 2131231183;
+			public const int title_template = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int toggle = 2131231184;
+			
+			// aapt resource value: 0x7F0801D1
+			public const int toolbar = 2131231185;
+			
+			// aapt resource value: 0x7F0801D2
+			public const int top = 2131231186;
+			
+			// aapt resource value: 0x7F0801D3
+			public const int topPanel = 2131231187;
 			
 			// aapt resource value: 0x7F08000C
 			public const int TOP_END = 2131230732;
@@ -18015,101 +20770,101 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0x7F08000D
 			public const int TOP_START = 2131230733;
 			
-			// aapt resource value: 0x7F0801D0
-			public const int touch_outside = 2131231184;
-			
-			// aapt resource value: 0x7F0801D1
-			public const int transitionToEnd = 2131231185;
-			
-			// aapt resource value: 0x7F0801D2
-			public const int transitionToStart = 2131231186;
-			
-			// aapt resource value: 0x7F0801D3
-			public const int transition_current_scene = 2131231187;
-			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_layout_save = 2131231188;
+			public const int touch_outside = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_position = 2131231189;
+			public const int transitionToEnd = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_scene_layoutid_cache = 2131231190;
+			public const int transitionToStart = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_transform = 2131231191;
+			public const int transition_current_scene = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int triangle = 2131231192;
+			public const int transition_layout_save = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int @unchecked = 2131231193;
+			public const int transition_position = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int uniform = 2131231194;
+			public const int transition_scene_layoutid_cache = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int unlabeled = 2131231195;
+			public const int transition_transform = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int up = 2131231196;
+			public const int triangle = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int useLogo = 2131231197;
+			public const int @unchecked = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int vertical_only = 2131231198;
+			public const int uniform = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int view_offset_helper = 2131231199;
+			public const int unlabeled = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_transition = 2131231200;
+			public const int up = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_tree_lifecycle_owner = 2131231201;
+			public const int useLogo = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231202;
+			public const int vertical_only = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_saved_state_registry_owner = 2131231203;
+			public const int view_offset_helper = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int view_tree_view_model_store_owner = 2131231204;
+			public const int view_transition = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible = 2131231205;
+			public const int view_tree_lifecycle_owner = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int visible_removing_fragment_view_tag = 2131231206;
+			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int west = 2131231207;
-			
-			// aapt resource value: 0x7F0801E9
-			public const int withinBounds = 2131231209;
+			public const int view_tree_saved_state_registry_owner = 2131231207;
 			
 			// aapt resource value: 0x7F0801E8
-			public const int withText = 2131231208;
+			public const int view_tree_view_model_store_owner = 2131231208;
+			
+			// aapt resource value: 0x7F0801E9
+			public const int visible = 2131231209;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap = 2131231210;
+			public const int visible_removing_fragment_view_tag = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content = 2131231211;
-			
-			// aapt resource value: 0x7F0801EC
-			public const int wrap_content_constrained = 2131231212;
+			public const int west = 2131231211;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_left = 2131231213;
+			public const int withinBounds = 2131231213;
+			
+			// aapt resource value: 0x7F0801EC
+			public const int withText = 2131231212;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int x_right = 2131231214;
+			public const int wrap = 2131231214;
 			
 			// aapt resource value: 0x7F0801EF
-			public const int zero_corner_chip = 2131231215;
+			public const int wrap_content = 2131231215;
+			
+			// aapt resource value: 0x7F0801F0
+			public const int wrap_content_constrained = 2131231216;
+			
+			// aapt resource value: 0x7F0801F1
+			public const int x_left = 2131231217;
+			
+			// aapt resource value: 0x7F0801F2
+			public const int x_right = 2131231218;
+			
+			// aapt resource value: 0x7F0801F3
+			public const int zero_corner_chip = 2131231219;
 			
 			static Id()
 			{
@@ -18427,295 +21182,304 @@ namespace WeatherApp.Droid
 			public const int image_frame = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int material_chip_input_combo = 2131427380;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clockface_textview = 2131427385;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_view = 2131427386;
+			public const int loading = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int material_clock_display = 2131427381;
+			public const int loadingimage = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display_divider = 2131427382;
+			public const int loadingprogress = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int material_clock_period_toggle = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle_land = 2131427384;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int material_radial_view_group = 2131427387;
+			public const int material_chip_input_combo = 2131427383;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int material_textinput_timepicker = 2131427388;
-			
-			// aapt resource value: 0x7F0B003F
-			public const int material_timepicker = 2131427391;
-			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker_dialog = 2131427392;
-			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_textinput_display = 2131427393;
+			public const int material_clockface_textview = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_time_chip = 2131427389;
+			public const int material_clockface_view = 2131427389;
+			
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_display = 2131427384;
+			
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_display_divider = 2131427385;
+			
+			// aapt resource value: 0x7F0B003A
+			public const int material_clock_period_toggle = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int material_clock_period_toggle_land = 2131427387;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int material_time_input = 2131427390;
+			public const int material_radial_view_group = 2131427390;
+			
+			// aapt resource value: 0x7F0B003F
+			public const int material_textinput_timepicker = 2131427391;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int mtrl_alert_dialog = 2131427394;
+			public const int material_timepicker = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog_actions = 2131427395;
+			public const int material_timepicker_dialog = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_title = 2131427396;
+			public const int material_timepicker_textinput_display = 2131427396;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_time_chip = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_time_input = 2131427393;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_select_dialog_item = 2131427397;
+			public const int mtrl_alert_dialog = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_multichoice = 2131427398;
+			public const int mtrl_alert_dialog_actions = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427399;
+			public const int mtrl_alert_dialog_title = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_calendar_day = 2131427400;
-			
-			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_days_of_week = 2131427402;
+			public const int mtrl_alert_select_dialog_item = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day_of_week = 2131427401;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427401;
+			
+			// aapt resource value: 0x7F0B004A
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_horizontal = 2131427403;
-			
-			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_month = 2131427404;
-			
-			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_months = 2131427407;
+			public const int mtrl_calendar_day = 2131427403;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month_labeled = 2131427405;
+			public const int mtrl_calendar_days_of_week = 2131427405;
+			
+			// aapt resource value: 0x7F0B004C
+			public const int mtrl_calendar_day_of_week = 2131427404;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_navigation = 2131427406;
+			public const int mtrl_calendar_horizontal = 2131427406;
 			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_vertical = 2131427408;
-			
-			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_year = 2131427409;
+			// aapt resource value: 0x7F0B004F
+			public const int mtrl_calendar_month = 2131427407;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_layout_snackbar = 2131427410;
+			public const int mtrl_calendar_months = 2131427410;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_month_labeled = 2131427408;
+			
+			// aapt resource value: 0x7F0B0051
+			public const int mtrl_calendar_month_navigation = 2131427409;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar_include = 2131427411;
+			public const int mtrl_calendar_vertical = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_navigation_rail_item = 2131427412;
+			public const int mtrl_calendar_year = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_picker_actions = 2131427413;
+			public const int mtrl_layout_snackbar = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_dialog = 2131427414;
+			public const int mtrl_layout_snackbar_include = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_fullscreen = 2131427415;
+			public const int mtrl_navigation_rail_item = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_header_dialog = 2131427416;
+			public const int mtrl_picker_actions = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_fullscreen = 2131427417;
+			public const int mtrl_picker_dialog = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_selection_text = 2131427418;
+			public const int mtrl_picker_fullscreen = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_title_text = 2131427419;
+			public const int mtrl_picker_header_dialog = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_toggle = 2131427420;
+			public const int mtrl_picker_header_fullscreen = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_text_input_date = 2131427421;
+			public const int mtrl_picker_header_selection_text = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_text_input_date_range = 2131427422;
+			public const int mtrl_picker_header_title_text = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int notification_action = 2131427423;
+			public const int mtrl_picker_header_toggle = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action_tombstone = 2131427424;
+			public const int mtrl_picker_text_input_date = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_media_action = 2131427425;
+			public const int mtrl_picker_text_input_date_range = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_cancel_action = 2131427426;
+			public const int notification_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_template_big_media = 2131427427;
+			public const int notification_action_tombstone = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media_custom = 2131427428;
+			public const int notification_media_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_narrow = 2131427429;
+			public const int notification_media_cancel_action = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow_custom = 2131427430;
+			public const int notification_template_big_media = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_custom_big = 2131427431;
+			public const int notification_template_big_media_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_icon_group = 2131427432;
+			public const int notification_template_big_media_narrow = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_lines_media = 2131427433;
+			public const int notification_template_big_media_narrow_custom = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_media = 2131427434;
+			public const int notification_template_custom_big = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media_custom = 2131427435;
+			public const int notification_template_icon_group = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_part_chronometer = 2131427436;
+			public const int notification_template_lines_media = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_time = 2131427437;
+			public const int notification_template_media = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int preference = 2131427438;
+			public const int notification_template_media_custom = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference_category = 2131427439;
+			public const int notification_template_part_chronometer = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category_material = 2131427440;
+			public const int notification_template_part_time = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_dialog_edittext = 2131427441;
+			public const int preference = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dropdown = 2131427442;
+			public const int preference_category = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown_material = 2131427443;
+			public const int preference_category_material = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_information = 2131427444;
+			public const int preference_dialog_edittext = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information_material = 2131427445;
+			public const int preference_dropdown = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_list_fragment = 2131427446;
+			public const int preference_dropdown_material = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_material = 2131427447;
+			public const int preference_information = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_recyclerview = 2131427448;
+			public const int preference_information_material = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_widget_checkbox = 2131427449;
+			public const int preference_list_fragment = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_seekbar = 2131427450;
+			public const int preference_material = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar_material = 2131427451;
+			public const int preference_recyclerview = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_switch = 2131427452;
+			public const int preference_widget_checkbox = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch_compat = 2131427453;
+			public const int preference_widget_seekbar = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int RootLayout = 2131427454;
+			public const int preference_widget_seekbar_material = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int select_dialog_item_material = 2131427455;
+			public const int preference_widget_switch = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_multichoice_material = 2131427456;
+			public const int preference_widget_switch_compat = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_singlechoice_material = 2131427457;
+			public const int RootLayout = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int ShellContent = 2131427458;
+			public const int select_dialog_item_material = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int support_simple_spinner_dropdown_item = 2131427459;
+			public const int select_dialog_multichoice_material = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int Tabbar = 2131427460;
+			public const int select_dialog_singlechoice_material = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int test_action_chip = 2131427461;
+			public const int ShellContent = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_chip_zero_corner_radius = 2131427462;
+			public const int support_simple_spinner_dropdown_item = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_design_checkbox = 2131427463;
+			public const int Tabbar = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_radiobutton = 2131427464;
+			public const int test_action_chip = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_navigation_bar_item_layout = 2131427465;
+			public const int test_chip_zero_corner_radius = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_reflow_chipgroup = 2131427466;
+			public const int test_design_checkbox = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_toolbar = 2131427467;
+			public const int test_design_radiobutton = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar_custom_background = 2131427468;
+			public const int test_navigation_bar_item_layout = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_elevation = 2131427469;
+			public const int test_reflow_chipgroup = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_surface = 2131427470;
-			
-			// aapt resource value: 0x7F0B0093
-			public const int text_view_without_line_height = 2131427475;
+			public const int test_toolbar = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int text_view_with_line_height_from_appearance = 2131427471;
+			public const int test_toolbar_custom_background = 2131427471;
 			
 			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_layout = 2131427472;
+			public const int test_toolbar_elevation = 2131427472;
 			
 			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_style = 2131427473;
+			public const int test_toolbar_surface = 2131427473;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int text_view_without_line_height = 2131427478;
 			
 			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_theme_line_height = 2131427474;
+			public const int text_view_with_line_height_from_appearance = 2131427474;
+			
+			// aapt resource value: 0x7F0B0093
+			public const int text_view_with_line_height_from_layout = 2131427475;
 			
 			// aapt resource value: 0x7F0B0094
-			public const int Toolbar = 2131427476;
+			public const int text_view_with_line_height_from_style = 2131427476;
+			
+			// aapt resource value: 0x7F0B0095
+			public const int text_view_with_theme_line_height = 2131427477;
+			
+			// aapt resource value: 0x7F0B0097
+			public const int Toolbar = 2131427479;
 			
 			static Layout()
 			{
@@ -18916,214 +21680,217 @@ namespace WeatherApp.Droid
 			public const int item_view_role_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_display_divider = 2131623985;
+			public const int library_name = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_clock_toggle_content_description = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_selection = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_hour_suffix = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_selection = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_minute_suffix = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_accelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_decelerated = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_emphasized = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_linear = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_motion_easing_standard = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_end = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_slider_range_start = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_am = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_clock_mode_description = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_hour = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_minute = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_pm = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_select_time = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int material_timepicker_text_input_mode_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_badge_numberless_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_chip_close_icon_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_next_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_a11y_prev_month = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_announce_current_selection = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_cancel = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_confirm = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_selected = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_title = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_date_header_unselected = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_day_of_week_column_header = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_example = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_format_use = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_invalid_range = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_navigate_to_year_description = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_out_of_range = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_selected = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_title = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_range_header_unselected = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_save = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_day_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_month_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_text_input_year_abbr = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_navigate_up_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int nav_app_bar_open_drawer_description = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int not_set = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int overflow_tab_title = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int password_toggle_content_description = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_strike_through = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_eye_mask_visible = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int path_password_strike_through = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int preference_copied = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int search_menu_title = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int status_bar_notification_info_overflow = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int summary_collapsed_preference_list = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_off = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int v7_preference_on = 2131624054;
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{
@@ -21440,37 +24207,37 @@ namespace WeatherApp.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F03013D,0x7F03013E,0x7F030159,0x7F0301B9,0x7F0301C0,0x7F0301C6,0x7F0301C7,0x7F0301CA,0x7F0301DC,0x7F0301F0,0x7F030267,0x7F0302C1,0x7F0302FA,0x7F03030B,0x7F03030C,0x7F030372,0x7F030376,0x7F0303E7,0x7F0303F3 }
+			// aapt resource value: { 0x7F030053,0x7F03005A,0x7F03005B,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F03012D,0x7F030149,0x7F03014A,0x7F030165,0x7F0301C5,0x7F0301CC,0x7F0301D2,0x7F0301D3,0x7F0301D6,0x7F0301E8,0x7F0301FC,0x7F030273,0x7F0302CD,0x7F030306,0x7F030317,0x7F030318,0x7F03037E,0x7F030382,0x7F0303F3,0x7F0303FF }
 			public static int[] ActionBar = new int[] {
-					2130903111,
-					2130903118,
-					2130903119,
-					2130903286,
-					2130903287,
-					2130903288,
-					2130903289,
-					2130903290,
-					2130903291,
-					2130903329,
-					2130903357,
-					2130903358,
-					2130903385,
-					2130903481,
-					2130903488,
-					2130903494,
-					2130903495,
-					2130903498,
-					2130903516,
-					2130903536,
-					2130903655,
-					2130903745,
-					2130903802,
-					2130903819,
-					2130903820,
-					2130903922,
-					2130903926,
-					2130904039,
-					2130904051};
+					2130903123,
+					2130903130,
+					2130903131,
+					2130903298,
+					2130903299,
+					2130903300,
+					2130903301,
+					2130903302,
+					2130903303,
+					2130903341,
+					2130903369,
+					2130903370,
+					2130903397,
+					2130903493,
+					2130903500,
+					2130903506,
+					2130903507,
+					2130903510,
+					2130903528,
+					2130903548,
+					2130903667,
+					2130903757,
+					2130903814,
+					2130903831,
+					2130903832,
+					2130903934,
+					2130903938,
+					2130904051,
+					2130904063};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -21577,14 +24344,14 @@ namespace WeatherApp.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CF,0x7F0301B9,0x7F030376,0x7F0303F3 }
+			// aapt resource value: { 0x7F030053,0x7F03005A,0x7F0300DB,0x7F0301C5,0x7F030382,0x7F0303FF }
 			public static int[] ActionMode = new int[] {
-					2130903111,
-					2130903118,
-					2130903247,
-					2130903481,
-					2130903926,
-					2130904051};
+					2130903123,
+					2130903130,
+					2130903259,
+					2130903493,
+					2130903938,
+					2130904063};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -21604,10 +24371,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F030174,0x7F0301E2 }
+			// aapt resource value: { 0x7F030180,0x7F0301EE }
 			public static int[] ActivityChooserView = new int[] {
-					2130903412,
-					2130903522};
+					2130903424,
+					2130903534};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -21615,13 +24382,13 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x1010003,0x7F030003,0x7F030125,0x7F030126,0x7F0303A3 }
+			// aapt resource value: { 0x1010003,0x7F030003,0x7F030131,0x7F030132,0x7F0303AF }
 			public static int[] ActivityNavigator = new int[] {
 					16842755,
 					2130903043,
-					2130903333,
-					2130903334,
-					2130903971};
+					2130903345,
+					2130903346,
+					2130903983};
 			
 			// aapt resource value: 1
 			public const int ActivityNavigator_action = 1;
@@ -21638,16 +24405,16 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int ActivityNavigator_targetPackage = 4;
 			
-			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F03025C,0x7F03025D,0x7F0302BC,0x7F030347,0x7F030349 }
+			// aapt resource value: { 0x10100F2,0x7F03008C,0x7F03008D,0x7F030268,0x7F030269,0x7F0302C8,0x7F030353,0x7F030355 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
-					2130903168,
-					2130903169,
-					2130903644,
-					2130903645,
-					2130903740,
-					2130903879,
-					2130903881};
+					2130903180,
+					2130903181,
+					2130903656,
+					2130903657,
+					2130903752,
+					2130903891,
+					2130903893};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -21730,23 +24497,23 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030159,0x7F030175,0x7F030252,0x7F030253,0x7F03036C }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030165,0x7F030181,0x7F03025E,0x7F03025F,0x7F030378 }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903385,
-					2130903413,
-					2130903634,
-					2130903635,
-					2130903916};
+					2130903397,
+					2130903425,
+					2130903646,
+					2130903647,
+					2130903928};
 			
-			// aapt resource value: { 0x7F030366,0x7F030367,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x7F030372,0x7F030373,0x7F030375,0x7F030376 }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903910,
-					2130903911,
-					2130903913,
-					2130903914};
+					2130903922,
+					2130903923,
+					2130903925,
+					2130903926};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -21775,10 +24542,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03024F,0x7F030250 }
+			// aapt resource value: { 0x7F03025B,0x7F03025C }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903631,
-					2130903632};
+					2130903643,
+					2130903644};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -21799,12 +24566,12 @@ namespace WeatherApp.Droid
 			public static int[] AppCompatEmojiHelper = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x1010119,0x7F03035C,0x7F0303E5,0x7F0303E6 }
+			// aapt resource value: { 0x1010119,0x7F030368,0x7F0303F1,0x7F0303F2 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903900,
-					2130904037,
-					2130904038};
+					2130903912,
+					2130904049,
+					2130904050};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -21818,12 +24585,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0303E1,0x7F0303E2,0x7F0303E3 }
+			// aapt resource value: { 0x1010142,0x7F0303ED,0x7F0303EE,0x7F0303EF }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130904033,
-					2130904034,
-					2130904035};
+					2130904045,
+					2130904046,
+					2130904047};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -21868,30 +24635,30 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03015C,0x7F03018D,0x7F0301A3,0x7F0301AC,0x7F030208,0x7F030255,0x7F0303A7,0x7F0303C9 }
+			// aapt resource value: { 0x1010034,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030051,0x7F030152,0x7F030153,0x7F030154,0x7F030155,0x7F030157,0x7F030158,0x7F030159,0x7F03015A,0x7F030168,0x7F030199,0x7F0301AF,0x7F0301B8,0x7F030214,0x7F030261,0x7F0303B3,0x7F0303D5 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
-					2130903105,
-					2130903106,
-					2130903107,
-					2130903108,
-					2130903109,
-					2130903366,
-					2130903367,
-					2130903368,
-					2130903369,
-					2130903371,
-					2130903372,
-					2130903373,
-					2130903374,
-					2130903388,
-					2130903437,
-					2130903459,
-					2130903468,
-					2130903560,
-					2130903637,
-					2130903975,
-					2130904009};
+					2130903117,
+					2130903118,
+					2130903119,
+					2130903120,
+					2130903121,
+					2130903378,
+					2130903379,
+					2130903380,
+					2130903381,
+					2130903383,
+					2130903384,
+					2130903385,
+					2130903386,
+					2130903400,
+					2130903449,
+					2130903471,
+					2130903480,
+					2130903572,
+					2130903649,
+					2130903987,
+					2130904021};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -21959,7 +24726,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 21
 			public const int AppCompatTextView_textLocale = 21;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009D,0x7F0300A6,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300E5,0x7F0300E6,0x7F0300EC,0x7F030105,0x7F030134,0x7F030139,0x7F03013A,0x7F03013F,0x7F030141,0x7F030151,0x7F030152,0x7F030155,0x7F030156,0x7F030158,0x7F0301C6,0x7F0301D6,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030266,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302F9,0x7F0302FB,0x7F030313,0x7F030315,0x7F030316,0x7F030317,0x7F03032E,0x7F030331,0x7F030333,0x7F030334,0x7F030354,0x7F030355,0x7F030383,0x7F0303B2,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303B8,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303C3,0x7F0303C4,0x7F0303F5,0x7F0303F6,0x7F0303F7,0x7F0303F8,0x7F030419,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C,0x7F03042D,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431 }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F030036,0x7F030037,0x7F030038,0x7F030039,0x7F03004C,0x7F030074,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008E,0x7F03008F,0x7F0300A9,0x7F0300B2,0x7F0300E4,0x7F0300E5,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F0300E9,0x7F0300EA,0x7F0300F1,0x7F0300F2,0x7F0300F8,0x7F030111,0x7F030140,0x7F030145,0x7F030146,0x7F03014B,0x7F03014D,0x7F03015D,0x7F03015E,0x7F030161,0x7F030162,0x7F030164,0x7F0301D2,0x7F0301E2,0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D,0x7F03026E,0x7F03026F,0x7F030270,0x7F030271,0x7F030272,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030305,0x7F030307,0x7F03031F,0x7F030321,0x7F030322,0x7F030323,0x7F03033A,0x7F03033D,0x7F03033F,0x7F030340,0x7F030360,0x7F030361,0x7F03038F,0x7F0303BE,0x7F0303C0,0x7F0303C1,0x7F0303C2,0x7F0303C4,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303CF,0x7F0303D0,0x7F030401,0x7F030402,0x7F030403,0x7F030404,0x7F030425,0x7F030434,0x7F030435,0x7F030436,0x7F030437,0x7F030438,0x7F030439,0x7F03043A,0x7F03043B,0x7F03043C,0x7F03043D }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -21996,98 +24763,98 @@ namespace WeatherApp.Droid
 					2130903075,
 					2130903076,
 					2130903080,
-					2130903082,
-					2130903083,
-					2130903084,
-					2130903085,
-					2130903104,
-					2130903144,
-					2130903161,
-					2130903162,
-					2130903163,
-					2130903164,
-					2130903165,
-					2130903170,
-					2130903171,
-					2130903197,
-					2130903206,
-					2130903256,
-					2130903257,
-					2130903258,
-					2130903259,
-					2130903260,
-					2130903261,
-					2130903262,
+					2130903094,
+					2130903095,
+					2130903096,
+					2130903097,
+					2130903116,
+					2130903156,
+					2130903173,
+					2130903174,
+					2130903175,
+					2130903176,
+					2130903177,
+					2130903182,
+					2130903183,
+					2130903209,
+					2130903218,
+					2130903268,
 					2130903269,
 					2130903270,
-					2130903276,
-					2130903301,
-					2130903348,
-					2130903353,
-					2130903354,
-					2130903359,
-					2130903361,
-					2130903377,
-					2130903378,
-					2130903381,
-					2130903382,
-					2130903384,
-					2130903494,
-					2130903510,
-					2130903640,
-					2130903641,
-					2130903642,
-					2130903643,
-					2130903646,
-					2130903647,
-					2130903648,
-					2130903649,
-					2130903650,
-					2130903651,
+					2130903271,
+					2130903272,
+					2130903273,
+					2130903274,
+					2130903281,
+					2130903282,
+					2130903288,
+					2130903313,
+					2130903360,
+					2130903365,
+					2130903366,
+					2130903371,
+					2130903373,
+					2130903389,
+					2130903390,
+					2130903393,
+					2130903394,
+					2130903396,
+					2130903506,
+					2130903522,
 					2130903652,
 					2130903653,
 					2130903654,
-					2130903774,
-					2130903775,
-					2130903776,
-					2130903801,
-					2130903803,
-					2130903827,
-					2130903829,
-					2130903830,
-					2130903831,
-					2130903854,
-					2130903857,
-					2130903859,
-					2130903860,
-					2130903892,
-					2130903893,
-					2130903939,
-					2130903986,
-					2130903988,
-					2130903989,
-					2130903990,
-					2130903992,
-					2130903993,
-					2130903994,
-					2130903995,
-					2130904003,
+					2130903655,
+					2130903658,
+					2130903659,
+					2130903660,
+					2130903661,
+					2130903662,
+					2130903663,
+					2130903664,
+					2130903665,
+					2130903666,
+					2130903786,
+					2130903787,
+					2130903788,
+					2130903813,
+					2130903815,
+					2130903839,
+					2130903841,
+					2130903842,
+					2130903843,
+					2130903866,
+					2130903869,
+					2130903871,
+					2130903872,
+					2130903904,
+					2130903905,
+					2130903951,
+					2130903998,
+					2130904000,
+					2130904001,
+					2130904002,
 					2130904004,
-					2130904053,
-					2130904054,
-					2130904055,
-					2130904056,
-					2130904089,
-					2130904104,
-					2130904105,
-					2130904106,
-					2130904107,
-					2130904108,
-					2130904109,
-					2130904110,
-					2130904111,
-					2130904112,
-					2130904113};
+					2130904005,
+					2130904006,
+					2130904007,
+					2130904015,
+					2130904016,
+					2130904065,
+					2130904066,
+					2130904067,
+					2130904068,
+					2130904101,
+					2130904116,
+					2130904117,
+					2130904118,
+					2130904119,
+					2130904120,
+					2130904121,
+					2130904122,
+					2130904123,
+					2130904124,
+					2130904125};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -22470,10 +25237,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 126
 			public const int AppCompatTheme_windowNoTitle = 126;
 			
-			// aapt resource value: { 0x101030E,0x7F030333 }
+			// aapt resource value: { 0x101030E,0x7F03033F }
 			public static int[] BackgroundStyle = new int[] {
 					16843534,
-					2130903859};
+					2130903871};
 			
 			// aapt resource value: 0
 			public const int BackgroundStyle_android_selectableItemBackground = 0;
@@ -22481,15 +25248,15 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C8,0x7F030288,0x7F0302C9,0x7F030418 }
+			// aapt resource value: { 0x7F030054,0x7F03005E,0x7F030060,0x7F0301D4,0x7F030294,0x7F0302D5,0x7F030424 }
 			public static int[] Badge = new int[] {
-					2130903112,
-					2130903122,
 					2130903124,
-					2130903496,
-					2130903688,
-					2130903753,
-					2130904088};
+					2130903134,
+					2130903136,
+					2130903508,
+					2130903700,
+					2130903765,
+					2130904100};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -22512,17 +25279,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F0301BE,0x7F0301DD,0x7F030295,0x7F03033F,0x7F030341,0x7F0303FF,0x7F030402,0x7F030404 }
+			// aapt resource value: { 0x1010139,0x7F0301CA,0x7F0301E9,0x7F0302A1,0x7F03034B,0x7F03034D,0x7F03040B,0x7F03040E,0x7F030410 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
-					2130903486,
-					2130903517,
-					2130903701,
-					2130903871,
-					2130903873,
-					2130904063,
-					2130904066,
-					2130904068};
+					2130903498,
+					2130903529,
+					2130903713,
+					2130903883,
+					2130903885,
+					2130904075,
+					2130904078,
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -22551,19 +25318,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 8
 			public const int BaseProgressIndicator_trackThickness = 8;
 			
-			// aapt resource value: { 0x7F030050,0x7F030159,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F0301C1,0x7F0302D7,0x7F0302D9,0x7F0302DA }
+			// aapt resource value: { 0x7F03005C,0x7F030165,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F0301CD,0x7F0302E3,0x7F0302E5,0x7F0302E6 }
 			public static int[] BottomAppBar = new int[] {
-					2130903120,
-					2130903385,
-					2130903425,
-					2130903426,
-					2130903427,
-					2130903428,
-					2130903429,
-					2130903489,
-					2130903767,
-					2130903769,
-					2130903770};
+					2130903132,
+					2130903397,
+					2130903437,
+					2130903438,
+					2130903439,
+					2130903440,
+					2130903441,
+					2130903501,
+					2130903779,
+					2130903781,
+					2130903782};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -22598,33 +25365,33 @@ namespace WeatherApp.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F0301EB }
+			// aapt resource value: { 0x7F0301F7 }
 			public static int[] BottomNavigationView = new int[] {
-					2130903531};
+					2130903543};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 0;
 			
-			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301B3,0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD,0x7F030338,0x7F03033B }
+			// aapt resource value: { 0x101011F,0x1010440,0x7F03005C,0x7F030067,0x7F030068,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006D,0x7F03006E,0x7F03006F,0x7F0301BF,0x7F0302E3,0x7F0302E5,0x7F0302E6,0x7F0302E9,0x7F030344,0x7F030347 }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843039,
 					16843840,
-					2130903120,
-					2130903131,
 					2130903132,
-					2130903133,
-					2130903134,
-					2130903135,
-					2130903137,
-					2130903138,
-					2130903139,
-					2130903475,
-					2130903767,
-					2130903769,
-					2130903770,
-					2130903773,
-					2130903864,
-					2130903867};
+					2130903143,
+					2130903144,
+					2130903145,
+					2130903146,
+					2130903147,
+					2130903149,
+					2130903150,
+					2130903151,
+					2130903487,
+					2130903779,
+					2130903781,
+					2130903782,
+					2130903785,
+					2130903876,
+					2130903879};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_android_elevation = 1;
@@ -22680,17 +25447,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 17
 			public const int BottomSheetBehavior_Layout_shapeAppearanceOverlay = 17;
 			
-			// aapt resource value: { 0x7F030031 }
+			// aapt resource value: { 0x7F03003D }
 			public static int[] ButtonBarLayout = new int[] {
-					2130903089};
+					2130903101};
 			
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F030312,0x7F03033D }
+			// aapt resource value: { 0x7F03031E,0x7F030349 }
 			public static int[] Capability = new int[] {
-					2130903826,
-					2130903869};
+					2130903838,
+					2130903881};
 			
 			// aapt resource value: 0
 			public const int Capability_queryPatterns = 0;
@@ -22698,21 +25465,21 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300FC,0x7F0300FD,0x7F0300FF,0x7F030100,0x7F030102 }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030092,0x7F030093,0x7F030094,0x7F030096,0x7F030097,0x7F030098,0x7F030108,0x7F030109,0x7F03010B,0x7F03010C,0x7F03010E }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130903174,
-					2130903175,
-					2130903176,
-					2130903178,
-					2130903179,
-					2130903180,
-					2130903292,
-					2130903293,
-					2130903295,
-					2130903296,
-					2130903298};
+					2130903186,
+					2130903187,
+					2130903188,
+					2130903190,
+					2130903191,
+					2130903192,
+					2130903304,
+					2130903305,
+					2130903307,
+					2130903308,
+					2130903310};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -22753,18 +25520,18 @@ namespace WeatherApp.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x7F03008E,0x7F03008F,0x7F030090,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097 }
+			// aapt resource value: { 0x7F03009A,0x7F03009B,0x7F03009C,0x7F03009D,0x7F03009E,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3 }
 			public static int[] Carousel = new int[] {
-					2130903182,
-					2130903183,
-					2130903184,
-					2130903185,
-					2130903186,
-					2130903187,
-					2130903188,
-					2130903189,
-					2130903190,
-					2130903191};
+					2130903194,
+					2130903195,
+					2130903196,
+					2130903197,
+					2130903198,
+					2130903199,
+					2130903200,
+					2130903201,
+					2130903202,
+					2130903203};
 			
 			// aapt resource value: 0
 			public const int Carousel_carousel_backwardTransition = 0;
@@ -22796,14 +25563,14 @@ namespace WeatherApp.Droid
 			// aapt resource value: 9
 			public const int Carousel_carousel_touchUp_velocityThreshold = 9;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F03013C,0x7F03037C,0x7F03037D }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F030148,0x7F030388,0x7F030389 }
 			public static int[] CheckBoxPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
-					2130903356,
-					2130903932,
-					2130903933};
+					2130903368,
+					2130903944,
+					2130903945};
 			
 			// aapt resource value: 2
 			public const int CheckBoxPreference_android_disableDependentsState = 2;
@@ -22823,12 +25590,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x1010108,0x7F03009A,0x7F03009B,0x7F03009C }
+			// aapt resource value: { 0x1010108,0x7F0300A6,0x7F0300A7,0x7F0300A8 }
 			public static int[] CheckedTextView = new int[] {
 					16843016,
-					2130903194,
-					2130903195,
-					2130903196};
+					2130903206,
+					2130903207,
+					2130903208};
 			
 			// aapt resource value: 0
 			public const int CheckedTextView_android_checkMark = 0;
@@ -22842,7 +25609,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int CheckedTextView_checkMarkTintMode = 3;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F0300A0,0x7F0300A1,0x7F0300A4,0x7F0300A5,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BA,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F030168,0x7F0301BF,0x7F0301CB,0x7F0301D0,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F0303C5,0x7F0303CE }
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F0300AC,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300B8,0x7F0300B9,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300C2,0x7F0300C3,0x7F0300C4,0x7F0300C6,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F030174,0x7F0301CB,0x7F0301D7,0x7F0301DC,0x7F03032E,0x7F030344,0x7F030347,0x7F03034F,0x7F0303D1,0x7F0303DA }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -22851,51 +25618,51 @@ namespace WeatherApp.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903200,
-					2130903201,
-					2130903204,
-					2130903205,
-					2130903207,
-					2130903208,
-					2130903209,
-					2130903211,
 					2130903212,
 					2130903213,
-					2130903214,
-					2130903215,
 					2130903216,
 					2130903217,
-					2130903222,
-					2130903223,
-					2130903224,
-					2130903226,
-					2130903240,
-					2130903241,
-					2130903242,
-					2130903243,
-					2130903244,
-					2130903245,
-					2130903246,
-					2130903400,
-					2130903487,
-					2130903499,
-					2130903504,
-					2130903842,
-					2130903864,
-					2130903867,
-					2130903875,
-					2130904005,
-					2130904014};
-			
-			// aapt resource value: { 0x7F03009F,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F030335,0x7F03034A,0x7F03034C }
-			public static int[] ChipGroup = new int[] {
-					2130903199,
-					2130903218,
 					2130903219,
 					2130903220,
-					2130903861,
-					2130903882,
-					2130903884};
+					2130903221,
+					2130903223,
+					2130903224,
+					2130903225,
+					2130903226,
+					2130903227,
+					2130903228,
+					2130903229,
+					2130903234,
+					2130903235,
+					2130903236,
+					2130903238,
+					2130903252,
+					2130903253,
+					2130903254,
+					2130903255,
+					2130903256,
+					2130903257,
+					2130903258,
+					2130903412,
+					2130903499,
+					2130903511,
+					2130903516,
+					2130903854,
+					2130903876,
+					2130903879,
+					2130903887,
+					2130904017,
+					2130904026};
+			
+			// aapt resource value: { 0x7F0300AB,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F030341,0x7F030356,0x7F030358 }
+			public static int[] ChipGroup = new int[] {
+					2130903211,
+					2130903230,
+					2130903231,
+					2130903232,
+					2130903873,
+					2130903894,
+					2130903896};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -23044,11 +25811,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 41
 			public const int Chip_textStartPadding = 41;
 			
-			// aapt resource value: { 0x7F0301DE,0x7F0301E0,0x7F0301E1 }
+			// aapt resource value: { 0x7F0301EA,0x7F0301EC,0x7F0301ED }
 			public static int[] CircularProgressIndicator = new int[] {
-					2130903518,
-					2130903520,
-					2130903521};
+					2130903530,
+					2130903532,
+					2130903533};
 			
 			// aapt resource value: 0
 			public const int CircularProgressIndicator_indicatorDirectionCircular = 0;
@@ -23059,10 +25826,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int CircularProgressIndicator_indicatorSize = 2;
 			
-			// aapt resource value: { 0x7F0300C4,0x7F0300C7 }
+			// aapt resource value: { 0x7F0300D0,0x7F0300D3 }
 			public static int[] ClockFaceView = new int[] {
-					2130903236,
-					2130903239};
+					2130903248,
+					2130903251};
 			
 			// aapt resource value: 0
 			public const int ClockFaceView_clockFaceBackgroundColor = 0;
@@ -23070,11 +25837,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300C5,0x7F030280,0x7F030336 }
+			// aapt resource value: { 0x7F0300D1,0x7F03028C,0x7F030342 }
 			public static int[] ClockHandView = new int[] {
-					2130903237,
-					2130903680,
-					2130903862};
+					2130903249,
+					2130903692,
+					2130903874};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -23085,28 +25852,28 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300D3,0x7F0300D4,0x7F030103,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F030180,0x7F0301AE,0x7F03028B,0x7F030328,0x7F03032A,0x7F03036D,0x7F0303E7,0x7F0303E9,0x7F0303EA,0x7F0303F4 }
+			// aapt resource value: { 0x7F0300DF,0x7F0300E0,0x7F03010F,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018C,0x7F0301BA,0x7F030297,0x7F030334,0x7F030336,0x7F030379,0x7F0303F3,0x7F0303F5,0x7F0303F6,0x7F030400 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903251,
-					2130903252,
-					2130903299,
-					2130903415,
-					2130903416,
-					2130903417,
-					2130903418,
-					2130903419,
-					2130903420,
-					2130903421,
-					2130903424,
-					2130903470,
-					2130903691,
-					2130903848,
-					2130903850,
-					2130903917,
-					2130904039,
-					2130904041,
-					2130904042,
-					2130904052};
+					2130903263,
+					2130903264,
+					2130903311,
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903430,
+					2130903431,
+					2130903432,
+					2130903433,
+					2130903436,
+					2130903482,
+					2130903703,
+					2130903860,
+					2130903862,
+					2130903929,
+					2130904051,
+					2130904053,
+					2130904054,
+					2130904064};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -23144,10 +25911,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int CollapsingToolbarLayout_forceApplySystemWindowInsetTop = 11;
 			
-			// aapt resource value: { 0x7F030211,0x7F030212 }
+			// aapt resource value: { 0x7F03021D,0x7F03021E }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903569,
-					2130903570};
+					2130903581,
+					2130903582};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -23179,13 +25946,13 @@ namespace WeatherApp.Droid
 			// aapt resource value: 19
 			public const int CollapsingToolbarLayout_toolbarId = 19;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F030032,0x7F030204 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F03003E,0x7F030210 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
 					16844359,
-					2130903090,
-					2130903556};
+					2130903102,
+					2130903568};
 			
 			// aapt resource value: 3
 			public const int ColorStateListItem_alpha = 3;
@@ -23202,12 +25969,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int ColorStateListItem_lStar = 4;
 			
-			// aapt resource value: { 0x1010107,0x7F03007E,0x7F030084,0x7F030085 }
+			// aapt resource value: { 0x1010107,0x7F03008A,0x7F030090,0x7F030091 }
 			public static int[] CompoundButton = new int[] {
 					16843015,
-					2130903166,
-					2130903172,
-					2130903173};
+					2130903178,
+					2130903184,
+					2130903185};
 			
 			// aapt resource value: 0
 			public const int CompoundButton_android_button = 0;
@@ -23221,7 +25988,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030041,0x7F030042,0x7F030062,0x7F030063,0x7F030064,0x7F0300A4,0x7F0300FD,0x7F0300FE,0x7F030151,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025D,0x7F0302C2,0x7F0302C3,0x7F0302F2,0x7F0302FA,0x7F0302FF,0x7F030319,0x7F03031A,0x7F03031B,0x7F030413,0x7F030415,0x7F030417,0x7F03042A }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -23250,45 +26017,33 @@ namespace WeatherApp.Droid
 					16843702,
 					16843770,
 					16843840,
-					2130903093,
-					2130903094,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903192,
-					2130903281,
-					2130903282,
-					2130903365,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
+					2130903105,
+					2130903106,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903204,
+					2130903293,
+					2130903294,
+					2130903377,
 					2130903451,
+					2130903452,
 					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
 					2130903457,
-					2130903571,
-					2130903572,
-					2130903573,
-					2130903574,
-					2130903575,
-					2130903576,
-					2130903577,
-					2130903578,
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903461,
+					2130903462,
+					2130903463,
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
 					2130903583,
 					2130903584,
 					2130903585,
@@ -23323,6 +26078,7 @@ namespace WeatherApp.Droid
 					2130903614,
 					2130903615,
 					2130903616,
+					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
@@ -23332,22 +26088,33 @@ namespace WeatherApp.Droid
 					2130903624,
 					2130903625,
 					2130903626,
-					2130903629,
+					2130903627,
+					2130903628,
+					2130903630,
+					2130903631,
+					2130903632,
 					2130903633,
-					2130903734,
-					2130903735,
-					2130903782,
-					2130903790,
-					2130903795,
-					2130903821,
-					2130903822,
-					2130903823,
-					2130904071,
-					2130904073,
-					2130904075,
-					2130904094};
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903641,
+					2130903645,
+					2130903746,
+					2130903747,
+					2130903794,
+					2130903802,
+					2130903807,
+					2130903833,
+					2130903834,
+					2130903835,
+					2130904083,
+					2130904085,
+					2130904087,
+					2130904106};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300EE,0x7F0300F1,0x7F0300F2,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F03020B,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F03024E,0x7F030251 }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030062,0x7F030063,0x7F030064,0x7F0300A4,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300FA,0x7F0300FD,0x7F0300FE,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F030217,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025D }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -23374,49 +26141,37 @@ namespace WeatherApp.Droid
 					16843840,
 					16844091,
 					16844092,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903192,
-					2130903229,
-					2130903230,
-					2130903231,
-					2130903232,
-					2130903233,
-					2130903278,
-					2130903281,
-					2130903282,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903204,
+					2130903241,
+					2130903242,
+					2130903243,
+					2130903244,
+					2130903245,
+					2130903290,
+					2130903293,
+					2130903294,
 					2130903451,
+					2130903452,
 					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
 					2130903457,
-					2130903563,
-					2130903571,
-					2130903572,
-					2130903573,
-					2130903574,
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903461,
+					2130903462,
+					2130903463,
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
 					2130903575,
-					2130903576,
-					2130903577,
-					2130903578,
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
 					2130903583,
 					2130903584,
 					2130903585,
@@ -23451,6 +26206,7 @@ namespace WeatherApp.Droid
 					2130903614,
 					2130903615,
 					2130903616,
+					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
@@ -23460,9 +26216,20 @@ namespace WeatherApp.Droid
 					2130903624,
 					2130903625,
 					2130903626,
-					2130903629,
+					2130903627,
+					2130903628,
 					2130903630,
-					2130903633};
+					2130903631,
+					2130903632,
+					2130903633,
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903641,
+					2130903642,
+					2130903645};
 			
 			// aapt resource value: 22
 			public const int ConstraintLayout_Layout_android_elevation = 22;
@@ -23806,10 +26573,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 113
 			public const int ConstraintLayout_Layout_layout_wrapBehaviorInParent = 113;
 			
-			// aapt resource value: { 0x7F0300F4,0x7F0302F2 }
+			// aapt resource value: { 0x7F030100,0x7F0302FE }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903284,
-					2130903794};
+					2130903296,
+					2130903806};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -23817,12 +26584,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
+			// aapt resource value: { 0x7F030324,0x7F030325,0x7F030326,0x7F030327 }
 			public static int[] ConstraintLayout_ReactiveGuide = new int[] {
-					2130903832,
-					2130903833,
-					2130903834,
-					2130903835};
+					2130903844,
+					2130903845,
+					2130903846,
+					2130903847};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = 0;
@@ -23836,7 +26603,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030219,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F030230,0x7F030235,0x7F030236,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030041,0x7F030042,0x7F030062,0x7F030063,0x7F030064,0x7F0300A4,0x7F0300FD,0x7F030151,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F03021F,0x7F030220,0x7F030221,0x7F030225,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023C,0x7F030241,0x7F030242,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025D,0x7F0302C2,0x7F0302C3,0x7F0302C4,0x7F0302F2,0x7F0302FA,0x7F0302FF,0x7F030319,0x7F03031A,0x7F03031B,0x7F030413,0x7F030415,0x7F030417,0x7F03042A }
 			public static int[] ConstraintOverride = new int[] {
 					16842948,
 					16842960,
@@ -23865,86 +26632,86 @@ namespace WeatherApp.Droid
 					16843702,
 					16843770,
 					16843840,
-					2130903093,
-					2130903094,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903192,
-					2130903281,
-					2130903365,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
+					2130903105,
+					2130903106,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903204,
+					2130903293,
+					2130903377,
 					2130903451,
+					2130903452,
 					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
 					2130903457,
-					2130903571,
-					2130903572,
-					2130903573,
-					2130903577,
-					2130903581,
-					2130903582,
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903461,
+					2130903462,
+					2130903463,
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
 					2130903583,
-					2130903586,
-					2130903587,
-					2130903588,
+					2130903584,
+					2130903585,
 					2130903589,
-					2130903590,
-					2130903591,
-					2130903592,
 					2130903593,
 					2130903594,
 					2130903595,
-					2130903596,
-					2130903597,
+					2130903598,
+					2130903599,
 					2130903600,
+					2130903601,
+					2130903602,
+					2130903603,
+					2130903604,
 					2130903605,
 					2130903606,
+					2130903607,
+					2130903608,
 					2130903609,
-					2130903610,
-					2130903611,
 					2130903612,
-					2130903613,
-					2130903614,
-					2130903615,
-					2130903616,
+					2130903617,
 					2130903618,
-					2130903619,
-					2130903620,
 					2130903621,
 					2130903622,
 					2130903623,
 					2130903624,
 					2130903625,
 					2130903626,
-					2130903629,
+					2130903627,
+					2130903628,
+					2130903630,
+					2130903631,
+					2130903632,
 					2130903633,
-					2130903734,
-					2130903735,
-					2130903736,
-					2130903782,
-					2130903790,
-					2130903795,
-					2130903821,
-					2130903822,
-					2130903823,
-					2130904071,
-					2130904073,
-					2130904075,
-					2130904094};
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903641,
+					2130903645,
+					2130903746,
+					2130903747,
+					2130903748,
+					2130903794,
+					2130903802,
+					2130903807,
+					2130903833,
+					2130903834,
+					2130903835,
+					2130904083,
+					2130904085,
+					2130904087,
+					2130904106};
 			
 			// aapt resource value: 13
 			public const int ConstraintOverride_android_alpha = 13;
@@ -24267,7 +27034,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 106
 			public const int ConstraintOverride_visibilityMode = 106;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030132,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030F,0x7F030409,0x7F03040B }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030041,0x7F030042,0x7F030062,0x7F030063,0x7F030064,0x7F0300A4,0x7F0300FD,0x7F0300FE,0x7F03013E,0x7F030151,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025D,0x7F0302C2,0x7F0302C3,0x7F0302F2,0x7F0302FA,0x7F0302FF,0x7F03031B,0x7F030415,0x7F030417 }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -24299,52 +27066,41 @@ namespace WeatherApp.Droid
 					16843770,
 					16843840,
 					2130903040,
-					2130903093,
-					2130903094,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903192,
-					2130903281,
-					2130903282,
-					2130903346,
-					2130903365,
-					2130903439,
-					2130903440,
-					2130903441,
-					2130903442,
-					2130903443,
-					2130903444,
-					2130903445,
-					2130903446,
-					2130903447,
-					2130903448,
-					2130903449,
-					2130903450,
+					2130903105,
+					2130903106,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903204,
+					2130903293,
+					2130903294,
+					2130903358,
+					2130903377,
 					2130903451,
+					2130903452,
 					2130903453,
 					2130903454,
 					2130903455,
 					2130903456,
 					2130903457,
-					2130903571,
-					2130903572,
-					2130903573,
-					2130903574,
-					2130903575,
-					2130903576,
-					2130903577,
-					2130903578,
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
+					2130903458,
+					2130903459,
+					2130903460,
+					2130903461,
+					2130903462,
+					2130903463,
+					2130903465,
+					2130903466,
+					2130903467,
+					2130903468,
+					2130903469,
 					2130903583,
 					2130903584,
 					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
+					2130903589,
 					2130903590,
 					2130903591,
 					2130903592,
@@ -24356,7 +27112,6 @@ namespace WeatherApp.Droid
 					2130903598,
 					2130903599,
 					2130903600,
-					2130903601,
 					2130903602,
 					2130903603,
 					2130903604,
@@ -24367,29 +27122,41 @@ namespace WeatherApp.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
+					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
 					2130903622,
 					2130903623,
-					2130903624,
 					2130903625,
 					2130903626,
-					2130903629,
+					2130903627,
+					2130903628,
+					2130903630,
+					2130903631,
+					2130903632,
 					2130903633,
-					2130903734,
-					2130903735,
-					2130903782,
-					2130903790,
-					2130903795,
-					2130903823,
-					2130904073,
-					2130904075};
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903641,
+					2130903645,
+					2130903746,
+					2130903747,
+					2130903794,
+					2130903802,
+					2130903807,
+					2130903835,
+					2130904085,
+					2130904087};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -25123,23 +27890,23 @@ namespace WeatherApp.Droid
 			// aapt resource value: 122
 			public const int Constraint_visibilityMode = 122;
 			
-			// aapt resource value: { 0x7F030203,0x7F03036B }
+			// aapt resource value: { 0x7F03020F,0x7F030377 }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903555,
-					2130903915};
+					2130903567,
+					2130903927};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F03020E,0x7F03020F,0x7F030210,0x7F030241,0x7F03024B,0x7F03024C }
+			// aapt resource value: { 0x10100B3,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03024D,0x7F030257,0x7F030258 }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903617,
-					2130903627,
-					2130903628};
+					2130903578,
+					2130903579,
+					2130903580,
+					2130903629,
+					2130903639,
+					2130903640};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -25165,19 +27932,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030122,0x7F030123,0x7F030124,0x7F030291 }
+			// aapt resource value: { 0x7F03004A,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012E,0x7F03012F,0x7F030130,0x7F03029D }
 			public static int[] CustomAttribute = new int[] {
-					2130903102,
-					2130903323,
-					2130903324,
-					2130903325,
-					2130903326,
-					2130903327,
-					2130903328,
-					2130903330,
-					2130903331,
-					2130903332,
-					2130903697};
+					2130903114,
+					2130903335,
+					2130903336,
+					2130903337,
+					2130903338,
+					2130903339,
+					2130903340,
+					2130903342,
+					2130903343,
+					2130903344,
+					2130903709};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -25212,7 +27979,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 10
 			public const int CustomAttribute_methodName = 10;
 			
-			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030135,0x7F030136,0x7F030137,0x7F03013B,0x7F0302C4,0x7F0302FC }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030141,0x7F030142,0x7F030143,0x7F030147,0x7F0302D0,0x7F030308 }
 			public static int[] DialogPreference = new int[] {
 					16843250,
 					16843251,
@@ -25220,12 +27987,12 @@ namespace WeatherApp.Droid
 					16843253,
 					16843254,
 					16843255,
-					2130903349,
-					2130903350,
-					2130903351,
-					2130903355,
-					2130903748,
-					2130903804};
+					2130903361,
+					2130903362,
+					2130903363,
+					2130903367,
+					2130903760,
+					2130903816};
 			
 			// aapt resource value: 2
 			public const int DialogPreference_android_dialogIcon = 2;
@@ -25263,16 +28030,16 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int DialogPreference_positiveButtonText = 11;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D7,0x7F03014A,0x7F0301B2,0x7F030353,0x7F0303D5 }
+			// aapt resource value: { 0x7F030048,0x7F030049,0x7F030061,0x7F0300E3,0x7F030156,0x7F0301BE,0x7F03035F,0x7F0303E1 }
 			public static int[] DrawerArrowToggle = new int[] {
-					2130903100,
-					2130903101,
-					2130903125,
-					2130903255,
-					2130903370,
-					2130903474,
-					2130903891,
-					2130904021};
+					2130903112,
+					2130903113,
+					2130903137,
+					2130903267,
+					2130903382,
+					2130903486,
+					2130903903,
+					2130904033};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -25298,33 +28065,33 @@ namespace WeatherApp.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030159 }
+			// aapt resource value: { 0x7F030165 }
 			public static int[] DrawerLayout = new int[] {
-					2130903385};
+					2130903397};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030416 }
+			// aapt resource value: { 0x7F030422 }
 			public static int[] EditTextPreference = new int[] {
-					2130904086};
+					2130904098};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
 			
-			// aapt resource value: { 0x7F0300D2,0x7F030159,0x7F03017E,0x7F0301BF,0x7F030343,0x7F030348 }
+			// aapt resource value: { 0x7F0300DE,0x7F030165,0x7F03018A,0x7F0301CB,0x7F03034F,0x7F030354 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903250,
-					2130903385,
-					2130903422,
-					2130903487,
-					2130903875,
-					2130903880};
+					2130903262,
+					2130903397,
+					2130903434,
+					2130903499,
+					2130903887,
+					2130903892};
 			
-			// aapt resource value: { 0x7F030059,0x7F03005A }
+			// aapt resource value: { 0x7F030065,0x7F030066 }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
-					2130903129,
-					2130903130};
+					2130903141,
+					2130903142};
 			
 			// aapt resource value: 0
 			public const int ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -25350,25 +28117,25 @@ namespace WeatherApp.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030159,0x7F030168,0x7F030186,0x7F030187,0x7F0301BF,0x7F0301C9,0x7F03028A,0x7F03030A,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F030414 }
+			// aapt resource value: { 0x101000E,0x7F03005C,0x7F03005D,0x7F030073,0x7F030165,0x7F030174,0x7F030192,0x7F030193,0x7F0301CB,0x7F0301D5,0x7F030296,0x7F030316,0x7F03032E,0x7F030344,0x7F030347,0x7F03034F,0x7F030420 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
-					2130903120,
-					2130903121,
-					2130903143,
-					2130903385,
-					2130903400,
-					2130903430,
-					2130903431,
-					2130903487,
-					2130903497,
-					2130903690,
-					2130903818,
-					2130903842,
-					2130903864,
-					2130903867,
-					2130903875,
-					2130904084};
+					2130903132,
+					2130903133,
+					2130903155,
+					2130903397,
+					2130903412,
+					2130903442,
+					2130903443,
+					2130903499,
+					2130903509,
+					2130903702,
+					2130903830,
+					2130903854,
+					2130903876,
+					2130903879,
+					2130903887,
+					2130904096};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -25379,9 +28146,9 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int FloatingActionButton_backgroundTintMode = 2;
 			
-			// aapt resource value: { 0x7F030059 }
+			// aapt resource value: { 0x7F030065 }
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
-					2130903129};
+					2130903141};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 0;
@@ -25428,10 +28195,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0301F9,0x7F030256 }
+			// aapt resource value: { 0x7F030205,0x7F030262 }
 			public static int[] FlowLayout = new int[] {
-					2130903545,
-					2130903638};
+					2130903557,
+					2130903650};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -25439,28 +28206,28 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA }
+			// aapt resource value: { 0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301B6 }
 			public static int[] FontFamily = new int[] {
-					2130903460,
-					2130903461,
-					2130903462,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130903466};
+					2130903472,
+					2130903473,
+					2130903474,
+					2130903475,
+					2130903476,
+					2130903477,
+					2130903478};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0301A2,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F030410 }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0301AE,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F03041C }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903458,
-					2130903467,
-					2130903468,
-					2130903469,
-					2130904080};
+					2130903470,
+					2130903479,
+					2130903480,
+					2130903481,
+					2130904092};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -25513,11 +28280,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AF }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0301BB }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903471};
+					2130903483};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -25616,22 +28383,22 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030104,0x7F030118,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0302D5,0x7F030324,0x7F030325,0x7F030326,0x7F030420 }
+			// aapt resource value: { 0x7F030040,0x7F030070,0x7F030084,0x7F030110,0x7F030124,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0302E1,0x7F030330,0x7F030331,0x7F030332,0x7F03042C }
 			public static int[] ImageFilterView = new int[] {
-					2130903092,
-					2130903140,
-					2130903160,
-					2130903300,
-					2130903320,
-					2130903511,
-					2130903512,
-					2130903513,
-					2130903514,
-					2130903765,
-					2130903844,
-					2130903845,
-					2130903846,
-					2130904096};
+					2130903104,
+					2130903152,
+					2130903172,
+					2130903312,
+					2130903332,
+					2130903523,
+					2130903524,
+					2130903525,
+					2130903526,
+					2130903777,
+					2130903856,
+					2130903857,
+					2130903858,
+					2130904108};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -25675,19 +28442,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 13
 			public const int ImageFilterView_warmth = 13;
 			
-			// aapt resource value: { 0x7F0300EE }
+			// aapt resource value: { 0x7F0300FA }
 			public static int[] include = new int[] {
-					2130903278};
+					2130903290};
 			
 			// aapt resource value: 0
 			public const int include_constraintSet = 0;
 			
-			// aapt resource value: { 0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD }
+			// aapt resource value: { 0x7F0302E3,0x7F0302E5,0x7F0302E6,0x7F0302E9 }
 			public static int[] Insets = new int[] {
-					2130903767,
-					2130903769,
-					2130903770,
-					2130903773};
+					2130903779,
+					2130903781,
+					2130903782,
+					2130903785};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -25701,14 +28468,14 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int Insets_paddingTopSystemWindowInsets = 3;
 			
-			// aapt resource value: { 0x7F0300D6 }
+			// aapt resource value: { 0x7F0300E2 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903254};
+					2130903266};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030407,0x7F030409,0x7F03040B }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030126,0x7F0301BD,0x7F0302C2,0x7F0302C4,0x7F030413,0x7F030415,0x7F030417 }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -25722,13 +28489,13 @@ namespace WeatherApp.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903322,
-					2130903473,
-					2130903734,
-					2130903736,
-					2130904071,
-					2130904073,
-					2130904075};
+					2130903334,
+					2130903485,
+					2130903746,
+					2130903748,
+					2130904083,
+					2130904085,
+					2130904087};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -25787,7 +28554,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030422,0x7F030423,0x7F030424,0x7F030425,0x7F030426 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030126,0x7F0301BD,0x7F0302C2,0x7F0302C4,0x7F030415,0x7F030417,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431,0x7F030432 }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -25799,17 +28566,17 @@ namespace WeatherApp.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903322,
-					2130903473,
-					2130903734,
-					2130903736,
-					2130904073,
-					2130904075,
-					2130904098,
-					2130904099,
-					2130904100,
-					2130904101,
-					2130904102};
+					2130903334,
+					2130903485,
+					2130903746,
+					2130903748,
+					2130904085,
+					2130904087,
+					2130904110,
+					2130904111,
+					2130904112,
+					2130904113,
+					2130904114};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -25886,20 +28653,20 @@ namespace WeatherApp.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F03011A,0x7F030145,0x7F0301B1,0x7F030201,0x7F0302B8,0x7F0302E6,0x7F0302E8,0x7F0302E9,0x7F0302EA,0x7F0302EB,0x7F03034D,0x7F030409 }
+			// aapt resource value: { 0x7F030126,0x7F030151,0x7F0301BD,0x7F03020D,0x7F0302C4,0x7F0302F2,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7,0x7F030359,0x7F030415 }
 			public static int[] KeyPosition = new int[] {
-					2130903322,
-					2130903365,
-					2130903473,
-					2130903553,
-					2130903736,
-					2130903782,
-					2130903784,
-					2130903785,
-					2130903786,
-					2130903787,
-					2130903885,
-					2130904073};
+					2130903334,
+					2130903377,
+					2130903485,
+					2130903565,
+					2130903748,
+					2130903794,
+					2130903796,
+					2130903797,
+					2130903798,
+					2130903799,
+					2130903897,
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -25937,7 +28704,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030421,0x7F030422,0x7F030423,0x7F030424,0x7F030425 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030126,0x7F0301BD,0x7F0302C2,0x7F0302C4,0x7F030415,0x7F030417,0x7F03042D,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431 }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -25949,17 +28716,17 @@ namespace WeatherApp.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903322,
-					2130903473,
-					2130903734,
-					2130903736,
-					2130904073,
-					2130904075,
-					2130904097,
-					2130904098,
-					2130904099,
-					2130904100,
-					2130904101};
+					2130903334,
+					2130903485,
+					2130903746,
+					2130903748,
+					2130904085,
+					2130904087,
+					2130904109,
+					2130904110,
+					2130904111,
+					2130904112,
+					2130904113};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -26024,21 +28791,21 @@ namespace WeatherApp.Droid
 			// aapt resource value: 20
 			public const int KeyTimeCycle_waveShape = 20;
 			
-			// aapt resource value: { 0x7F0301B1,0x7F0302B8,0x7F0302B9,0x7F0302BA,0x7F0302CB,0x7F0302CD,0x7F0302CE,0x7F03040D,0x7F03040E,0x7F03040F,0x7F03041B,0x7F03041C,0x7F03041D }
+			// aapt resource value: { 0x7F0301BD,0x7F0302C4,0x7F0302C5,0x7F0302C6,0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F030419,0x7F03041A,0x7F03041B,0x7F030427,0x7F030428,0x7F030429 }
 			public static int[] KeyTrigger = new int[] {
-					2130903473,
-					2130903736,
-					2130903737,
-					2130903738,
-					2130903755,
-					2130903757,
-					2130903758,
-					2130904077,
-					2130904078,
-					2130904079,
+					2130903485,
+					2130903748,
+					2130903749,
+					2130903750,
+					2130903767,
+					2130903769,
+					2130903770,
+					2130904089,
+					2130904090,
 					2130904091,
-					2130904092,
-					2130904093};
+					2130904103,
+					2130904104,
+					2130904105};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -26079,7 +28846,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 12
 			public const int KeyTrigger_viewTransitionOnPositiveCross = 12;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F030289,0x7F03028D,0x7F030294,0x7F030298 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030062,0x7F030063,0x7F030064,0x7F0300A4,0x7F0300FD,0x7F0300FE,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024B,0x7F03024C,0x7F03024E,0x7F03024F,0x7F030250,0x7F030251,0x7F030252,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025D,0x7F030295,0x7F030299,0x7F0302A0,0x7F0302A4 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -26090,24 +28857,12 @@ namespace WeatherApp.Droid
 					16843002,
 					16843701,
 					16843702,
-					2130903126,
-					2130903127,
-					2130903128,
-					2130903192,
-					2130903281,
-					2130903282,
-					2130903571,
-					2130903572,
-					2130903573,
-					2130903574,
-					2130903575,
-					2130903576,
-					2130903577,
-					2130903578,
-					2130903579,
-					2130903580,
-					2130903581,
-					2130903582,
+					2130903138,
+					2130903139,
+					2130903140,
+					2130903204,
+					2130903293,
+					2130903294,
 					2130903583,
 					2130903584,
 					2130903585,
@@ -26130,6 +28885,7 @@ namespace WeatherApp.Droid
 					2130903602,
 					2130903603,
 					2130903604,
+					2130903605,
 					2130903606,
 					2130903607,
 					2130903608,
@@ -26150,12 +28906,23 @@ namespace WeatherApp.Droid
 					2130903624,
 					2130903625,
 					2130903626,
-					2130903629,
+					2130903627,
+					2130903628,
+					2130903630,
+					2130903631,
+					2130903632,
 					2130903633,
-					2130903689,
-					2130903693,
-					2130903700,
-					2130903704};
+					2130903634,
+					2130903635,
+					2130903636,
+					2130903637,
+					2130903638,
+					2130903641,
+					2130903645,
+					2130903701,
+					2130903705,
+					2130903712,
+					2130903716};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -26382,17 +29149,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 74
 			public const int Layout_minWidth = 74;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013E,0x7F030140,0x7F03028E,0x7F030342 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03014A,0x7F03014C,0x7F03029A,0x7F03034E }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903358,
-					2130903360,
-					2130903694,
-					2130903874};
+					2130903370,
+					2130903372,
+					2130903706,
+					2130903886};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -26440,10 +29207,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x7F0301DB,0x7F0301DF }
+			// aapt resource value: { 0x7F0301E7,0x7F0301EB }
 			public static int[] LinearProgressIndicator = new int[] {
-					2130903515,
-					2130903519};
+					2130903527,
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int LinearProgressIndicator_indeterminateAnimationType = 0;
@@ -26462,13 +29229,13 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B,0x7F030416 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030176,0x7F030177,0x7F030422 }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903402,
-					2130903403,
-					2130904086};
+					2130903414,
+					2130903415,
+					2130904098};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -26485,20 +29252,20 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int ListPreference_useSimpleSummaryProvider = 4;
 			
-			// aapt resource value: { 0x7F030049,0x7F03004A,0x7F03004B,0x7F03004C }
+			// aapt resource value: { 0x7F030055,0x7F030056,0x7F030057,0x7F030058 }
 			public static int[] MaterialAlertDialog = new int[] {
-					2130903113,
-					2130903114,
-					2130903115,
-					2130903116};
+					2130903125,
+					2130903126,
+					2130903127,
+					2130903128};
 			
-			// aapt resource value: { 0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
+			// aapt resource value: { 0x7F030275,0x7F030276,0x7F030277,0x7F030278,0x7F030279 }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903657,
-					2130903658,
-					2130903659,
-					2130903660,
-					2130903661};
+					2130903669,
+					2130903670,
+					2130903671,
+					2130903672,
+					2130903673};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -26534,7 +29301,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F03010C,0x7F030159,0x7F0301CA,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D1,0x7F0301D2,0x7F030322,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F03005C,0x7F03005D,0x7F030118,0x7F030165,0x7F0301D6,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DD,0x7F0301DE,0x7F03032E,0x7F030344,0x7F030347,0x7F03037A,0x7F03037B }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -26542,27 +29309,27 @@ namespace WeatherApp.Droid
 					16843193,
 					16843194,
 					16843237,
-					2130903120,
-					2130903121,
-					2130903308,
-					2130903385,
-					2130903498,
-					2130903500,
-					2130903501,
-					2130903502,
-					2130903505,
-					2130903506,
-					2130903842,
-					2130903864,
-					2130903867,
-					2130903918,
-					2130903919};
+					2130903132,
+					2130903133,
+					2130903320,
+					2130903397,
+					2130903510,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903517,
+					2130903518,
+					2130903854,
+					2130903876,
+					2130903879,
+					2130903930,
+					2130903931};
 			
-			// aapt resource value: { 0x7F03009E,0x7F030335,0x7F03034C }
+			// aapt resource value: { 0x7F0300AA,0x7F030341,0x7F030358 }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903198,
-					2130903861,
-					2130903884};
+					2130903210,
+					2130903873,
+					2130903896};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -26636,31 +29403,31 @@ namespace WeatherApp.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F0302C7,0x7F030314,0x7F030432,0x7F030433,0x7F030434 }
+			// aapt resource value: { 0x101020D,0x7F030133,0x7F030134,0x7F030135,0x7F030136,0x7F0302D3,0x7F030320,0x7F03043E,0x7F03043F,0x7F030440 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
-					2130903335,
-					2130903336,
-					2130903337,
-					2130903338,
-					2130903751,
-					2130903828,
-					2130904114,
-					2130904115,
-					2130904116};
+					2130903347,
+					2130903348,
+					2130903349,
+					2130903350,
+					2130903763,
+					2130903840,
+					2130904126,
+					2130904127,
+					2130904128};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E9,0x7F0301F2,0x7F0301F3,0x7F0301FA,0x7F0301FB,0x7F0301FF }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301F5,0x7F0301FE,0x7F0301FF,0x7F030206,0x7F030207,0x7F03020B }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903529,
-					2130903538,
-					2130903539,
-					2130903546,
-					2130903547,
-					2130903551};
+					2130903541,
+					2130903550,
+					2130903551,
+					2130903558,
+					2130903559,
+					2130903563};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -26722,20 +29489,20 @@ namespace WeatherApp.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F030089,0x7F0300A0,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F030322,0x7F030338,0x7F03033B,0x7F030368,0x7F03036E,0x7F03036F }
+			// aapt resource value: { 0x10101E5,0x7F030095,0x7F0300AC,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F03032E,0x7F030344,0x7F030347,0x7F030374,0x7F03037A,0x7F03037B }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
-					2130903177,
-					2130903200,
-					2130903202,
-					2130903203,
-					2130903204,
-					2130903842,
-					2130903864,
-					2130903867,
-					2130903912,
-					2130903918,
-					2130903919};
+					2130903189,
+					2130903212,
+					2130903214,
+					2130903215,
+					2130903216,
+					2130903854,
+					2130903876,
+					2130903879,
+					2130903924,
+					2130903930,
+					2130903931};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -26773,10 +29540,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030084,0x7F030415 }
+			// aapt resource value: { 0x7F030090,0x7F030421 }
 			public static int[] MaterialCheckBox = new int[] {
-					2130903172,
-					2130904085};
+					2130903184,
+					2130904097};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -26784,10 +29551,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030084,0x7F030415 }
+			// aapt resource value: { 0x7F030090,0x7F030421 }
 			public static int[] MaterialRadioButton = new int[] {
-					2130903172,
-					2130904085};
+					2130903184,
+					2130904097};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -26795,10 +29562,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030338,0x7F03033B }
+			// aapt resource value: { 0x7F030344,0x7F030347 }
 			public static int[] MaterialShape = new int[] {
-					2130903864,
-					2130903867};
+					2130903876,
+					2130903879};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -26806,11 +29573,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x10104B6,0x101057F,0x7F030255 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030261 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16843958,
 					16844159,
-					2130903637};
+					2130903649};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_letterSpacing = 0;
@@ -26821,11 +29588,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F030255 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030261 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903637};
+					2130903649};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -26836,10 +29603,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x7F0300C6,0x7F030202 }
+			// aapt resource value: { 0x7F0300D2,0x7F03020E }
 			public static int[] MaterialTimePicker = new int[] {
-					2130903238,
-					2130903554};
+					2130903250,
+					2130903566};
 			
 			// aapt resource value: 0
 			public const int MaterialTimePicker_clockIcon = 0;
@@ -26847,11 +29614,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MaterialTimePicker_keyboardIcon = 1;
 			
-			// aapt resource value: { 0x7F0302C0,0x7F030373,0x7F0303E8 }
+			// aapt resource value: { 0x7F0302CC,0x7F03037F,0x7F0303F4 }
 			public static int[] MaterialToolbar = new int[] {
-					2130903744,
-					2130903923,
-					2130904040};
+					2130903756,
+					2130903935,
+					2130904052};
 			
 			// aapt resource value: 0
 			public const int MaterialToolbar_navigationIconTint = 0;
@@ -26889,7 +29656,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F5,0x7F0301D1,0x7F0301D2,0x7F0302CA,0x7F030340,0x7F0303FA }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F03003F,0x7F030101,0x7F0301DD,0x7F0301DE,0x7F0302D6,0x7F03034C,0x7F030406 }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -26907,13 +29674,13 @@ namespace WeatherApp.Droid
 					2130903057,
 					2130903077,
 					2130903079,
-					2130903091,
-					2130903285,
-					2130903505,
-					2130903506,
-					2130903754,
-					2130903872,
-					2130904058};
+					2130903103,
+					2130903297,
+					2130903517,
+					2130903518,
+					2130903766,
+					2130903884,
+					2130904070};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -26984,7 +29751,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030309,0x7F030370 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030315,0x7F03037C }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -26993,8 +29760,8 @@ namespace WeatherApp.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903817,
-					2130903920};
+					2130903829,
+					2130903932};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -27023,14 +29790,14 @@ namespace WeatherApp.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029E }
+			// aapt resource value: { 0x7F0302A5,0x7F0302A6,0x7F0302A7,0x7F0302A8,0x7F0302A9,0x7F0302AA }
 			public static int[] MockView = new int[] {
-					2130903705,
-					2130903706,
-					2130903707,
-					2130903708,
-					2130903709,
-					2130903710};
+					2130903717,
+					2130903718,
+					2130903719,
+					2130903720,
+					2130903721,
+					2130903722};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -27050,29 +29817,29 @@ namespace WeatherApp.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030145,0x7F0302B5,0x7F0302B7,0x7F0302E6,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030409 }
+			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030151,0x7F0302C1,0x7F0302C3,0x7F0302F2,0x7F030319,0x7F03031A,0x7F03031B,0x7F030415 }
 			public static int[] Motion = new int[] {
-					2130903093,
-					2130903094,
-					2130903365,
-					2130903733,
-					2130903735,
-					2130903782,
-					2130903821,
-					2130903822,
-					2130903823,
-					2130904073};
+					2130903105,
+					2130903106,
+					2130903377,
+					2130903745,
+					2130903747,
+					2130903794,
+					2130903833,
+					2130903834,
+					2130903835,
+					2130904085};
 			
-			// aapt resource value: { 0x7F0302AB,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F0302AF,0x7F0302B0,0x7F0302B1,0x7F0302B2 }
+			// aapt resource value: { 0x7F0302B7,0x7F0302B8,0x7F0302B9,0x7F0302BA,0x7F0302BB,0x7F0302BC,0x7F0302BD,0x7F0302BE }
 			public static int[] MotionEffect = new int[] {
-					2130903723,
-					2130903724,
-					2130903725,
-					2130903726,
-					2130903727,
-					2130903728,
-					2130903729,
-					2130903730};
+					2130903735,
+					2130903736,
+					2130903737,
+					2130903738,
+					2130903739,
+					2130903740,
+					2130903741,
+					2130903742};
 			
 			// aapt resource value: 0
 			public const int MotionEffect_motionEffect_alpha = 0;
@@ -27098,10 +29865,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 7
 			public const int MotionEffect_motionEffect_viewTransition = 7;
 			
-			// aapt resource value: { 0x7F0302CC,0x7F0302CF }
+			// aapt resource value: { 0x7F0302D8,0x7F0302DB }
 			public static int[] MotionHelper = new int[] {
-					2130903756,
-					2130903759};
+					2130903768,
+					2130903771};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -27109,7 +29876,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030327,0x7F0303BE,0x7F0303BF,0x7F0303C0,0x7F0303C1,0x7F0303C2,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD,0x7F0303CF,0x7F0303D0,0x7F0303D1,0x7F0303D2 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030071,0x7F030072,0x7F030333,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD,0x7F0303CE,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303D9,0x7F0303DB,0x7F0303DC,0x7F0303DD,0x7F0303DE }
 			public static int[] MotionLabel = new int[] {
 					16842901,
 					16842902,
@@ -27120,22 +29887,22 @@ namespace WeatherApp.Droid
 					16843108,
 					16843692,
 					16844085,
-					2130903141,
-					2130903142,
-					2130903847,
-					2130903998,
-					2130903999,
-					2130904000,
-					2130904001,
-					2130904002,
+					2130903153,
+					2130903154,
+					2130903859,
 					2130904010,
 					2130904011,
 					2130904012,
 					2130904013,
-					2130904015,
-					2130904016,
-					2130904017,
-					2130904018};
+					2130904014,
+					2130904022,
+					2130904023,
+					2130904024,
+					2130904025,
+					2130904027,
+					2130904028,
+					2130904029,
+					2130904030};
 			
 			// aapt resource value: 8
 			public const int MotionLabel_android_autoSizeTextType = 8;
@@ -27212,14 +29979,14 @@ namespace WeatherApp.Droid
 			// aapt resource value: 24
 			public const int MotionLabel_textureWidth = 24;
 			
-			// aapt resource value: { 0x7F030039,0x7F030119,0x7F03020B,0x7F03029F,0x7F0302B6,0x7F030344 }
+			// aapt resource value: { 0x7F030045,0x7F030125,0x7F030217,0x7F0302AB,0x7F0302C2,0x7F030350 }
 			public static int[] MotionLayout = new int[] {
-					2130903097,
-					2130903321,
-					2130903563,
-					2130903711,
-					2130903734,
-					2130903876};
+					2130903109,
+					2130903333,
+					2130903575,
+					2130903723,
+					2130903746,
+					2130903888};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -27239,10 +30006,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F03012B,0x7F03020C }
+			// aapt resource value: { 0x7F030137,0x7F030218 }
 			public static int[] MotionScene = new int[] {
-					2130903339,
-					2130903564};
+					2130903351,
+					2130903576};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -27250,11 +30017,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F0303A4,0x7F0303A5,0x7F0303A6 }
+			// aapt resource value: { 0x7F0303B0,0x7F0303B1,0x7F0303B2 }
 			public static int[] MotionTelltales = new int[] {
-					2130903972,
-					2130903973,
-					2130903974};
+					2130903984,
+					2130903985,
+					2130903986};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -27295,12 +30062,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 9
 			public const int Motion_transitionEasing = 9;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030176,0x7F030177 }
 			public static int[] MultiSelectListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903402,
-					2130903403};
+					2130903414,
+					2130903415};
 			
 			// aapt resource value: 0
 			public const int MultiSelectListPreference_android_entries = 0;
@@ -27314,17 +30081,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int MultiSelectListPreference_entryValues = 3;
 			
-			// aapt resource value: { 0x10100D0,0x7F030133,0x7F030169,0x7F030173,0x7F030209,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7 }
+			// aapt resource value: { 0x10100D0,0x7F03013F,0x7F030175,0x7F03017F,0x7F030215,0x7F030300,0x7F030301,0x7F030302,0x7F030303 }
 			public static int[] NavAction = new int[] {
 					16842960,
-					2130903347,
-					2130903401,
-					2130903411,
-					2130903561,
-					2130903796,
-					2130903797,
-					2130903798,
-					2130903799};
+					2130903359,
+					2130903413,
+					2130903423,
+					2130903573,
+					2130903808,
+					2130903809,
+					2130903810,
+					2130903811};
 			
 			// aapt resource value: 0
 			public const int NavAction_android_id = 0;
@@ -27353,12 +30120,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 8
 			public const int NavAction_popUpToInclusive = 8;
 			
-			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C8 }
+			// aapt resource value: { 0x1010003,0x10101ED,0x7F030047,0x7F0302D4 }
 			public static int[] NavArgument = new int[] {
 					16842755,
 					16843245,
-					2130903099,
-					2130903752};
+					2130903111,
+					2130903764};
 			
 			// aapt resource value: 1
 			public const int NavArgument_android_defaultValue = 1;
@@ -27372,12 +30139,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x10104EE,0x7F030003,0x7F030292,0x7F030413 }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03029E,0x7F03041F }
 			public static int[] NavDeepLink = new int[] {
 					16844014,
 					2130903043,
-					2130903698,
-					2130904083};
+					2130903710,
+					2130904095};
 			
 			// aapt resource value: 1
 			public const int NavDeepLink_action = 1;
@@ -27391,33 +30158,33 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int NavDeepLink_uri = 3;
 			
-			// aapt resource value: { 0x7F03035F }
+			// aapt resource value: { 0x7F03036B }
 			public static int[] NavGraphNavigator = new int[] {
-					2130903903};
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int NavGraphNavigator_startDestination = 0;
 			
-			// aapt resource value: { 0x7F0302BD }
+			// aapt resource value: { 0x7F0302C9 }
 			public static int[] NavHost = new int[] {
-					2130903741};
+					2130903753};
 			
 			// aapt resource value: 0
 			public const int NavHost_navGraph = 0;
 			
-			// aapt resource value: { 0x7F030050,0x7F030159,0x7F0301E8,0x7F0301ED,0x7F0301EE,0x7F0301F1,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030207,0x7F03028F }
+			// aapt resource value: { 0x7F03005C,0x7F030165,0x7F0301F4,0x7F0301F9,0x7F0301FA,0x7F0301FD,0x7F030209,0x7F03020A,0x7F03020B,0x7F030213,0x7F03029B }
 			public static int[] NavigationBarView = new int[] {
-					2130903120,
-					2130903385,
-					2130903528,
-					2130903533,
-					2130903534,
-					2130903537,
+					2130903132,
+					2130903397,
+					2130903540,
+					2130903545,
+					2130903546,
 					2130903549,
-					2130903550,
-					2130903551,
-					2130903559,
-					2130903695};
+					2130903561,
+					2130903562,
+					2130903563,
+					2130903571,
+					2130903707};
 			
 			// aapt resource value: 0
 			public const int NavigationBarView_backgroundTint = 0;
@@ -27452,10 +30219,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 10
 			public const int NavigationBarView_menu = 10;
 			
-			// aapt resource value: { 0x7F0301B8,0x7F030290 }
+			// aapt resource value: { 0x7F0301C4,0x7F03029C }
 			public static int[] NavigationRailView = new int[] {
-					2130903480,
-					2130903696};
+					2130903492,
+					2130903708};
 			
 			// aapt resource value: 0
 			public const int NavigationRailView_headerLayout = 0;
@@ -27463,31 +30230,31 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int NavigationRailView_menuGravity = 1;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030159,0x7F0301B8,0x7F0301E8,0x7F0301EA,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301FC,0x7F0301FF,0x7F03028F,0x7F030338,0x7F03033B }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030165,0x7F0301C4,0x7F0301F4,0x7F0301F6,0x7F0301F8,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F0301FE,0x7F0301FF,0x7F030200,0x7F030201,0x7F030202,0x7F030203,0x7F030204,0x7F030208,0x7F03020B,0x7F03029B,0x7F030344,0x7F030347 }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903385,
-					2130903480,
-					2130903528,
-					2130903530,
-					2130903532,
-					2130903533,
-					2130903534,
-					2130903535,
-					2130903538,
-					2130903539,
+					2130903397,
+					2130903492,
 					2130903540,
-					2130903541,
 					2130903542,
-					2130903543,
 					2130903544,
-					2130903548,
+					2130903545,
+					2130903546,
+					2130903547,
+					2130903550,
 					2130903551,
-					2130903695,
-					2130903864,
-					2130903867};
+					2130903552,
+					2130903553,
+					2130903554,
+					2130903555,
+					2130903556,
+					2130903560,
+					2130903563,
+					2130903707,
+					2130903876,
+					2130903879};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -27569,17 +30336,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0
 			public const int Navigator_android_label = 0;
 			
-			// aapt resource value: { 0x7F0301B5 }
+			// aapt resource value: { 0x7F0301C1 }
 			public static int[] NavInclude = new int[] {
-					2130903477};
+					2130903489};
 			
 			// aapt resource value: 0
 			public const int NavInclude_graph = 0;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0303A2 }
+			// aapt resource value: { 0x7F0300CF,0x7F0303AE }
 			public static int[] OnClick = new int[] {
-					2130903235,
-					2130903970};
+					2130903247,
+					2130903982};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -27587,27 +30354,27 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F03003F,0x7F030142,0x7F030143,0x7F030144,0x7F030254,0x7F030285,0x7F03028C,0x7F0302BB,0x7F0302C5,0x7F0302D1,0x7F030323,0x7F030357,0x7F030358,0x7F030359,0x7F03035A,0x7F03035B,0x7F0303FB,0x7F0303FC,0x7F0303FD }
+			// aapt resource value: { 0x7F03004B,0x7F03014E,0x7F03014F,0x7F030150,0x7F030260,0x7F030291,0x7F030298,0x7F0302C7,0x7F0302D1,0x7F0302DD,0x7F03032F,0x7F030363,0x7F030364,0x7F030365,0x7F030366,0x7F030367,0x7F030407,0x7F030408,0x7F030409 }
 			public static int[] OnSwipe = new int[] {
-					2130903103,
-					2130903362,
-					2130903363,
-					2130903364,
-					2130903636,
-					2130903685,
-					2130903692,
-					2130903739,
-					2130903749,
+					2130903115,
+					2130903374,
+					2130903375,
+					2130903376,
+					2130903648,
+					2130903697,
+					2130903704,
+					2130903751,
 					2130903761,
-					2130903843,
-					2130903895,
-					2130903896,
-					2130903897,
-					2130903898,
-					2130903899,
-					2130904059,
-					2130904060,
-					2130904061};
+					2130903773,
+					2130903855,
+					2130903907,
+					2130903908,
+					2130903909,
+					2130903910,
+					2130903911,
+					2130904071,
+					2130904072,
+					2130904073};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_autoCompleteMode = 0;
@@ -27666,15 +30433,15 @@ namespace WeatherApp.Droid
 			// aapt resource value: 18
 			public const int OnSwipe_touchRegionId = 18;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302D4 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302E0 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903764};
+					2130903776};
 			
-			// aapt resource value: { 0x7F030365 }
+			// aapt resource value: { 0x7F030371 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903909};
+					2130903921};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -27688,7 +30455,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012E,0x7F030131,0x7F03015D,0x7F03015F,0x7F0301B0,0x7F0301CA,0x7F0301CF,0x7F0301E7,0x7F030200,0x7F03020A,0x7F0302D2,0x7F0302ED,0x7F030332,0x7F03033E,0x7F03034B,0x7F03037B,0x7F0303E7,0x7F030427 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03003A,0x7F03003C,0x7F03013A,0x7F03013D,0x7F030169,0x7F03016B,0x7F0301BC,0x7F0301D6,0x7F0301DB,0x7F0301F3,0x7F03020C,0x7F030216,0x7F0302DE,0x7F0302F9,0x7F03033E,0x7F03034A,0x7F030357,0x7F030387,0x7F0303F3,0x7F030433 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -27706,40 +30473,40 @@ namespace WeatherApp.Droid
 					16843491,
 					16844124,
 					16844129,
-					2130903086,
-					2130903088,
-					2130903342,
-					2130903345,
-					2130903389,
-					2130903391,
-					2130903472,
-					2130903498,
-					2130903503,
-					2130903527,
-					2130903552,
-					2130903562,
-					2130903762,
-					2130903789,
-					2130903858,
+					2130903098,
+					2130903100,
+					2130903354,
+					2130903357,
+					2130903401,
+					2130903403,
+					2130903484,
+					2130903510,
+					2130903515,
+					2130903539,
+					2130903564,
+					2130903574,
+					2130903774,
+					2130903801,
 					2130903870,
-					2130903883,
-					2130903931,
-					2130904039,
-					2130904103};
+					2130903882,
+					2130903895,
+					2130903943,
+					2130904051,
+					2130904115};
 			
-			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003B }
 			public static int[] PreferenceFragment = new int[] {
 					16842994,
 					16843049,
 					16843050,
-					2130903087};
+					2130903099};
 			
-			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
+			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03003B }
 			public static int[] PreferenceFragmentCompat = new int[] {
 					16842994,
 					16843049,
 					16843050,
-					2130903087};
+					2130903099};
 			
 			// aapt resource value: 3
 			public const int PreferenceFragmentCompat_allowDividerAfterLastItem = 3;
@@ -27765,11 +30532,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 0
 			public const int PreferenceFragment_android_layout = 0;
 			
-			// aapt resource value: { 0x10101E7,0x7F0301E3,0x7F0302D3 }
+			// aapt resource value: { 0x10101E7,0x7F0301EF,0x7F0302DF }
 			public static int[] PreferenceGroup = new int[] {
 					16843239,
-					2130903523,
-					2130903763};
+					2130903535,
+					2130903775};
 			
 			// aapt resource value: 0
 			public const int PreferenceGroup_android_orderingFromXml = 0;
@@ -27780,12 +30547,12 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x101011F,0x1010120,0x7F030289,0x7F03028D }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030295,0x7F030299 }
 			public static int[] PreferenceImageView = new int[] {
 					16843039,
 					16843040,
-					2130903689,
-					2130903693};
+					2130903701,
+					2130903705};
 			
 			// aapt resource value: 1
 			public const int PreferenceImageView_android_maxHeight = 1;
@@ -27799,24 +30566,24 @@ namespace WeatherApp.Droid
 			// aapt resource value: 3
 			public const int PreferenceImageView_maxWidth = 3;
 			
-			// aapt resource value: { 0x7F030099,0x7F030138,0x7F030153,0x7F030157,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030330,0x7F030381,0x7F030382 }
+			// aapt resource value: { 0x7F0300A5,0x7F030144,0x7F03015F,0x7F030163,0x7F030309,0x7F03030A,0x7F03030B,0x7F03030C,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030310,0x7F030311,0x7F03033C,0x7F03038D,0x7F03038E }
 			public static int[] PreferenceTheme = new int[] {
-					2130903193,
-					2130903352,
-					2130903379,
-					2130903383,
-					2130903805,
-					2130903806,
-					2130903807,
-					2130903808,
-					2130903809,
-					2130903810,
-					2130903811,
-					2130903812,
-					2130903813,
-					2130903856,
-					2130903937,
-					2130903938};
+					2130903205,
+					2130903364,
+					2130903391,
+					2130903395,
+					2130903817,
+					2130903818,
+					2130903819,
+					2130903820,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130903824,
+					2130903825,
+					2130903868,
+					2130903949,
+					2130903950};
 			
 			// aapt resource value: 0
 			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
@@ -27974,13 +30741,64 @@ namespace WeatherApp.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F030235,0x7F0302B6,0x7F03041E }
+			// aapt resource value: { 0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F030031,0x7F030032,0x7F030033,0x7F030034,0x7F030035 }
+			public static int[] ProgressWheel = new int[] {
+					2130903082,
+					2130903083,
+					2130903084,
+					2130903085,
+					2130903086,
+					2130903087,
+					2130903088,
+					2130903089,
+					2130903090,
+					2130903091,
+					2130903092,
+					2130903093};
+			
+			// aapt resource value: 0
+			public const int ProgressWheel_ahBarColor = 0;
+			
+			// aapt resource value: 1
+			public const int ProgressWheel_ahBarLength = 1;
+			
+			// aapt resource value: 2
+			public const int ProgressWheel_ahBarWidth = 2;
+			
+			// aapt resource value: 3
+			public const int ProgressWheel_ahCircleColor = 3;
+			
+			// aapt resource value: 4
+			public const int ProgressWheel_ahDelayMillis = 4;
+			
+			// aapt resource value: 5
+			public const int ProgressWheel_ahRadius = 5;
+			
+			// aapt resource value: 6
+			public const int ProgressWheel_ahRimColor = 6;
+			
+			// aapt resource value: 7
+			public const int ProgressWheel_ahRimWidth = 7;
+			
+			// aapt resource value: 8
+			public const int ProgressWheel_ahSpinSpeed = 8;
+			
+			// aapt resource value: 9
+			public const int ProgressWheel_ahText = 9;
+			
+			// aapt resource value: 10
+			public const int ProgressWheel_ahTextColor = 10;
+			
+			// aapt resource value: 11
+			public const int ProgressWheel_ahTextSize = 11;
+			
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030241,0x7F0302C2,0x7F03042A }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903605,
-					2130903734,
-					2130904094};
+					2130903617,
+					2130903746,
+					2130904106};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -27997,17 +30815,17 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F030280 }
+			// aapt resource value: { 0x7F03028C }
 			public static int[] RadialViewGroup = new int[] {
-					2130903680};
+					2130903692};
 			
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030296,0x7F030417 }
+			// aapt resource value: { 0x7F0302A2,0x7F030423 }
 			public static int[] RangeSlider = new int[] {
-					2130903702,
-					2130904087};
+					2130903714,
+					2130904099};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -28015,10 +30833,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int RangeSlider_values = 1;
 			
-			// aapt resource value: { 0x7F0302D6,0x7F0302DC }
+			// aapt resource value: { 0x7F0302E2,0x7F0302E8 }
 			public static int[] RecycleListView = new int[] {
-					2130903766,
-					2130903772};
+					2130903778,
+					2130903784};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -28026,20 +30844,20 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03020D,0x7F030321,0x7F030352,0x7F03035D }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030219,0x7F03032D,0x7F03035E,0x7F030369 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903432,
-					2130903433,
-					2130903434,
-					2130903435,
-					2130903436,
-					2130903565,
-					2130903841,
-					2130903890,
-					2130903901};
+					2130903444,
+					2130903445,
+					2130903446,
+					2130903447,
+					2130903448,
+					2130903577,
+					2130903853,
+					2130903902,
+					2130903913};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -28077,46 +30895,46 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F0301E4 }
+			// aapt resource value: { 0x7F0301F0 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903524};
+					2130903536};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
 			
-			// aapt resource value: { 0x7F030060 }
+			// aapt resource value: { 0x7F03006C }
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
-					2130903136};
+					2130903148};
 			
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F03032B }
+			// aapt resource value: { 0x7F030337 }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903851};
+					2130903863};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C8,0x7F0300ED,0x7F03012C,0x7F0301B4,0x7F0301D3,0x7F03020A,0x7F030310,0x7F030311,0x7F03032C,0x7F03032D,0x7F030371,0x7F03037A,0x7F03041F }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300D4,0x7F0300F9,0x7F030138,0x7F0301C0,0x7F0301DF,0x7F030216,0x7F03031C,0x7F03031D,0x7F030338,0x7F030339,0x7F03037D,0x7F030386,0x7F03042B }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903240,
-					2130903277,
-					2130903340,
-					2130903476,
-					2130903507,
-					2130903562,
-					2130903824,
-					2130903825,
-					2130903852,
-					2130903853,
-					2130903921,
-					2130903930,
-					2130904095};
+					2130903252,
+					2130903289,
+					2130903352,
+					2130903488,
+					2130903519,
+					2130903574,
+					2130903836,
+					2130903837,
+					2130903864,
+					2130903865,
+					2130903933,
+					2130903942,
+					2130904107};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -28169,15 +30987,15 @@ namespace WeatherApp.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F030293,0x7F03032F,0x7F030345,0x7F030412 }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03029F,0x7F03033B,0x7F030351,0x7F03041E }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
 					2130903081,
-					2130903699,
-					2130903855,
-					2130903877,
-					2130904082};
+					2130903711,
+					2130903867,
+					2130903889,
+					2130904094};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -28200,19 +31018,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 6
 			public const int SeekBarPreference_updatesContinuously = 6;
 			
-			// aapt resource value: { 0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
+			// aapt resource value: { 0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E,0x7F030344,0x7F030347,0x7F03037A,0x7F03037B }
 			public static int[] ShapeableImageView = new int[] {
-					2130903292,
-					2130903293,
-					2130903294,
-					2130903295,
-					2130903296,
-					2130903297,
-					2130903298,
-					2130903864,
-					2130903867,
-					2130903918,
-					2130903919};
+					2130903304,
+					2130903305,
+					2130903306,
+					2130903307,
+					2130903308,
+					2130903309,
+					2130903310,
+					2130903876,
+					2130903879,
+					2130903930,
+					2130903931};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -28247,18 +31065,18 @@ namespace WeatherApp.Droid
 			// aapt resource value: 10
 			public const int ShapeableImageView_strokeWidth = 10;
 			
-			// aapt resource value: { 0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030111 }
+			// aapt resource value: { 0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D }
 			public static int[] ShapeAppearance = new int[] {
-					2130903303,
-					2130903304,
-					2130903305,
-					2130903306,
-					2130903307,
-					2130903309,
-					2130903310,
-					2130903311,
-					2130903312,
-					2130903313};
+					2130903315,
+					2130903316,
+					2130903317,
+					2130903318,
+					2130903319,
+					2130903321,
+					2130903322,
+					2130903323,
+					2130903324,
+					2130903325};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -28290,30 +31108,30 @@ namespace WeatherApp.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B6,0x7F0301B7,0x7F030205,0x7F030206,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303D9,0x7F0303DA,0x7F0303DE,0x7F0303DF,0x7F0303E0,0x7F0303E4,0x7F0303FF,0x7F030400,0x7F030401,0x7F030403 }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301C2,0x7F0301C3,0x7F030211,0x7F030212,0x7F0303E2,0x7F0303E3,0x7F0303E4,0x7F0303E5,0x7F0303E6,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303F0,0x7F03040B,0x7F03040C,0x7F03040D,0x7F03040F }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903478,
-					2130903479,
-					2130903557,
-					2130903558,
-					2130904022,
-					2130904023,
-					2130904024,
-					2130904025,
-					2130904026,
-					2130904030,
-					2130904031,
-					2130904032,
+					2130903490,
+					2130903491,
+					2130903569,
+					2130903570,
+					2130904034,
+					2130904035,
 					2130904036,
-					2130904063,
-					2130904064,
-					2130904065,
-					2130904067};
+					2130904037,
+					2130904038,
+					2130904042,
+					2130904043,
+					2130904044,
+					2130904048,
+					2130904075,
+					2130904076,
+					2130904077,
+					2130904079};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -28381,22 +31199,22 @@ namespace WeatherApp.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F03034F,0x7F030350,0x7F030351 }
+			// aapt resource value: { 0x7F03035B,0x7F03035C,0x7F03035D }
 			public static int[] Snackbar = new int[] {
-					2130903887,
-					2130903888,
-					2130903889};
+					2130903899,
+					2130903900,
+					2130903901};
 			
-			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030159,0x7F030286 }
+			// aapt resource value: { 0x101011F,0x7F030026,0x7F030043,0x7F030059,0x7F03005C,0x7F03005D,0x7F030165,0x7F030292 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903078,
-					2130903095,
-					2130903117,
-					2130903120,
-					2130903121,
-					2130903385,
-					2130903686};
+					2130903107,
+					2130903129,
+					2130903132,
+					2130903133,
+					2130903397,
+					2130903698};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -28431,13 +31249,13 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302FA }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030306 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903802};
+					2130903814};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -28454,10 +31272,10 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300F3 }
+			// aapt resource value: { 0x10100D0,0x7F0300FF }
 			public static int[] State = new int[] {
 					16842960,
-					2130903283};
+					2130903295};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -28493,9 +31311,9 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F03012D }
+			// aapt resource value: { 0x7F030139 }
 			public static int[] StateSet = new int[] {
-					2130903341};
+					2130903353};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -28506,29 +31324,29 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x7F03037E }
+			// aapt resource value: { 0x7F03038A }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903934};
+					2130903946};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030346,0x7F030356,0x7F03037F,0x7F030380,0x7F030384,0x7F0303DB,0x7F0303DC,0x7F0303DD,0x7F0303FE,0x7F030405,0x7F030406 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030352,0x7F030362,0x7F03038B,0x7F03038C,0x7F030390,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F03040A,0x7F030411,0x7F030412 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903878,
-					2130903894,
-					2130903935,
-					2130903936,
-					2130903940,
-					2130904027,
-					2130904028,
-					2130904029,
-					2130904062,
-					2130904069,
-					2130904070};
+					2130903890,
+					2130903906,
+					2130903947,
+					2130903948,
+					2130903952,
+					2130904039,
+					2130904040,
+					2130904041,
+					2130904074,
+					2130904081,
+					2130904082};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -28572,38 +31390,38 @@ namespace WeatherApp.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030415 }
+			// aapt resource value: { 0x7F030421 }
 			public static int[] SwitchMaterial = new int[] {
-					2130904085};
+					2130904097};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030148,0x7F030388,0x7F030389,0x7F030391,0x7F030392 }
 			public static int[] SwitchPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903356,
-					2130903932,
-					2130903933,
-					2130903941,
-					2130903942};
+					2130903368,
+					2130903944,
+					2130903945,
+					2130903953,
+					2130903954};
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030148,0x7F030388,0x7F030389,0x7F030391,0x7F030392 }
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903356,
-					2130903932,
-					2130903933,
-					2130903941,
-					2130903942};
+					2130903368,
+					2130903944,
+					2130903945,
+					2130903953,
+					2130903954};
 			
 			// aapt resource value: 2
 			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
@@ -28680,20 +31498,8 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F030399,0x7F03039A,0x7F03039B,0x7F03039C,0x7F03039D,0x7F03039F,0x7F0303A0,0x7F0303A1 }
+			// aapt resource value: { 0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F030399,0x7F03039A,0x7F03039B,0x7F03039C,0x7F03039D,0x7F03039E,0x7F03039F,0x7F0303A0,0x7F0303A1,0x7F0303A2,0x7F0303A3,0x7F0303A4,0x7F0303A5,0x7F0303A6,0x7F0303A7,0x7F0303A8,0x7F0303A9,0x7F0303AB,0x7F0303AC,0x7F0303AD }
 			public static int[] TabLayout = new int[] {
-					2130903943,
-					2130903944,
-					2130903945,
-					2130903946,
-					2130903947,
-					2130903948,
-					2130903949,
-					2130903950,
-					2130903951,
-					2130903952,
-					2130903953,
-					2130903954,
 					2130903955,
 					2130903956,
 					2130903957,
@@ -28705,9 +31511,21 @@ namespace WeatherApp.Droid
 					2130903963,
 					2130903964,
 					2130903965,
+					2130903966,
 					2130903967,
 					2130903968,
-					2130903969};
+					2130903969,
+					2130903970,
+					2130903971,
+					2130903972,
+					2130903973,
+					2130903974,
+					2130903975,
+					2130903976,
+					2130903977,
+					2130903979,
+					2130903980,
+					2130903981};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -28787,7 +31605,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0301A3,0x7F0301AC,0x7F0303A7,0x7F0303C9 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0301AF,0x7F0301B8,0x7F0303B3,0x7F0303D5 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -28801,10 +31619,10 @@ namespace WeatherApp.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903459,
-					2130903468,
-					2130903975,
-					2130904009};
+					2130903471,
+					2130903480,
+					2130903987,
+					2130904021};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -28854,7 +31672,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C6,0x7F0303CA,0x7F0303CB }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030071,0x7F030072,0x7F0303D2,0x7F0303D6,0x7F0303D7 }
 			public static int[] TextEffects = new int[] {
 					16842901,
 					16842902,
@@ -28865,11 +31683,11 @@ namespace WeatherApp.Droid
 					16843107,
 					16843108,
 					16843692,
-					2130903141,
-					2130903142,
-					2130904006,
-					2130904010,
-					2130904011};
+					2130903153,
+					2130903154,
+					2130904018,
+					2130904022,
+					2130904023};
 			
 			// aapt resource value: 8
 			public const int TextEffects_android_fontFamily = 8;
@@ -28913,80 +31731,80 @@ namespace WeatherApp.Droid
 			// aapt resource value: 13
 			public const int TextEffects_textOutlineThickness = 13;
 			
-			// aapt resource value: { 0x7F0303C7 }
+			// aapt resource value: { 0x7F0303D3 }
 			public static int[] TextInputEditText = new int[] {
-					2130904007};
+					2130904019};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030176,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0302E1,0x7F0302E2,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F030306,0x7F030307,0x7F030308,0x7F030338,0x7F03033B,0x7F030360,0x7F030361,0x7F030362,0x7F030363,0x7F030364,0x7F030377,0x7F030378,0x7F030379 }
+			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F03007F,0x7F030080,0x7F030081,0x7F030082,0x7F030083,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F03017E,0x7F030182,0x7F0301C6,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0302ED,0x7F0302EE,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F030312,0x7F030313,0x7F030314,0x7F030344,0x7F030347,0x7F03036C,0x7F03036D,0x7F03036E,0x7F03036F,0x7F030370,0x7F030383,0x7F030384,0x7F030385 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
 					16843039,
 					16843071,
 					16843088,
-					2130903149,
-					2130903150,
-					2130903151,
-					2130903152,
-					2130903153,
-					2130903154,
-					2130903155,
-					2130903156,
-					2130903157,
-					2130903158,
-					2130903159,
-					2130903314,
-					2130903315,
-					2130903316,
-					2130903317,
-					2130903318,
-					2130903319,
-					2130903392,
-					2130903393,
-					2130903394,
-					2130903395,
-					2130903396,
-					2130903397,
+					2130903161,
+					2130903162,
+					2130903163,
+					2130903164,
+					2130903165,
+					2130903166,
+					2130903167,
+					2130903168,
+					2130903169,
+					2130903170,
+					2130903171,
+					2130903326,
+					2130903327,
+					2130903328,
+					2130903329,
+					2130903330,
+					2130903331,
 					2130903404,
 					2130903405,
 					2130903406,
 					2130903407,
 					2130903408,
 					2130903409,
-					2130903410,
-					2130903414,
-					2130903482,
-					2130903483,
-					2130903484,
-					2130903485,
-					2130903490,
-					2130903491,
-					2130903492,
-					2130903493,
-					2130903777,
-					2130903778,
-					2130903779,
-					2130903780,
-					2130903781,
+					2130903416,
+					2130903417,
+					2130903418,
+					2130903419,
+					2130903420,
+					2130903421,
+					2130903422,
+					2130903426,
+					2130903494,
+					2130903495,
+					2130903496,
+					2130903497,
+					2130903502,
+					2130903503,
+					2130903504,
+					2130903505,
+					2130903789,
+					2130903790,
 					2130903791,
 					2130903792,
 					2130903793,
-					2130903814,
-					2130903815,
-					2130903816,
-					2130903864,
-					2130903867,
-					2130903904,
-					2130903905,
-					2130903906,
-					2130903907,
-					2130903908,
-					2130903927,
-					2130903928,
-					2130903929};
+					2130903803,
+					2130903804,
+					2130903805,
+					2130903826,
+					2130903827,
+					2130903828,
+					2130903876,
+					2130903879,
+					2130903916,
+					2130903917,
+					2130903918,
+					2130903919,
+					2130903920,
+					2130903939,
+					2130903940,
+					2130903941};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -29183,11 +32001,11 @@ namespace WeatherApp.Droid
 			// aapt resource value: 64
 			public const int TextInputLayout_suffixTextColor = 64;
 			
-			// aapt resource value: { 0x1010034,0x7F030166,0x7F030167 }
+			// aapt resource value: { 0x1010034,0x7F030172,0x7F030173 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903398,
-					2130903399};
+					2130903410,
+					2130903411};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -29198,38 +32016,38 @@ namespace WeatherApp.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030267,0x7F030268,0x7F030287,0x7F03028F,0x7F0302BE,0x7F0302BF,0x7F0302FA,0x7F030372,0x7F030374,0x7F030375,0x7F0303E7,0x7F0303EB,0x7F0303EC,0x7F0303ED,0x7F0303EE,0x7F0303EF,0x7F0303F0,0x7F0303F1,0x7F0303F2 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03008B,0x7F0300DC,0x7F0300DD,0x7F030102,0x7F030103,0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030273,0x7F030274,0x7F030293,0x7F03029B,0x7F0302CA,0x7F0302CB,0x7F030306,0x7F03037E,0x7F030380,0x7F030381,0x7F0303F3,0x7F0303F7,0x7F0303F8,0x7F0303F9,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FD,0x7F0303FE }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
-					2130903167,
-					2130903248,
-					2130903249,
-					2130903286,
-					2130903287,
-					2130903288,
-					2130903289,
-					2130903290,
-					2130903291,
-					2130903655,
-					2130903656,
-					2130903687,
-					2130903695,
-					2130903742,
-					2130903743,
-					2130903802,
-					2130903922,
-					2130903924,
-					2130903925,
-					2130904039,
-					2130904043,
-					2130904044,
-					2130904045,
-					2130904046,
-					2130904047,
-					2130904048,
-					2130904049,
-					2130904050};
+					2130903179,
+					2130903260,
+					2130903261,
+					2130903298,
+					2130903299,
+					2130903300,
+					2130903301,
+					2130903302,
+					2130903303,
+					2130903667,
+					2130903668,
+					2130903699,
+					2130903707,
+					2130903754,
+					2130903755,
+					2130903814,
+					2130903934,
+					2130903936,
+					2130903937,
+					2130904051,
+					2130904055,
+					2130904056,
+					2130904057,
+					2130904058,
+					2130904059,
+					2130904060,
+					2130904061,
+					2130904062};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -29321,7 +32139,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F030050 }
+			// aapt resource value: { 0x1010034,0x10100D5,0x10100F6,0x101013F,0x1010140,0x101014F,0x7F03005C }
 			public static int[] Tooltip = new int[] {
 					16842804,
 					16842965,
@@ -29329,7 +32147,7 @@ namespace WeatherApp.Droid
 					16843071,
 					16843072,
 					16843087,
-					2130903120};
+					2130903132};
 			
 			// aapt resource value: 2
 			public const int Tooltip_android_layout_margin = 2;
@@ -29352,7 +32170,7 @@ namespace WeatherApp.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030407 }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030413 }
 			public static int[] Transform = new int[] {
 					16843552,
 					16843553,
@@ -29365,7 +32183,7 @@ namespace WeatherApp.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130904071};
+					2130904083};
 			
 			// aapt resource value: 10
 			public const int Transform_android_elevation = 10;
@@ -29403,19 +32221,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 11
 			public const int Transform_transformPivotTarget = 11;
 			
-			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EF,0x7F0300F0,0x7F030154,0x7F03020C,0x7F0302B3,0x7F0302E6,0x7F03035E,0x7F030408,0x7F03040A }
+			// aapt resource value: { 0x10100D0,0x7F030052,0x7F0300FB,0x7F0300FC,0x7F030160,0x7F030218,0x7F0302BF,0x7F0302F2,0x7F03036A,0x7F030414,0x7F030416 }
 			public static int[] Transition = new int[] {
 					16842960,
-					2130903110,
-					2130903279,
-					2130903280,
-					2130903380,
-					2130903564,
-					2130903731,
-					2130903782,
-					2130903902,
-					2130904072,
-					2130904074};
+					2130903122,
+					2130903291,
+					2130903292,
+					2130903392,
+					2130903576,
+					2130903743,
+					2130903794,
+					2130903914,
+					2130904084,
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -29450,13 +32268,13 @@ namespace WeatherApp.Droid
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300F3,0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320 }
+			// aapt resource value: { 0x7F0300FF,0x7F030329,0x7F03032A,0x7F03032B,0x7F03032C }
 			public static int[] Variant = new int[] {
-					2130903283,
-					2130903837,
-					2130903838,
-					2130903839,
-					2130903840};
+					2130903295,
+					2130903849,
+					2130903850,
+					2130903851,
+					2130903852};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -29473,19 +32291,19 @@ namespace WeatherApp.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D8,0x7F0302DB,0x7F0303D3 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302E4,0x7F0302E7,0x7F0303DF }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903768,
-					2130903771,
-					2130904019};
+					2130903780,
+					2130903783,
+					2130904031};
 			
-			// aapt resource value: { 0x10100D4,0x7F030050,0x7F030051 }
+			// aapt resource value: { 0x10100D4,0x7F03005C,0x7F03005D }
 			public static int[] ViewBackgroundHelper = new int[] {
 					16842964,
-					2130903120,
-					2130903121};
+					2130903132,
+					2130903133};
 			
 			// aapt resource value: 0
 			public const int ViewBackgroundHelper_android_background = 0;
@@ -29518,23 +32336,23 @@ namespace WeatherApp.Droid
 			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300C2,0x7F030154,0x7F0301D4,0x7F0301D5,0x7F0302B3,0x7F0302B8,0x7F0302D0,0x7F0302E6,0x7F030337,0x7F030408,0x7F030411,0x7F03041A }
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300CE,0x7F030160,0x7F0301E0,0x7F0301E1,0x7F0302BF,0x7F0302C4,0x7F0302DC,0x7F0302F2,0x7F030343,0x7F030414,0x7F03041D,0x7F030426 }
 			public static int[] ViewTransition = new int[] {
 					16842960,
 					2130903041,
 					2130903042,
-					2130903234,
-					2130903380,
-					2130903508,
-					2130903509,
-					2130903731,
-					2130903736,
-					2130903760,
-					2130903782,
-					2130903863,
-					2130904072,
-					2130904081,
-					2130904090};
+					2130903246,
+					2130903392,
+					2130903520,
+					2130903521,
+					2130903743,
+					2130903748,
+					2130903772,
+					2130903794,
+					2130903875,
+					2130904084,
+					2130904093,
+					2130904102};
 			
 			// aapt resource value: 0
 			public const int ViewTransition_android_id = 0;
