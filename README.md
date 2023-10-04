@@ -16,7 +16,7 @@ WeatherApp is a simple and user-friendly mobile application developed using *Xam
 1. Clone this repository to your computer: git clone https://github.com/NguyenDacCuong2604/WeatherApp.git
 2. Open the project using Visual Studio or Visual Studio Code (ensure you have Xamarin and the appropriate SDK installed).
 3. Configure your OpenWeather API Key in your project. You need to register an OpenWeather account and obtain your API Key.
-4. Change the value of OpenWeatherApiKey in the AppSettings.cs file to your API Key:
+4. Change the value of OpenWeatherApiKey in the CurrentWeatherPage.xaml.cs file to your API Key:
 ```
 public partial class CurrentWeatherPage : ContentPage
 {
