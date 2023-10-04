@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{63CB4C72-E4E5-4C7C-A77A-2179E2BDA71E}</ProjectGuid>
+    <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>WeatherApp.iOS</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>WeatherApp.iOS</AssemblyName>
+    <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
+    <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
+    <ProvisioningType>automatic</ProvisioningType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>None</MtouchLink>
+    <MtouchDebug>true</MtouchDebug>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>x86_64</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+    <MtouchLink>None</MtouchLink>
+    <MtouchInterpreter>-all</MtouchInterpreter>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <MtouchArch>ARM64</MtouchArch>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon1024.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon180.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon167.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon80.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon76.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon60.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon58.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon40.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon29.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Xamarin.iOS" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Acr.UserDialogs">
+      <Version>7.1.0.468</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2612" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherApp\WeatherApp.csproj">
+      <Project>{7ABA2A8B-E9B4-45A9-B778-79AD3CBD9C22}</Project>
+      <Name>WeatherApp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w11n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w13d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w13n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w50d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w50n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudiness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gauge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\overlay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w01d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w01n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w02d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w02n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w03d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w03n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w04d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w04n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w09d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w09n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w10d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w10n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\w11d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nhatrang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\phanthiet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\phuyen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\quangngai.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\sapa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\thanhhoa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vinhlong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vungtau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\baclieu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\binhdinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\camau.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dalat.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\danang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\dongthap.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\haiphong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\halong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hanoi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hatinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hoabinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hochiminh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hue.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hungyen.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\KwuangBinh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\longan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\nghean.jpg" />
+  </ItemGroup>
+</Project>
