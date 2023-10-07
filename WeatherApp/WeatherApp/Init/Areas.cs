@@ -7,7 +7,7 @@ namespace WeatherApp.Init
 {
     class Areas
     {
-        public static string[] areas = { "Sa Pa","Hanoi","Hoa Binh","Hung Yen","Ha Tinh","HaiPhong","Ha Long","Thanh Hoa","Vinh","Kwuang Binh","Hue","Turan","Quang Ngai","Qui Nhon",
+        public static string[] areas = { "Sa Pa","Hanoi","Hoa Binh","Hung Yen","Ha Tinh","Haiphong","Ha Long","Thanh Hoa","Vinh","Kwang Binh","Hue","Turan","Quang Ngai","Qui Nhon",
             "Tuy Hoa","Nha Trang","Phan Thiet","Da Lat","Vung Tau","Ho Chi Minh City","Tan An","Cao Lanh","Vinh Long","Bac Lieu","Ca Mau"};
         public static Dictionary<string, string> areasMapper = generationAreaDictionary();
         public static Dictionary<string, string> generationAreaDictionary()
@@ -18,11 +18,11 @@ namespace WeatherApp.Init
             areasMapper.Add("Hoa Binh", "Hòa Bình");
             areasMapper.Add("Hung Yen", "Hưng Yên");
             areasMapper.Add("Ha Tinh", "Hà Tĩnh");
-            areasMapper.Add("HaiPhong", "Hải Phòng");
+            areasMapper.Add("Haiphong", "Hải Phòng");
             areasMapper.Add("Ha Long", "Hạ Long");
             areasMapper.Add("Thanh Hoa", "Thanh Hóa");
             areasMapper.Add("Vinh", "Vinh");
-            areasMapper.Add("Kwuang Binh", "Quảng Bình");
+            areasMapper.Add("Kwang Binh", "Quảng Bình");
             areasMapper.Add("Hue", "Huế");
             areasMapper.Add("Turan", "Đà Nẵng");
             areasMapper.Add("Quang Ngai", "Quảng Ngãi");
@@ -50,11 +50,11 @@ namespace WeatherApp.Init
             areasMapper.Add("Hoa Binh", "hoabinh.jpg");
             areasMapper.Add("Hung Yen", "hungyen.jpg");
             areasMapper.Add("Ha Tinh", "hatinh.jpg");
-            areasMapper.Add("HaiPhong", "haiphong.jpg");
+            areasMapper.Add("Haiphong", "haiphong.jpg");
             areasMapper.Add("Ha Long", "halong.jpg");
             areasMapper.Add("Thanh Hoa", "thanhhoa.jpg");
             areasMapper.Add("Vinh", "nghean.jpg");
-            areasMapper.Add("Kwuang Binh", "KwuangBinh.jpg");
+            areasMapper.Add("Kwang Binh", "KwuangBinh.jpg");
             areasMapper.Add("Hue", "hue.jpg");
             areasMapper.Add("Turan", "danang.jpg");
             areasMapper.Add("Quang Ngai", "quangngai.jpg");

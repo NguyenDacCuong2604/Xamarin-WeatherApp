@@ -2,7 +2,7 @@
 
 ## Image Demo
 ![ImageDemo](Image/weatherapp.png)
-
+![](Image/select_areas.png)
 ## Introduction
 WeatherApp is a simple and user-friendly mobile application developed using *Xamarin.Forms* to provide weather forecasts for users. This app uses the *OpenWeather API* to fetch real-time weather information and forecasts.
 
@@ -32,6 +32,8 @@ public partial class CurrentWeatherPage : ContentPage
 
 ## Contributions
 We welcome contributions from the community. If you'd like to add new features, fix bugs, or enhance the app, please create a pull request.
+
+This project inspired by and built from the interface template of https://github.com/devcrux/WeatherApp."
 
 ## Author
 - Name: [NguyenDacCuong2604](https://github.com/NguyenDacCuong2604)

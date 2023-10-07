@@ -9,7 +9,7 @@
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}">
       <ListView.Header>
-        <Grid BackgroundColor="Black">
+        <Grid BackgroundColor="#3EBBE6">
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="15"/>
             <ColumnDefinition Width="*"/>
@@ -32,11 +32,11 @@
       <ListView.ItemTemplate>
         <DataTemplate>
           <ViewCell>
-            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="Black" Opacity="0.8">
+            <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" BackgroundColor="White" Opacity="0.8">
               <Label VerticalOptions="FillAndExpand" 
                     VerticalTextAlignment="Center" 
                     Text="{Binding Title}" 
-                     TextColor="#effeef"
+                     TextColor="Black"
                     FontSize="24"/>
             </StackLayout>
           </ViewCell>

@@ -14,15 +14,34 @@ namespace WeatherApp.Views
     public partial class CurrentWeatherPage : ContentPage
     {
         public static string OpenWeatherApiKey = "9f61f3b193730e9b42366ace8843efc8";
+        //default
+        public static string Location = "Cao Lanh";
     public CurrentWeatherPage()
         {
             InitializeComponent();
+            this.BindingContext = this;
             NavigationPage.SetHasNavigationBar(this, false);
-            GetWeatherInfo("Cao Lanh");
-        }
+            GetWeatherInfo(Location);
 
+            Device.StartTimer(TimeSpan.FromSeconds(1), () =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+
+                    DateTime time = DateTime.Now;
+                    timeTxt.Text = time.ToString("HH:mm:ss");
+                    if(time.Hour % 3 == 0 && time.Second == 0 && time.Minute == 0)
+                    {
+                        GetWeatherInfo(Location);
+                    }
+                });
+                return true;
+            });
+        }
+        public List<WeatherDay> WeatherDays { get; set; }
         public async void GetWeatherInfo(string location)
         {
+            Location = location;
             loading(true);
 
             var url = $"https://api.openweathermap.org/data/2.5/weather?q={location},VN&appid={OpenWeatherApiKey}&units=metric";
@@ -34,7 +53,12 @@ namespace WeatherApp.Views
                 {
                     var weatherInfo = JsonConvert.DeserializeObject<WeatherInfo>(result.Response);
                     bgImg.Source = Areas.areasMapperImg[location];
-                    descriptionTxt.Text = weatherInfo.weather[0].description.ToUpper();
+                    string des = Description.DescriptionMapper[weatherInfo.weather[0].id];
+                    if (des != null)
+                    {
+                        descriptionTxt.Text = des.ToUpper();
+                    }
+                    else descriptionTxt.Text = weatherInfo.weather[0].description.ToUpper();
                     iconImg.Source = $"w{weatherInfo.weather[0].icon}";
                     cityTxt.Text = Areas.areasMapper[weatherInfo.name].ToUpper();
                     temperatureTxt.Text = weatherInfo.main.temp.ToString("0");
@@ -43,14 +67,23 @@ namespace WeatherApp.Views
                     windTxt.Text = $"{weatherInfo.wind.speed} m/s";
                     cloudinessTxt.Text = $"{weatherInfo.clouds.all}%";
 
-                    var dt = DateTimeOffset.FromUnixTimeSeconds(weatherInfo.dt).DateTime; 
+                    //var dt = DateTimeOffset.FromUnixTimeSeconds(weatherInfo.dt).DateTime; 
+                    // dateTxt.Text = string.Format("{0} ngày {1:dd/MM}", GetDay(dt), dt).ToUpper();
+                    
+                    DateTime dateTimeUtc = DateTimeOffset.FromUnixTimeSeconds(weatherInfo.dt).UtcDateTime;
+
+                    // Việt Nam (+07:00)
+                    TimeSpan vietnamOffset = TimeSpan.FromHours(7);
+
+                    // transform
+                    DateTime dt = dateTimeUtc + vietnamOffset;
                     dateTxt.Text = string.Format("{0} ngày {1:dd/MM}", GetDay(dt), dt).ToUpper();
 
                     GetForecastInfo(location);
-                    loading(false);
 
                 }
                 catch (Exception ex) {
+                    loading(false);
                     await DisplayAlert("Thông tin thời tiết", ex.Message, "OK");
                 }
             }
@@ -64,13 +97,14 @@ namespace WeatherApp.Views
         {
             if (App.Current.MainPage is FlyoutPage flyoutPage)
             {
-                flyoutPage.IsPresented = true; // Hiển thị Flyout
+                flyoutPage.IsPresented = true; // display
             }
         }
 
         private async void GetForecastInfo(string location)
         {
-            var url = $"https://api.openweathermap.org/data/2.5/forecast?q={location},VN&appid=9f61f3b193730e9b42366ace8843efc8&units=metric";
+            var tempList = new List<WeatherDay>();
+            var url = $"https://api.openweathermap.org/data/2.5/forecast?q={location},VN&appid={OpenWeatherApiKey}&units=metric";
 
             var result = await ApiCaller.Get(url);
 
@@ -86,38 +120,31 @@ namespace WeatherApp.Views
                     {
                         var date = DateTime.Parse(list.dt_txt);
                         
-                        if(date > DateTime.Now && date.Hour == 0 && date.Minute == 0 && date.Second == 0)
-                            allList.Add(list);  
+                      if(date > DateTime.Now)
+                            allList.Add(list);
                     }
-
-                    dayOneTxt.Text = GetDay(DateTime.Parse(allList[0].dt_txt));
-                    dateOneTxt.Text = FormatVietnameDate(DateTime.Parse(allList[0].dt_txt));
-                    iconOneImg.Source = $"w{allList[0].weather[0].icon}";
-                    tempOneTxt.Text = allList[0].main.temp.ToString("0");
-
-                    dayTwoTxt.Text = GetDay(DateTime.Parse(allList[1].dt_txt));
-                    dateTwoTxt.Text = FormatVietnameDate(DateTime.Parse(allList[1].dt_txt));
-                    iconTwoImg.Source = $"w{allList[1].weather[0].icon}";
-                    tempTwoTxt.Text = allList[1].main.temp.ToString("0");
-
-                    dayThreeTxt.Text = GetDay(DateTime.Parse(allList[2].dt_txt));
-                    dateThreeTxt.Text = FormatVietnameDate(DateTime.Parse(allList[2].dt_txt));
-                    iconThreeImg.Source = $"w{allList[2].weather[0].icon}";
-                    tempThreeTxt.Text = allList[2].main.temp.ToString("0");
-
-                    dayFourTxt.Text = GetDay(DateTime.Parse(allList[3].dt_txt));
-                    dateFourTxt.Text = FormatVietnameDate(DateTime.Parse(allList[3].dt_txt));
-                    iconFourImg.Source = $"w{allList[3].weather[0].icon}";
-                    tempFourTxt.Text = allList[3].main.temp.ToString("0");
-
+                    List<WeatherDay> allDay = new List<WeatherDay>();
+                    foreach(var item in allList)
+                    {
+                        WeatherDay day = new WeatherDay();  
+                        day.Icon = $"w{item.weather[0].icon}";
+                        var date = DateTime.Parse(item.dt_txt);
+                        day.Date = date.ToString("HH:mm")+" "+GetDay(date);
+                        day.Temp = item.main.temp.ToString("0");
+                        allDay.Add(day);
+                    }
+                    WeatherForecastList.ItemsSource = allDay;
+                    loading(false);
                 }
                 catch (Exception ex)
                 {
+                    loading(false);
                     await DisplayAlert("Thông tin thời tiết", ex.Message, "OK");
                 }
             }
             else
             {
+                loading(false);
                 await DisplayAlert("Thông tin thời tiết", "Không tìm thấy thông tin thời tiết", "OK");
             }
         }

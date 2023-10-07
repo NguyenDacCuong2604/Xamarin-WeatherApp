@@ -152,22 +152,10 @@
     <BundleResource Include="Resources\w50n.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\wind.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\add.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\cloud.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\cloudiness.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\gauge.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\humidity.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\menu.png" />
@@ -288,5 +276,17 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\nghean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\gauge.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\humidity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\wind.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cloudiness.png" />
   </ItemGroup>
 </Project>

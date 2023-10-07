@@ -108,5 +108,10 @@ namespace WeatherApp.Models
         public float _3h { get; set; }
     }
 
-
+    public class WeatherDay
+    {
+        public string Temp { get; set; }
+        public string Date { get; set; }
+        public string Icon { get; set; }
+    }
 }
