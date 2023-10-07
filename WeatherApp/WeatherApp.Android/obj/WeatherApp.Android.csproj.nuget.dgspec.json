@@ -46,9 +46,21 @@
               "target": "Package",
               "version": "[7.1.0.468, )"
             },
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.468, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
               "version": "[1.8.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.8.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2612, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
